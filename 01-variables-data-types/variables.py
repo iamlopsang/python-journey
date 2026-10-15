@@ -68,3 +68,9 @@ first_name = "John"
 last_name = "Doe"
 print("Full Name:", first_name +" "+ last_name) # John Doe
 
+    ## Global Variables:
+
+name = "Johnny"
+
+def my_function():
+    print("Welcome to community,",name)
