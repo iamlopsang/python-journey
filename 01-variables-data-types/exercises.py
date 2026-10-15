@@ -3,9 +3,28 @@
 ## Variables
 
 # 1. Create variables for your name, age, and country. Print their values.
+
+name = "Mark"
+age = 27
+country = "Canada"
+
+print("Name:", name)
+print("Age:", age)
+print("Country:", country)
+
 # 2. Assign three different values to three variables in a single line.
+
+x,y,z = 23, 27, 31
+
 # 3. Assign the same value to three variables.
+
+i = j = k = 95
+
 # 4. Create a variable named `total_marks` and print it.
+
+total_marks = 98
+
+print("Total_marks:", total_marks)
 
 ## Data Types
 

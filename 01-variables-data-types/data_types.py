@@ -1,4 +1,4 @@
-# Python Data Types
+        ## Python Data Types ##
 
 # String
 name = "Alex"
@@ -52,3 +52,4 @@ print(type(height))
 print(type(is_student))
 print(type(student))
 print(type(result))
+
