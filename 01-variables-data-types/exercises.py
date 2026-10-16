@@ -151,3 +151,49 @@ print ("Student Name :", student_name, type(student_name))
 print("Age of Student:", student_age, type(student_age))
 print("Student Marks:", student_marks, type(student_marks))
 print("Enrollment Status:", student_enrollment_status, type(student_enrollment_status))
+
+# 10. Create variables to store your name, age, height, and whether you are a student. Print all four
+#  variables.
+
+name = "Sasuke Uchiha"
+age = 17
+height = 175.5
+is_student = True
+
+print("Name:", name, type(name))
+print("Age:", age, type(age))
+print("Height:", height, type(height))
+print("Is Student:", is_student, type(is_student))  
+
+# 11. Create two integer variables and print their values.
+
+num1 = 10
+num2 = 20
+
+print("First Number:", num1)
+print("Second Number:", num2)
+
+# 12. Create a variable containing a decimal number and print it.
+
+num3 = 30.5
+
+print("Decimal Number:", num3)
+
+# 13. Store your name in a variable and print its data type using type().
+
+name = "Sakura Haruno"
+
+print("Name of the user:", name, type(name))
+
+# 14. Accept a number from the user and print its type before and after converting it to an integer.
+
+num = input("Enter a number (float number or decimal number):")
+print("Before the conversion, the type of the number is:", type(num))
+
+num = int(num)
+print("After the conversion, the type of the number is:", type(num))
+
+# 15. Accept two numbers as input and print their sum after converting them to integers.
+
+
+
