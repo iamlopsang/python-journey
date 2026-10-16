@@ -107,7 +107,30 @@ price = 30.45
 is_rainy = True
 
 # 6. Use `type()` to check the data type of each variable.
+
+name = 'Alina'
+age = 35
+total_price = 76.70
+is_sunny = False
+
+print(type(name))
+print(type(age))
+print(type(total_price))    
+print(type(is_sunny))
+
 # 7. Create a list, tuple, set, and dictionary.
+
+fruits = ['apple', 'banana', 'cherry']
+
+colors = ('red', 'green', 'blue')
+
+animals = {'cat', 'dog', 'rabbit'}
+
+section_a = {
+    "name":"Elsa",
+    "age`": 24,
+    "gpa" : 3.8
+}
 # 8. Create a variable with the value `None` and check its type.
 
 # ## Challenge
