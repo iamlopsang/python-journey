@@ -100,6 +100,12 @@ print("Hello, my name is", name + ". I am", age, "years old and my favourite pro
 ## Data Types
 
 # 5. Create one variable each of type `str`, `int`, `float`, and `bool`.
+
+name = 'John'
+age = 25
+price = 30.45
+is_rainy = True
+
 # 6. Use `type()` to check the data type of each variable.
 # 7. Create a list, tuple, set, and dictionary.
 # 8. Create a variable with the value `None` and check its type.
