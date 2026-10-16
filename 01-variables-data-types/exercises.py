@@ -26,6 +26,25 @@ total_marks = 98
 
 print("Total_marks:", total_marks)
 
+# 5. Write a program to print Hello, World!.
+
+print("Hello, World!")
+
+# 6. Write a program to print your full name.
+
+name = "Mark Johnson"
+print("Full Name:", name)
+
+# 7. Write a program to print your name, age, and address on separate lines.
+
+name = "Alessica"
+age = 30
+address = "123 Main St, Toronto, Canada"
+
+print("Name:", name)
+print("Age:", age)
+print("Address:", address)
+
 ## Data Types
 
 # 5. Create one variable each of type `str`, `int`, `float`, and `bool`.
