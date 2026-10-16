@@ -133,6 +133,21 @@ section_a = {
 }
 # 8. Create a variable with the value `None` and check its type.
 
+shoes = None
+
+print(type(shoes))
+
 # ## Challenge
 
-# 9. Create variables representing a student's name, age, marks, and enrollment status. Print each value and its data type.
+# 9. Create variables representing a student's name, age, marks, and enrollment status. Print each 
+# value and its data type.
+
+student_name = "Naruto Uzumaki"
+student_age = 17
+student_marks = 85.5
+student_enrollment_status = True
+
+print ("Student Name :", student_name, type(student_name))
+print("Age of Student:", student_age, type(student_age))
+print("Student Marks:", student_marks, type(student_marks))
+print("Enrollment Status:", student_enrollment_status, type(student_enrollment_status))
