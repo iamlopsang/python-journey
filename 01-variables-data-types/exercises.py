@@ -45,6 +45,58 @@ print("Name:", name)
 print("Age:", age)
 print("Address:", address)
 
+# 8. Write a program to accept the user's name and print a welcome message.
+
+user_name = input("Enter your name:")
+
+print("Welcome,", user_name)
+
+# 9. Write a program to accept the user's name and age, then display both.
+
+user_name = input("Enter your name:")
+user_age = input("Enter your age:")
+
+print("Name:", user_name)
+print("Age:", user_age)
+
+# 10. Write a program to accept the user's name and print:
+
+# Hello, Prakash!
+# Welcome to Python programming.
+
+user_name = input("Enter your name:")
+
+print("Hello,", user_name + "!")
+print("Welcome to Python programming.")
+
+# 11. Write a program to accept two numbers and display them.
+
+num1 = input("Enter a first number:")
+num2 = input("Enter a second number:")
+
+print("the first number is :", num1)
+print("the second number is :", num2)
+
+# 12. Write a program to accept your first name and last name separately and print your full name.
+
+first_name = input("Enter your first name:")
+last_name = input("Enter your last name:")
+
+print("Full Name of the user is :", first_name + " " + last_name)
+
+# 13. Write a program to accept a favorite color and print a message using that color.
+color = input("Enter your favourite color:")
+print("Your favourite color is :", color)
+
+# 14. Write a program to accept the user's name, age,
+#  and favorite programming language and display them in a formatted message.
+
+name = input("Enter your name :")
+age = input("Enter your age :")
+programming_language = input("Enter your favourite programming language :")
+
+print("Hello, my name is", name + ". I am", age, "years old and my favourite programming language is", programming_language + ".")
+
 ## Data Types
 
 # 5. Create one variable each of type `str`, `int`, `float`, and `bool`.
