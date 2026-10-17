@@ -210,6 +210,19 @@ num = float(num)
 
 print("The decimal number is:", num, type(num))
 
+# 17. Accept a number as a string and convert it to an integer. Print the result.
+
+name = input("Enter a number as a string:")
+name = int(name)
+
+print("The number is:", name, type(name))
+
+# 18. Accept a user's age and print the age after converting it to an integer.
+
+age = input("Enter your age:")
+age = int(age)
+
+print("Your age is:", age, type(age))
 
 
 
