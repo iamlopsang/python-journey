@@ -128,7 +128,7 @@ animals = {'cat', 'dog', 'rabbit'}
 
 section_a = {
     "name":"Elsa",
-    "age`": 24,
+    "age": 24,
     "gpa" : 3.8
 }
 # 8. Create a variable with the value `None` and check its type.
@@ -194,6 +194,22 @@ num = int(num)
 print("After the conversion, the type of the number is:", type(num))
 
 # 15. Accept two numbers as input and print their sum after converting them to integers.
+
+num1 = input("Enter the first number:")
+num2= input("Enter the second number:")
+
+sum= int(num1)+int(num2)
+
+print("The sum of the two numbers is:", sum, type(sum))
+
+# 16. Accept a decimal number from the user and convert it to a float.
+
+num = input("Enter a decimal number:")
+
+num = float(num)
+
+print("The decimal number is:", num, type(num))
+
 
 
 
