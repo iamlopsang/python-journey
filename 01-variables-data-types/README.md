@@ -1,49 +1,19 @@
-Variables and Data Types
+## Python Basics — Input, Output, Variables & Data Types
 
-About
+    ##. Overview:
 
-This chapter covers the fundamentals of Python variables and data types.
+        This chapter covers the fundamentals of Python programming, focusing on user input, output, variables, and basic data types. The exercises are designed to build a strong foundation in writing simple Python programs and handling user-provided data.
 
-Topics Covered
+    ##. Topics Covered
 
-Variables
+        > Input and Output: Using input() to accept user input and print() to display information.
 
-Creating and using variables
+        > Variables: Creating variables and storing different types of values.
 
-Variable names and naming rules
+        > Data Types: Understanding strings (str), integers (int), floating-point numbers (float), and Boolean values (bool).
 
-Assigning multiple values
+        > Type Checking: Using type() to identify the data type of a value.
 
-Outputting variables
+        > Type Conversion: Converting input values into appropriate data types using int() and float().
 
-Global variables
-
-Data Types
-
-Built-in data types in Python
-
-Getting the data type using type()
-
-Setting specific data types
-
-Files
-
-variables.py — Notes and examples about Python variables.
-
-data_types.py — Notes and examples about Python data types.
-
-exercises.py — Practice questions and solutions.
-
-What I Learned
-
-How to create and use variables.
-
-How to follow Python's variable naming rules.
-
-How to identify different data types.
-
-How to check the type of a value using type().
-
-Practice
-
-Practice questions and solutions for variables and data types are available in exercises.py.
+        > String Formatting: Displaying user information in readable messages.
