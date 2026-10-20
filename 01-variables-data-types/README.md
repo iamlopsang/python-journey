@@ -57,3 +57,7 @@
         > How and when to convert input using int() and float().
 
         > How to combine variables and user input to create meaningful output.
+
+    ## Learning :
+
+        Build a solid foundation in Python fundamentals by practicing input, output, variables, data types, and type conversion through hands-on exercises.
