@@ -41,3 +41,19 @@
         > Converting user input into integers and floating-point numbers.
 
         > Performing basic arithmetic with converted input values.
+
+    ## What I Learned:
+
+        > How to use input() and print() in Python programs.
+
+        > How to declare variables and store different types of values.
+
+        > How to distinguish between strings, integers, floats, and Booleans.
+
+        > How to check the data type of a variable using type().
+
+        > Why user input is received as a string by default.
+
+        > How and when to convert input using int() and float().
+
+        > How to combine variables and user input to create meaningful output.
