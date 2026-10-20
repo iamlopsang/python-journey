@@ -24,3 +24,20 @@
     ===================================================================================================
     variables.py                | Practice exercises on basic input, output, and variables.
     data_types.py               | Practice exercises on data types, type checking, and type conversion.
+
+
+    ## Practice Exercises:
+
+       This chapter includes 20 beginner-level exercises covering:
+
+        > Printing text and displaying information.
+
+        > Accepting user input and creating formatted messages.
+
+        > Storing and displaying values using variables.
+
+        > Identifying data types with type().
+
+        > Converting user input into integers and floating-point numbers.
+
+        > Performing basic arithmetic with converted input values.
