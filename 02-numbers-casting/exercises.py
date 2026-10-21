@@ -65,12 +65,12 @@ print(result)
 
 # 9. Store 8.7654 in a variable and round it to two decimal places using round().
 
-# num = 8.7654
-# result= round(num)
-# print(result)
+num = 8.7654
+result= round(num, 2)
+print(result)
 
 # 10. Create a float variable and use is_integer() to check whether its value represents a whole number.
 
-# num = 6.79
-# result = num.is_integer()
-# print(result)
+num = 6.79
+result = num.is_integer()
+print(result)
