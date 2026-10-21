@@ -53,15 +53,15 @@ print(floor)
 
 # 7. Create a complex number 3 + 5j and print its value and data type
 
-# number = 3+5j
-# print(number)
-# print(type(number))
+number = 3+5j
+print(number)
+print(type(number))
 
 # 8. Accept a number from the user and print its absolute value using abs().
 
-# a= input("enter a number:")
-# result = abs(a)
-# print(result)
+a= float(input("enter a number:"))
+result = abs(a)
+print(result)
 
 # 9. Store 8.7654 in a variable and round it to two decimal places using round().
 
@@ -72,5 +72,5 @@ print(floor)
 # 10. Create a float variable and use is_integer() to check whether its value represents a whole number.
 
 # num = 6.79
-# result = is_integer(num)
+# result = num.is_integer()
 # print(result)
