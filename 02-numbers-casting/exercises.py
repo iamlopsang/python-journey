@@ -31,25 +31,25 @@ print("quotient of the numbers:", quotient)
 
 # 4. Accept an integer from the user and print its remainder when divided by 3.
 
-# num = input("Enter a number:")
-# rem= num % 3
+num = int(input("Enter a number:"))
+rem= num % 3
 
-# print("remainder of the number:", rem)
+print("remainder of the number:", rem)
 
 # 5. Create two variables, a base and an exponent, and print the result using the ** operator.
 
-# base = 3
-# expo = 2
+base = 3
+expo = 2
 
-# oper = base ** expo
-# print(opr)
+oper = base ** expo
+print(oper)
 
 # 6. Accept two integers and display the result of floor division using //.
 
-# a = input("enter a num1:")
-# b = input("enter a num2:")
-#  floor = a//b
-# print(floor)
+a = int(input("enter a num1:"))
+b = int(input("enter a num2:"))
+floor = a//b
+print(floor)
 
 # 7. Create a complex number 3 + 5j and print its value and data type
 
