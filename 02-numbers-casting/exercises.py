@@ -97,13 +97,49 @@ print(pr, type(pr))
 
 # 14. Convert the string "45.75" to a float and print the result.
 
-# s= "45.75"
-# y= float(s)
-
-# print(y, type(y))
+s = "45.75"
+y = float(s)
+print(y, type(y))
 
 # 15. Convert the integer 2026 to a string and print its data type using type().
 
-# x= 2026
-# y= str(x)
+x = 2026
+y = str(x)
+print(y, type(y))
+
+
+# 16. Accept the user's age, convert it to an integer, and print the age five years from now.
+
+age = int(input("Enter your age: "))
+age_5 = age + 5
+print(age_5)
+
+# 17. Accept two numbers from the user, convert them to integers, and display their sum.
+# num1=int(input("enter a number:"))
+# num2=int(input("enter a number:"))
+# sum=num1+num2
+# print(sum)
+
+# 18. Accept a decimal number from the user, convert it to a float, and print the number multiplied by 2.
+# num = input("enter a decimal number:")
+# num1= float(num)
+# num1=num1*2
+# print(num1)
+
+# 19. Accept a decimal number, convert it to a float and then to an integer, and print the result of each conversion.
+
+# num=input("enter a decimal number:")
+# print(num, type(num))
+
+# num=float(num)
+# print(num, type(num))
+
+# num=int(num)
+# print(num, type(num))
+
+# 20. Convert the integer 7 into a complex number using complex() and print the result and its data type.
+
+# x= 7
+# y=x.complex()
 # print(y, type(y))
+
