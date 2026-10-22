@@ -115,31 +115,31 @@ age_5 = age + 5
 print(age_5)
 
 # 17. Accept two numbers from the user, convert them to integers, and display their sum.
-# num1=int(input("enter a number:"))
-# num2=int(input("enter a number:"))
-# sum=num1+num2
-# print(sum)
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+result = num1 + num2
+print(result)
 
 # 18. Accept a decimal number from the user, convert it to a float, and print the number multiplied by 2.
-# num = input("enter a decimal number:")
-# num1= float(num)
-# num1=num1*2
-# print(num1)
+
+num = float(input("Enter a decimal number: "))
+print(num * 2)
 
 # 19. Accept a decimal number, convert it to a float and then to an integer, and print the result of each conversion.
 
-# num=input("enter a decimal number:")
-# print(num, type(num))
+num = input("Enter a decimal number: ")
+print(num, type(num))
 
-# num=float(num)
-# print(num, type(num))
+num = float(num)
+print(num, type(num))
 
-# num=int(num)
-# print(num, type(num))
+num = int(num)
+print(num, type(num))
 
 # 20. Convert the integer 7 into a complex number using complex() and print the result and its data type.
 
-# x= 7
-# y=x.complex()
-# print(y, type(y))
+x = 7
+y = complex(x)
+print(y, type(y))
 
