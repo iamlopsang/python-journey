@@ -74,3 +74,36 @@ print(result)
 num = 6.79
 result = num.is_integer()
 print(result)
+
+
+        ## Assignment 2: Casting ##
+# 11. Convert the float 12.8 to an integer and print the result.
+
+# x= 12.8
+# y= int(x)
+# print(y)
+
+# 12. Convert the integer 25 to a float and print the result and its data type.
+
+# x= 25
+# y= float(x)
+# print(y, type(y))
+
+# 13. Convert the string "150" to an integer and print the result and its data type.
+
+# price = "150"
+# pr= int(price)
+# print(pr, type(pr))
+
+# 14. Convert the string "45.75" to a float and print the result.
+
+# s= "45.75"
+# y= float(s)
+
+# print(y, type(y))
+
+# 15. Convert the integer 2026 to a string and print its data type using type().
+
+# x= 2026
+# y= str(x)
+# print(y, type(y))
