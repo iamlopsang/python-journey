@@ -54,3 +54,21 @@ print(city[4:])  # Output: mandu
 
 city = "Kathmandu"
 print(city[-3:])  # Output: ndu
+
+## Negative slicing:
+
+city = "Kathmandu"
+print(city[-6:-3])  # Output: tha
+
+## Modifying strings:
+
+message = "Wello, World!"
+new_message = "H" + message[1:]
+print(new_message)  # Output: Hello, World!
+
+## Common String Methods:
+# Python provides many built-in  string methods:
+
+## upper():
+text = "Hello"
+print(text.upper()) #HELLO
