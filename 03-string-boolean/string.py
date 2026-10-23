@@ -31,3 +31,26 @@ print(len(letters))  # Output: 11
 text = "Python is a programming language."
 print("Python" in text)  # Output: True
 
+## String slicing:
+
+## Slicing allows you to extract a portion of a string by specifying the start and end indices.
+# and there are many more string methods available in Python that can be used to manipulate and work
+# with strings effectively.
+
+text = "Hello, World!"
+print(text[0:5])  # Output: Hello
+
+## Slice from the start:
+
+city="Kathmandu"
+print(city[:3])  # Output: Kat
+
+## Slice to the end:
+
+city = "Kathmandu"
+print(city[4:])  # Output: mandu
+
+## Negative indexing:
+
+city = "Kathmandu"
+print(city[-3:])  # Output: ndu
