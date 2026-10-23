@@ -72,3 +72,16 @@ print(new_message)  # Output: Hello, World!
 ## upper():
 text = "Hello"
 print(text.upper()) #HELLO
+
+## lower():
+text = "Hello"
+print(text.lower()) #hello
+
+## strip():
+text = " Hello "
+print(text.strip()) #Hello - removes unwanted or unneccessary white space
+
+## replace():
+text = "Hello"
+print(text.replace("Hello","Welcome"))
+
