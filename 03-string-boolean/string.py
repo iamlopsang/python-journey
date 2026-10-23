@@ -85,3 +85,49 @@ print(text.strip()) #Hello - removes unwanted or unneccessary white space
 text = "Hello"
 print(text.replace("Hello","Welcome"))
 
+## split():
+
+fruits = "apple, banana, cherry"
+print(fruits.split(",")) 
+# ['apple', 'banana', 'cherry'] --splits a string into parts
+
+## String Concatenation:
+
+first_name = "Jack"
+last_name = "Sparrow"
+
+fullname = first_name + " " +last_name
+
+print(fullname) # Jack Sparrow
+
+## String Formatting:
+# f - strings are a convenient method
+
+name = "Elsa"
+age = 21
+
+print(f"Her name is {name}. and Her age is {age}.")
+
+## Escape Characters:
+# An escape character allows you to include special characters inside a string.
+
+## New line (\n):
+print("Hello \n World")
+
+    ## Output:
+        # Hello
+        # World
+
+## Tab (\t):
+print("Hello \t World")
+
+    ## Output:
+        # Hello World
+
+## Double and Single quote:
+# Useful when the string itself uses double or single quotes.
+
+message = "She said \"Hello\" "  # She said "Hello"
+
+text = 'It\'s Python'  # It's Python
+
