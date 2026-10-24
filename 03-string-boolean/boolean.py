@@ -28,3 +28,28 @@ if age >= 18:
 
 # Output -> Adult     
 
+## bool() Function:
+"""The bool() function converts a value into a Boolean"""
+
+# Example:
+
+print(bool(1))  # Output -> True
+
+print(bool(0))  # Output -> False
+
+"""Note: Generally, values such as "0", None, and empty collections are considered as "False" in Boolean
+ contexts, while many other values are considered as "True" """
+
+# Example:
+
+print(bool("Hello"))    # Output -> True
+print(bool(" "))        # Output -> False
+print(bool("10"))       # Output -> True
+print(bool("0"))        # Output -> False
+
+
+
+
+
+
+
