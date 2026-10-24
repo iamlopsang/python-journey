@@ -80,3 +80,49 @@ print(x.endswith("World"))
 
 age = int(input("Enter a age:"))
 print(f"Your age:{age}")
+
+
+# Assignment 2: Booleans
+
+# Q15. Create two variables containing numbers and check whether they are equal using `==`.
+
+x = 5
+y = 3
+
+print(x == y)
+
+# Q16. Create two variables containing numbers and check whether the first number is greater than the second using `>`.
+
+a = 45
+b = 34
+
+print(a > b)
+
+# Q17. Check whether `10` is less than or equal to `10` and print the result.
+
+a = 10
+b = 10
+
+print(a <= b)
+
+# Q18. Create two Boolean variables, one set to `True` and the other to `False`. Print both values and their data types.
+
+a = True
+b = False
+
+print(a, type(a))
+print(b, type(b))
+
+# Q19. Create two variables containing Boolean values and use the `and`, `or`, and `not` operators to display their results.
+
+a = True
+b = False
+
+print(a and b)
+print(a or b)
+print(not a)
+
+# Q20. Create a variable containing a string and check whether it is equal to `"Python"`. Print the Boolean result.
+
+x = "Hello"
+print(x == "Python")
