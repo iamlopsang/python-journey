@@ -55,3 +55,28 @@ print(x.replace("Java", "Python"))
 
 x = "apple,banana,orange"
 print(x.split(","))
+
+
+# Q11. Create a string containing `"Python is easy to learn"` and check whether it contains the word `"easy"` using `in`.
+
+x = "Python is easy to learn"
+
+print("easy" in x)
+
+# Q12. Store `"Python123"` in a variable and check whether all its characters are alphanumeric using `isalnum()`.
+
+x = "Python123"
+
+print(x.isalnum())
+
+# Q13. Create a string containing `"Hello World"` and check whether it starts with `"Hello"` and ends with `"World"`.
+
+x = "Hello World"
+
+print(x.startswith("Hello"))
+print(x.endswith("World"))
+
+# Q14. Create a variable containing your age as a number and use an f-string to print a sentence displaying your age.
+
+age = int(input("Enter a age:"))
+print(f"Your age:{age}")
