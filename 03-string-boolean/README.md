@@ -48,3 +48,33 @@ This chapter covers Python strings and Boolean values. It explores string creati
     > Using escape characters such as \n for a new line and \t for a tab
 
     > Including quotation marks inside strings using escape characters
+
+   ## 2. Booleans (booleans.py)
+
+        > Understanding Boolean Values
+
+        > Understanding True and False
+
+        > Checking data types using type()
+
+        > Understanding Boolean results from comparisons
+
+    ## Comparison Operators:
+
+        == — equal to
+
+        > — greater than
+
+        < — less than
+
+        >= — greater than or equal to
+
+        <= — less than or equal to
+
+    ## Boolean Operations:
+
+    > Using and, or, and not
+
+    > Using comparison results in conditions
+
+    > Understanding how if statements use conditions
