@@ -12,4 +12,30 @@
 | `**`    | Exponentiation | `10 ** 3` | `1000`  | Raises the first value to the power of the second.              |
 | `//`    | Floor Division | `10 // 3` | `3`     | Divides and rounds the result down to the nearest whole number. |"""
 
+## Addition in Arithmetic operators of Python:
+
+x = 10
+y = 5
+print(x+y)  #Output: 15
+
+## Subtraction in Arithmetic operators of Python:
+
+x = 10
+y = 5
+print(x-y)  #Output: 5
+
+## Multiplication in Arithmetic operators of Python:
+
+x = 10
+y = 5
+print(x*y)  #Output: 50
+
+## Division in Arithmetic operators of Python:
+
+x = 10
+y = 5
+print(x/y)  #Output: 2
+
+
+
 
