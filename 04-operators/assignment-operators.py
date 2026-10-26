@@ -51,3 +51,29 @@ x = 10
 x /= 2
 print(x)  # Output: 5.0
 
+## Modulus Assignment operator:
+
+x = 10
+x %= 3
+print(x)  # Output: 1
+
+## Floor Division Assignment operator:
+
+x = 10
+x //= 3
+print(x)  # Output: 3
+
+## Exponential Assignment operator:
+
+x = 2
+x **= 3
+print(x)  # Output: 8
+
+## Bitwise AND Assignment :
+
+x = 5
+x &= 3
+print(x)  # Output: 1
+
+"""Performs a bitwise AND operation on the binary values of 5 (101) and 3 (011)."""
+
