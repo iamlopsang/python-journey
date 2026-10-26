@@ -36,6 +36,18 @@ x = 10
 y = 5
 print(x/y)  #Output: 2
 
+## Modulus in Arithmetic operators of Python:
+"""Returns the remainder."""
+
+x = 10
+print(x % 3)    #Output: 1
+
+## Exponential in Arithmetic operators of Python:
+"""Raises a number to a power."""
+
+x = 2**3
+print(x)    #Output: 8
+
 
 
 
