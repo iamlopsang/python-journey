@@ -1,0 +1,15 @@
+            ## ARITHEMATIC IN PYTHON ##
+
+"""Arithmetic operators are used for mathematical calculations.
+
+|Operator | Name           | Example   | Output  | Explanation                                                     |
+|---      |---             |---        |---      |---                                                              |
+| `+`     | Addition       | `10 + 3`  | `13`    | Adds two values.                                                |
+| `-`     | Subtraction    | `10 - 3`  | `7`     | Subtracts the second value from the first.                      |
+| `*`     | Multiplication | `10 * 3`  | `30`    | Multiplies two values.                                          |
+| `/`     | Division       | `10 / 3`  | `3.33..`| Divides the first value by the second and returns a float.      |
+| `%`     | Modulus        | `10 % 3`  | `1`     | Returns the remainder after division.                           |
+| `**`    | Exponentiation | `10 ** 3` | `1000`  | Raises the first value to the power of the second.              |
+| `//`    | Floor Division | `10 // 3` | `3`     | Divides and rounds the result down to the nearest whole number. |"""
+
+
