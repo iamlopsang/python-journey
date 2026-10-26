@@ -69,7 +69,7 @@ x = 2
 x **= 3
 print(x)  # Output: 8
 
-## Bitwise AND Assignment :
+## Bitwise AND Assignment operator:
 
 x = 5
 x &= 3
@@ -77,3 +77,41 @@ print(x)  # Output: 1
 
 """Performs a bitwise AND operation on the binary values of 5 (101) and 3 (011)."""
 
+## Bitwise OR Assignment operator:
+
+x = 5
+x |= 3
+print(x)  # Output: 7
+
+"""Performs a bitwise OR operation: 101 | 011 = 111 (binary), which equals 7."""
+
+## Bitwise XOR Assignment operator:
+
+x = 5
+x ^= 3
+print(x)  # Output: 6
+
+"""Performs a bitwise XOR operation: 101 ^ 011 = 110 (binary), which equals 6."""
+
+## Right Shift Assignment:
+
+x = 8
+x >>= 1
+print(x)  # Output: 4
+
+"""Shifts the binary bits of 8 (1000) one position to the right, resulting in 4 (0100)"""
+
+## Left Shift Assignment:
+
+x = 5
+x <<= 1
+print(x)  # Output: 10
+
+"""Shifts the binary bits of 5 (0101) one position to the left, resulting in 10 (1010)."""
+
+## Assignment Expression:
+
+print(x := 5)  # Output: 5
+print(x + 2)  # Output: 7
+
+"""Assigns 5 to x while using the assignment expression. You can then use x elsewhere in your code."""
