@@ -22,3 +22,32 @@
 
 """
 
+## Basic Assignment operator:
+
+x = 10
+print(x)  # Output: 10
+
+## Addition Assignment operator:
+
+x = 10
+x += 5
+print(x)  # Output: 15
+
+## Subtraction Assignment operator:
+
+x = 10
+x -= 3
+print(x)  # Output: 7
+
+## Multiplication Assignment operator:
+
+x = 10
+x *= 2
+print(x)  # Output: 20
+
+## Division Assignment operator:
+
+x = 10
+x /= 2
+print(x)  # Output: 5.0
+
