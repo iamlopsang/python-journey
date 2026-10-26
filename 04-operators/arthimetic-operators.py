@@ -48,6 +48,12 @@ print(x % 3)    #Output: 1
 x = 2**3
 print(x)    #Output: 8
 
+## Floor Division in Arithmetic operators of Python:
+"""Returns the division result rounded down to the nearest whole number."""
+
+x =  10//3
+print(x)    #Output: 3
+
 
 
 
