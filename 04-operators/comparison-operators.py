@@ -17,3 +17,31 @@ They are commonly used in 'if-else' statements and loops to make decision in Pyt
 | `<=`     | Less than or equal to    | `3 <= 5`| `True` | Checks whether the left value is less than or equal to the right value.    |
 
 """
+"""Python compares the values on both sides of an operator and returns either 'True' or 'False', depending on the result."""
+
+## Equal to:
+
+x = 10
+y = 10
+
+print(x == y)  # Output: True
+
+"""Explanation: Both variables contain the same value, so the result is True."""
+
+## Not equal to:
+
+x = 10
+y = 5
+
+print(x != y)  # Output: True
+
+"""Explanation: The values are different, so the result is True."""
+
+## Greater than:
+
+x = 10
+y = 5
+
+print(x > y)  # Output: True
+
+"""Explanation: 10 is greater than 5, so the result is True."""
