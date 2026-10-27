@@ -1,0 +1,19 @@
+    ## COMPARISON OPERATORS IN PYTHON ##
+
+"""Comparison operators are used to compare two values. 
+They check whether a condition is true or false and return a Boolean value: True or False.
+
+They are commonly used in 'if-else' statements and loops to make decision in Python.
+
+## Types of Comparison operators in Python:
+
+| Operator | Name                     | Example | Output | Explanation                                                                |
+|---       |---                       |---      |---     |---                                                                         |  
+| `==`     | Equal to                 | `5 == 5`| `True` | Checks whether two values are equal.                                       |
+| `!=`     | Not equal to             | `5 != 3`| `True` | Checks whether two values are not equal.                                   |
+| `>`      | Greater than             | `8 > 5` | `True` | Checks whether the left value is greater than the right value.             |
+| `<`      | Less than                | `3 < 5` | `True` | Checks whether the left value is less than the right value.                |
+| `>=`     | Greater than or equal to | `5 >= 5`| `True` | Checks whether the left value is greater than or equal to the right value. |
+| `<=`     | Less than or equal to    | `3 <= 5`| `True` | Checks whether the left value is less than or equal to the right value.    |
+
+"""
