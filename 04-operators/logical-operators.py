@@ -61,6 +61,24 @@ Truth Table:
 | `False`     | `True`      | `True` |
 | `False`     | `False`     | `False`|"""
 
+## Not (not) operator:
+
+"""The not operator reverses the Boolean result of a condition."""
+
+## Example:
+
+x = 10
+
+print(not(x > 5))   # Output: False
+print(not(x < 5))   # Output: True
+
+"""Truth Table:
+
+| Condition | Result |
+|---        |---     |
+| `True`    | `False`|
+| `False`   | `True` |"""
+
 
 
 
