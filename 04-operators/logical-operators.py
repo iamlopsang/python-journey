@@ -79,6 +79,27 @@ print(not(x < 5))   # Output: True
 | `True`    | `False`|
 | `False`   | `True` |"""
 
+## Using Logical operators with 'if-else':
+
+"""Logical operators are useful when making decisions based on multiple conditions."""
+
+# Example:
+
+"""
+Using 'and':
+
+age = 20
+has_license = True
+
+if age >= 18 and has_license:
+    print("You can drive.")
+else:
+    print("You cannot drive.")
+
+    Output:
+    You can drive.
+"""
+
 
 
 
