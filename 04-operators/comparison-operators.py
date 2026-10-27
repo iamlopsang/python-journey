@@ -73,4 +73,17 @@ print(x <= y)  # Output: True
 
 """Explanation: 4 is less than 7, so the result is True."""
 
+## Using Comparison Operators in if-else:
 
+"""Comparison operators are often used to make decisions in Python"""
+
+    ## Example:
+
+age = 18
+
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+"""Output: You are eligible to vote."""
