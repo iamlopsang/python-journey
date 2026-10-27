@@ -45,3 +45,32 @@ y = 5
 print(x > y)  # Output: True
 
 """Explanation: 10 is greater than 5, so the result is True."""
+
+## Less than:
+
+x = 3
+y = 8
+
+print(x < y)  # Output: True
+
+"""Explanation: 3 is less than 8, so the result is True."""
+
+## Greater than or equal to:
+
+x = 10
+y = 10
+
+print(x >= y)  # Output: True
+
+"""Explanation: Both values are equal. The condition is True because >= allows the values to be equal."""
+
+## Less than or equal to:
+
+x = 4
+y = 7
+
+print(x <= y)  # Output: True
+
+"""Explanation: 4 is less than 7, so the result is True."""
+
+
