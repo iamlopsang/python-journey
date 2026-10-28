@@ -69,4 +69,22 @@ print("John" in student) # Output: False
 
 """'name' is a dictionary key, but 'John' is a value."""
 
+## Using Membership Operators with 'if-else':
 
+"""Membership operators are useful for checking whether an item exists before performing an action."""
+
+fruits = ["apple", "banana", "mango"]
+
+if "banana" in fruits:
+    print("Banana is available.")
+else:
+    print("Banana is not available.")
+
+"""Output:
+Banana is available.
+
+Explanation:
+
+- Python checks whether "banana" exists in fruits.
+- Since it exists, the condition is True.
+- Python executes the if block."""
