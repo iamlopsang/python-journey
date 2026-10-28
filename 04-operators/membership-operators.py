@@ -43,4 +43,30 @@ print("grapes" in fruits)  # Output: False
 - "apple" in fruits returns True because "apple" is in the list.
 - "grapes" in fruits returns False because "grapes" is not in the list."""
 
+## not in operator:
+
+"""The 'not in' operator checks whether a value is absent from a sequence or collection."""
+
+## Example : With a List
+
+fruits = ["apple", "banana", "mango"]
+
+print("grapes" not in fruits)  # Output: True
+print("apple" not in fruits)   # Output: False
+
+"""Explanation:
+- "grapes" not in fruits returns True because "grapes" is not in the list.
+- "apple" not in fruits returns False because "apple" exists in the list."""
+
+"""Note: When using membership operators with a dictionary, Python check its keys, not its values."""
+
+## Example:
+
+student = {"name": "John", "age": 20}
+
+print("name" in student)  # Output: True
+print("John" in student) # Output: False
+
+"""'name' is a dictionary key, but 'John' is a value."""
+
 
