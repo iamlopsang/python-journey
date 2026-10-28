@@ -16,3 +16,31 @@ Types of Membership Operators:
 | `in`     | Membership          | `"a" in "apple"`    | `True` | Returns `True` if the value exists in the sequence or collection.        |
 | `not in` | Negative Membership | `"z" not in "apple"`| `True` | Returns `True` if the value does not exist in the sequence or collection.|
 """
+
+## in operator:
+
+"""The 'in' operator checks whether a value exists in a sequence or collection."""
+
+## Example 1: With a String:-
+
+text = "Python"
+
+print("P" in text)  # Output: True
+print("z" in text)  # Output: False
+
+"""Explanation:
+- "P" in text returns True because "P" exists in "Python".
+- "z" in text returns False because "z" does not exist in "Python"."""
+
+## Example 2: With List
+
+fruits = ["apple", "banana", "mango"]
+
+print("apple" in fruits)  # Output: True
+print("grapes" in fruits)  # Output: False
+
+"""Explanation:
+- "apple" in fruits returns True because "apple" is in the list.
+- "grapes" in fruits returns False because "grapes" is not in the list."""
+
+
