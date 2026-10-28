@@ -74,3 +74,44 @@ Comapre each bit:
 
 The result is 001 in binary, which equals 1 in decimal."""
 
+## Bitwise OR (|):
+
+"""The OR operator returns '1' when at least one corresponding bit is '1'.
+It returns '0' only when both bits are '0'. """
+
+## Example:
+
+x = 5
+y = 3
+
+print(x | y)  # Output: 7
+
+"""
+Explanation:
+  5 = 101
+  3 = 011
+      ---
+ OR   111
+ 
+ The result is '111' in binary, which equals '7' in decimal."""
+
+## Bitwise XOR(^):
+
+"""The XOR operator returns '1' when the corresponding bits are different.
+If they are the same, it returns '0'."""
+
+## Example:
+
+x = 5
+y = 3
+
+print(x ^ y)  # Output: 6
+
+"""Explanation :
+
+  5 = 101
+  3 = 011
+      ---
+XOR   110
+
+The result is '110' in binary, which equals '6' in decimal."""
