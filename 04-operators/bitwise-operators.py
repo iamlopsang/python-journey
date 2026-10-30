@@ -115,3 +115,35 @@ print(x ^ y)  # Output: 6
 XOR   110
 
 The result is '110' in binary, which equals '6' in decimal."""
+
+## Bitwise Not(~):
+
+"""The 'NOT' operator inverts the bits of an integer.
+In python, it follows this rule:
+
+~x = -(x + 1)
+"""
+
+# Example:
+
+x = 5
+
+print(~x)  # Output: -6
+
+"""Explanation:
+
+~5 = -(5 + 1)
+   = -6
+   
+Note: Unlike the other bitwise operators, NOT produces a negative result for non-negative integers because of
+Python's treatment of integers and bitwise inversion.   
+
+Note: Logical Operators vs. Bitwise Operators
+
+| Logical Operator | Bitwise Operator |
+|---               |---               |
+| `and`            | `&`              |
+| `or`             | `\|`             |
+| `not`            | `~`              |
+
+Although their names are similar, they work differently."""
