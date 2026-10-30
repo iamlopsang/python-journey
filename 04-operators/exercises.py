@@ -99,4 +99,25 @@ area = 0.5 * b * h  # Explanation: Multiplies base and height by 0.5 to calculat
 print(area)  # Explanation: Displays the calculated area.
 
 # 9. Write a program that takes a number as input and calculates its square, cube, and fourth power using the exponentiation operator.
+
+num = int(input("Enter a number: "))
+
+square = num ** 2  # Explanation: Raises the number to the power of 2.
+cube = num ** 3  # Explanation: Raises the number to the power of 3.
+fourth = num ** 4  # Explanation: Raises the number to the power of 4.
+
+print(square)
+print(cube)
+print(fourth)
+
 # 10. Write a program that takes a total number of seconds as input and converts it into hours, minutes, and remaining seconds.
+
+sec = int(input("Enter the total seconds: "))
+
+hours = sec // 3600  # Explanation: Calculates the complete hours.
+minutes = (sec // 60) % 60  # Explanation: Calculates the remaining minutes after extracting hours.
+remaining = sec % 60  # Explanation: Calculates the remaining seconds.
+
+print("Hours:", hours)
+print("Minutes:", minutes)
+print("Remaining seconds:", remaining)
