@@ -32,7 +32,31 @@ print(area)
 print(perimeter)
 
 # 3. Write a program that takes the price of an item and its quantity as input and calculates the total cost.
+
+quantity = int(input("Enter the quantity: "))
+price = float(input("Enter the price of one item: "))
+
+total_cost = quantity * price  # Explanation: Multiplies the quantity by the price of one item.
+
+print(total_cost)
+
 # 4. Write a program that takes a number of minutes as input and converts it into hours and remaining minutes. Use floor division and modulus.
+
+minutes = int(input("Enter the number of minutes: "))
+
+hours = minutes // 60  # Explanation: Uses floor division to calculate complete hours.
+remaining_minutes = minutes % 60  # Explanation: Gets the minutes remaining after dividing by 60.
+
+print("Hours:", hours)
+print("Remaining minutes:", remaining_minutes)
+
+"""Explanation:
+
+If the input is 135:
+- Hours = 135 // 60 → 2
+- Remaining minutes = 135 % 60 → 15
+"""
+
 # 5. Write a program that takes a three-digit number and calculates the sum of its digits using arithmetic operators.
 # 6. Write a program that takes a number as input and checks whether it is divisible by both 3 and 5 using the modulus operator.
 # 7. Write a program that takes a total number of students and a group size as input. Calculate how many complete groups can be formed and how many students remain.
