@@ -79,6 +79,24 @@ else:
     print("It is not divisible by both 3 and 5.")  # Explanation: Displays the message if either condition is false.
 
 # 7. Write a program that takes a total number of students and a group size as input. Calculate how many complete groups can be formed and how many students remain.
+
+no_student = int(input("Enter the number of students: "))
+team = int(input("Enter the group size: "))
+
+formed = no_student // team  # Explanation: Calculates the number of complete groups.
+remaining = no_student % team  # Explanation: Calculates the number of students remaining.
+
+print(formed)
+print(remaining)
+
 # 8. Write a program that takes the base and height of a triangle as input and calculates its area.
+
+b = float(input("Enter the base: "))
+h = float(input("Enter the height: "))
+
+area = 0.5 * b * h  # Explanation: Multiplies base and height by 0.5 to calculate the triangle's area.
+
+print(area)  # Explanation: Displays the calculated area.
+
 # 9. Write a program that takes a number as input and calculates its square, cube, and fourth power using the exponentiation operator.
 # 10. Write a program that takes a total number of seconds as input and converts it into hours, minutes, and remaining seconds.
