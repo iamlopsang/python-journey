@@ -58,7 +58,26 @@ If the input is 135:
 """
 
 # 5. Write a program that takes a three-digit number and calculates the sum of its digits using arithmetic operators.
+
+num = int(input("Enter a three-digit number: "))
+
+first_digit = num // 100  # Explanation: Extracts the first digit of the number.
+middle_digit = (num // 10) % 10  # Explanation: Extracts the middle digit of the number.
+last_digit = num % 10  # Explanation: Extracts the last digit of the number.
+
+total = first_digit + middle_digit + last_digit  # Explanation: Adds all three digits together.
+
+print("Sum of digits:", total)
+
 # 6. Write a program that takes a number as input and checks whether it is divisible by both 3 and 5 using the modulus operator.
+
+num = int(input("Enter a number: "))
+
+if num % 3 == 0 and num % 5 == 0:  # Explanation: Checks whether the number is divisible by both 3 and 5.
+    print("It is divisible by both 3 and 5.")  # Explanation: Displays the message if both conditions are true.
+else:
+    print("It is not divisible by both 3 and 5.")  # Explanation: Displays the message if either condition is false.
+
 # 7. Write a program that takes a total number of students and a group size as input. Calculate how many complete groups can be formed and how many students remain.
 # 8. Write a program that takes the base and height of a triangle as input and calculates its area.
 # 9. Write a program that takes a number as input and calculates its square, cube, and fourth power using the exponentiation operator.
