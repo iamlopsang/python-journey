@@ -175,5 +175,18 @@ number = 12
 number &= 10  # Explanation: Performs bitwise AND with 10 and stores the result.
 print(number)  # Explanation: Displays the result.
 
+# 9. Create a variable number with an initial value of 5. Use the bitwise OR assignment operator with 3 and display the result.
+
+number = 5
+number |= 3  # Explanation: Performs bitwise OR with 3 and stores the result.
+print(number)  # Explanation: Displays the result.
+
+
+# 10. Create a variable number with an initial value of 8. Use the right shift assignment operator to shift its bits one position to
+#  the right. Display the result.
+
+number = 8
+number >>= 1  # Explanation: Shifts the bits one position to the right.
+print(number)  # Explanation: Displays the result.
 
 
