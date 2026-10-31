@@ -121,3 +121,21 @@ remaining = sec % 60  # Explanation: Calculates the remaining seconds.
 print("Hours:", hours)
 print("Minutes:", minutes)
 print("Remaining seconds:", remaining)
+
+
+""" Assignment Operators — 10 Questions
+Operators: =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, <<=, >>=
+"""
+
+# 1. Create a variable balance with an initial value of 1000. Add 500 to it using an assignment operator and display the updated balance.
+
+balance = 1000
+balance += 500  # Explanation: Adds 500 to the current balance and updates it.
+print(balance)  # Explanation: Displays the updated balance.
+
+# 2. Create a variable score with an initial value of 80. Subtract 15 from it using an assignment operator and display the result.
+
+score = 80
+score -= 15  # Explanation: Subtracts 15 from the current score and updates it.
+print(score)  # Explanation: Displays the updated score.
+
