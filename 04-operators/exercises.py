@@ -15,7 +15,7 @@ difference = num1 - num2  # Explanation: Subtracts the second number from the fi
 product = num1 * num2  # Explanation: Multiplies the two numbers.
 quotient = num1 / num2  # Explanation: Divides the first number by the second.
 
-print(total)
+print(total)    
 print(difference)
 print(product)
 print(quotient)
@@ -149,6 +149,18 @@ print(price)  # Explanation: Displays the updated price.
 
 number = 50
 number /= 4  # Explanation: Divides the current number by 4 and updates it.
+print(number)  # Explanation: Displays the updated number.
+
+# 5. Create a variable number with an initial value of 29. Use an assignment operator to store the remainder when it is divided by 5.
+
+number = 29
+number %= 5  # Explanation: Stores the remainder when number is divided by 5.
+print(number)  # Explanation: Displays the remainder.
+
+# 6. Create a variable number with an initial value of 27. Use floor division assignment to divide it by 4 and display the result.
+
+number = 27
+number //= 4  # Explanation: Divides number by 4 and stores the floor division result.
 print(number)  # Explanation: Displays the updated number.
 
 
