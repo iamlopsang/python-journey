@@ -163,4 +163,17 @@ number = 27
 number //= 4  # Explanation: Divides number by 4 and stores the floor division result.
 print(number)  # Explanation: Displays the updated number.
 
+# 7. Create a variable number with an initial value of 3. Use exponentiation assignment to raise it to the power of 4.
+
+number = 3
+number **= 4  # Explanation: Raises number to the power of 4 and updates it.
+print(number)  # Explanation: Displays the result.
+
+# 8. Create a variable number with an initial value of 12. Use the bitwise AND assignment operator with 10 and display the result.
+
+number = 12
+number &= 10  # Explanation: Performs bitwise AND with 10 and stores the result.
+print(number)  # Explanation: Displays the result.
+
+
 
