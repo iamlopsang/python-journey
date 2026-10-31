@@ -139,3 +139,16 @@ score = 80
 score -= 15  # Explanation: Subtracts 15 from the current score and updates it.
 print(score)  # Explanation: Displays the updated score.
 
+# 3. Create a variable price with an initial value of 250. Multiply it by 3 using an assignment operator and display the result.
+
+price = 250
+price *= 3  # Explanation: Multiplies the current price by 3 and updates it.
+print(price)  # Explanation: Displays the updated price.
+
+# 4. Create a variable number with an initial value of 50. Divide it by 4 using an assignment operator and display the result.
+
+number = 50
+number /= 4  # Explanation: Divides the current number by 4 and updates it.
+print(number)  # Explanation: Displays the updated number.
+
+
