@@ -131,37 +131,37 @@ Operators: =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, <<=, >>=
 
 balance = 1000
 balance += 500  # Explanation: Adds 500 to the current balance and updates it.
-print(balance)  # Explanation: Displays the updated balance.
+print(balance)  # Explanation: Displays the updated balance.            # output: 1500
 
 # 2. Create a variable score with an initial value of 80. Subtract 15 from it using an assignment operator and display the result.
 
 score = 80
 score -= 15  # Explanation: Subtracts 15 from the current score and updates it.
-print(score)  # Explanation: Displays the updated score.
+print(score)  # Explanation: Displays the updated score.                    # output: 65
 
 # 3. Create a variable price with an initial value of 250. Multiply it by 3 using an assignment operator and display the result.
 
 price = 250
 price *= 3  # Explanation: Multiplies the current price by 3 and updates it.
-print(price)  # Explanation: Displays the updated price.
+print(price)  # Explanation: Displays the updated price.                # output: 750
 
 # 4. Create a variable number with an initial value of 50. Divide it by 4 using an assignment operator and display the result.
 
 number = 50
 number /= 4  # Explanation: Divides the current number by 4 and updates it.
-print(number)  # Explanation: Displays the updated number.
+print(number)  # Explanation: Displays the updated number.              # output: 12.5
 
 # 5. Create a variable number with an initial value of 29. Use an assignment operator to store the remainder when it is divided by 5.
 
 number = 29
 number %= 5  # Explanation: Stores the remainder when number is divided by 5.
-print(number)  # Explanation: Displays the remainder.
+print(number)  # Explanation: Displays the remainder.           # output: 4
 
 # 6. Create a variable number with an initial value of 27. Use floor division assignment to divide it by 4 and display the result.
 
 number = 27
 number //= 4  # Explanation: Divides number by 4 and stores the floor division result.
-print(number)  # Explanation: Displays the updated number.
+print(number)  # Explanation: Displays the updated number.          # output: 6
 
 # 7. Create a variable number with an initial value of 3. Use exponentiation assignment to raise it to the power of 4.
 
