@@ -167,19 +167,33 @@ print(number)  # Explanation: Displays the updated number.
 
 number = 3
 number **= 4  # Explanation: Raises number to the power of 4 and updates it.
-print(number)  # Explanation: Displays the result.
+print(number)  # Explanation: Displays the result.      # output: 81
 
 # 8. Create a variable number with an initial value of 12. Use the bitwise AND assignment operator with 10 and display the result.
 
 number = 12
 number &= 10  # Explanation: Performs bitwise AND with 10 and stores the result.
-print(number)  # Explanation: Displays the result.
+print(number)  # Explanation: Displays the result.      # output: 8
+
+"""Explanation:
+  1100   (12)
+& 1010   (10)
+------
+  1000   (8)
+"""
 
 # 9. Create a variable number with an initial value of 5. Use the bitwise OR assignment operator with 3 and display the result.
 
 number = 5
 number |= 3  # Explanation: Performs bitwise OR with 3 and stores the result.
-print(number)  # Explanation: Displays the result.
+print(number)  # Explanation: Displays the result.      #output: 7
+
+"""Explanation:
+  0101   (5)
+| 0011   (3)
+------
+  0111   (7)
+"""
 
 
 # 10. Create a variable number with an initial value of 8. Use the right shift assignment operator to shift its bits one position to
@@ -187,6 +201,11 @@ print(number)  # Explanation: Displays the result.
 
 number = 8
 number >>= 1  # Explanation: Shifts the bits one position to the right.
-print(number)  # Explanation: Displays the result.
+print(number)  # Explanation: Displays the result.      # output: 4
+
+"""Explanation:
+Before: 1000  (8)
+After:  0100  (4)
+"""
 
 
