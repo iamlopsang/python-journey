@@ -303,15 +303,6 @@ x = int(input("Enter the first number: "))
 y = int(input("Enter the second number: "))
 z = int(input("Enter the third number: "))
 
-if x> y and x> z:
-	print("x is largest number")
-elif y>x and y>z:
-	print("y is largest number")
-else:
-	print(z is largest number)x = int(input("Enter the first number: "))
-y = int(input("Enter the second number: "))
-z = int(input("Enter the third number: "))
-
 if x == y == z:
     print("All three numbers are equal")
 
@@ -323,3 +314,65 @@ elif y >= x and y >= z:
 
 else:
     print("z is the largest number")
+
+
+""" Logical Operators — 10 Questions
+Operators: and, or, not"""
+
+# 1. Write a program that takes a person's age as input and checks whether they are at least 18 and at most 60 years old.
+
+age = int(input("Enter your age: "))
+
+if age >= 18 and age <= 60:
+    print("Eligible")
+else:
+    print("Not eligible")
+
+# 2. Write a program that takes a student's marks as input and checks whether the marks are between 40 and 100, inclusive.
+
+marks = float(input("Enter your marks: "))
+
+if marks >= 40 and marks <= 100:
+    print("Passed")
+else:
+    print("Failed")
+
+# 3. Write a program that takes a person's age and citizenship status as input. Check whether the person is at least 18 and is a citizen. 
+# Use a Boolean variable for citizenship.
+
+# age = int(input("enter a age:"))
+# citizen  = str(input("enter a yes/no:"))
+
+# if age>18 and citzen=='yes':
+# print("person is eligible")
+# else:
+# print("not eligible")
+
+# 4. Write a program that takes a number as input and checks whether it is divisible by either 3 or 5.
+
+# num = int(input("enter a number:"))
+
+# if num%3==0 or num%5==0:
+# print("passed")
+# else:
+# print("failed")
+
+# 5. Write a program that takes a username and password as input. Allow access only when the username is "admin" and the password is "python123".
+
+# name = str(input("enter a username:"))
+# pass = str(input("enter a password:"))
+
+# if name=='admin' and pass=='python123':
+# print("login")
+# else:
+# print("error")
+
+
+
+# 6. Write a program that takes a person's age as input and uses not to check whether the person is under 18.
+
+
+# 7. Write a program that takes a day of the week as input. Display "Weekend" if the day is Saturday or Sunday; otherwise, display "Weekday".
+# 8. Write a program that takes a number as input and checks whether it is outside the range of 10 to 50. Use the not operator to reverse the condition that checks whether the number is within the range.
+# 9. Write a program that takes a student's marks in three subjects as input. Check whether the student has scored at least 40 in every subject.
+# 10. Write a program that takes a person's age and membership status as input. Allow a discount if the person is under 18 or has a valid membership. Use or to combine the conditions.
