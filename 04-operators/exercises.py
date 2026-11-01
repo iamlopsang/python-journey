@@ -268,3 +268,23 @@ elif x < 18:
     print("Minor")
 else:
     print("Older")
+
+
+# 7. Write a program that takes the prices of two products as input and checks whether the first product is cheaper than the second.
+
+x = int(input("Enter the first product price: "))
+y = int(input("Enter the second product price: "))
+
+if x < y:
+    print("First product is cheaper than the second")
+else:
+    print("First product is not cheaper than the second")
+
+# 8. Write a program that takes a number as input and checks whether it is greater than or equal to 100.
+
+x = int(input("Enter a number: "))
+
+if x >= 100:
+    print("Number is greater than or equal to 100")
+else:
+    print("Number is less than 100")
