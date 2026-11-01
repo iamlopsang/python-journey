@@ -288,3 +288,38 @@ if x >= 100:
     print("Number is greater than or equal to 100")
 else:
     print("Number is less than 100")
+
+# 9. Write a program that takes a username as input and checks whether it is equal to "admin".
+
+x = input("Enter a username: ")
+
+print(x == "admin")  # Explanation: Checks whether the entered username matches "admin".
+
+
+# 10. Write a program that takes three numbers as input and uses comparison operators to determine the largest number. 
+# Handle cases where two or more numbers are equal.
+
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+z = int(input("Enter the third number: "))
+
+if x> y and x> z:
+	print("x is largest number")
+elif y>x and y>z:
+	print("y is largest number")
+else:
+	print(z is largest number)x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+z = int(input("Enter the third number: "))
+
+if x == y == z:
+    print("All three numbers are equal")
+
+elif x >= y and x >= z:
+    print("x is the largest number")
+
+elif y >= x and y >= z:
+    print("y is the largest number")
+
+else:
+    print("z is the largest number")
