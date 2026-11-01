@@ -248,3 +248,23 @@ if marks >= 40:
     print("Student has passed")
 else:
     print("Student has low score")
+
+
+# 5. Write a program that takes a number as input and checks whether it is not equal to zero.
+
+x = int(input("Enter a number: "))
+
+print(x != 0)  # Explanation: Checks whether x is not equal to zero.
+
+
+# 6. Write a program that takes a person's age as input and checks whether their age is between 18 and 60, including both limits. 
+# Use comparison operators.
+
+x = int(input("Enter your age: "))
+
+if x >= 18 and x <= 60:
+    print("Age is between 18 and 60")
+elif x < 18:
+    print("Minor")
+else:
+    print("Older")
