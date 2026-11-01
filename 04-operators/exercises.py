@@ -340,22 +340,24 @@ else:
 # 3. Write a program that takes a person's age and citizenship status as input. Check whether the person is at least 18 and is a citizen. 
 # Use a Boolean variable for citizenship.
 
-# age = int(input("enter a age:"))
-# citizen  = str(input("enter a yes/no:"))
+age = int(input("Enter your age: "))
+citizen = input("Are you a citizen? (yes/no): ")
 
-# if age>18 and citzen=='yes':
-# print("person is eligible")
-# else:
-# print("not eligible")
+is_citizen = citizen == "yes"
+
+if age >= 18 and is_citizen:
+    print("Person is eligible")
+else:
+    print("Not eligible")
 
 # 4. Write a program that takes a number as input and checks whether it is divisible by either 3 or 5.
 
-# num = int(input("enter a number:"))
+num = int(input("Enter a number: "))
 
-# if num%3==0 or num%5==0:
-# print("passed")
-# else:
-# print("failed")
+if num % 3 == 0 or num % 5 == 0:
+    print("Passed")
+else:
+    print("Failed")
 
 # 5. Write a program that takes a username and password as input. Allow access only when the username is "admin" and the password is "python123".
 
