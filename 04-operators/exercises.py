@@ -361,13 +361,13 @@ else:
 
 # 5. Write a program that takes a username and password as input. Allow access only when the username is "admin" and the password is "python123".
 
-# name = str(input("enter a username:"))
-# pass = str(input("enter a password:"))
+name = input("Enter a username: ")
+password = input("Enter a password: ")
 
-# if name=='admin' and pass=='python123':
-# print("login")
-# else:
-# print("error")
+if name == "admin" and password == "python123":
+    print("Login successful")
+else:
+    print("Error: Incorrect username or password")
 
 
 
