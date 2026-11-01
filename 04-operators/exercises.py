@@ -229,3 +229,22 @@ elif x < y:
     print(f"{y} is the greater number")  # Explanation: Displays y if it is greater than x.
 else:
     print("Both numbers are equal")  # Explanation: Displays a message if both numbers are equal.
+
+
+# 3. Write a program that takes a person's age as input and checks whether the person is at least 18 years old.
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# 4. Write a program that takes a student's marks as input and checks whether the student has scored 40 or more marks.
+
+marks = int(input("Enter the marks: "))
+
+if marks >= 40:
+    print("Student has passed")
+else:
+    print("Student has low score")
