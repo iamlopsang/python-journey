@@ -208,4 +208,24 @@ Before: 1000  (8)
 After:  0100  (4)
 """
 
+""" Comparison Operators — 10 Questions
+Operators: ==, !=, >, <, >=, <="""
 
+# 1. Write a program that takes two numbers as input and checks whether they are equal or not using a comparison operator.
+
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+
+print(x == y)  # Explanation: Checks whether both numbers are equal and displays True or False.
+
+# 2. Write a program that takes two numbers as input and displays the greater number. If both numbers are equal, display a message saying they are equal.
+
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+
+if x > y:
+    print(f"{x} is the greater number")  # Explanation: Displays x if it is greater than y.
+elif x < y:
+    print(f"{y} is the greater number")  # Explanation: Displays y if it is greater than x.
+else:
+    print("Both numbers are equal")  # Explanation: Displays a message if both numbers are equal.
