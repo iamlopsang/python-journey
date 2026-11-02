@@ -373,6 +373,12 @@ else:
 
 # 6. Write a program that takes a person's age as input and uses not to check whether the person is under 18.
 
+age = int(input("Enter your age: "))
+
+if not age >= 18:
+    print("Under 18")  # Explanation: Displays this if the person is under 18.
+else:
+    print("18 or older")  # Explanation: Displays this if the person is 18 or older.
 
 # 7. Write a program that takes a day of the week as input. Display "Weekend" if the day is Saturday or Sunday; otherwise, display "Weekday".
 # 8. Write a program that takes a number as input and checks whether it is outside the range of 10 to 50. Use the not operator to reverse the condition that checks whether the number is within the range.
