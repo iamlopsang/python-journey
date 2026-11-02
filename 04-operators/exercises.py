@@ -398,6 +398,27 @@ if not (num >= 10 and num <= 50):
     print("Number is not in range")  # Explanation: Displays this if the number is below 10 or above 50.
 else:
     print("Number is in range")  # Explanation: Displays this if the number is between 10 and 50, including both limits.
-    
+
 # 9. Write a program that takes a student's marks in three subjects as input. Check whether the student has scored at least 40 in every subject.
-# 10. Write a program that takes a person's age and membership status as input. Allow a discount if the person is under 18 or has a valid membership. Use or to combine the conditions.
+
+subj1 = int(input("Enter marks for subject 1: "))
+subj2 = int(input("Enter marks for subject 2: "))
+subj3 = int(input("Enter marks for subject 3: "))
+
+if subj1 >= 40 and subj2 >= 40 and subj3 >= 40:
+    print("Student has passed all subjects")  # Explanation: Displays this if every subject has at least 40 marks.
+else:
+    print("Student has failed")  # Explanation: Displays this if at least one subject has less than 40 marks.
+
+# 10. Write a program that takes a person's age and membership status as input. Allow a discount if the person is under 18 or has a
+#  valid membership. Use or to combine the conditions.
+
+age = int(input("Enter your age: "))
+member = input("Are you a member? (yes/no): ")
+
+is_member = member == "yes"  # Explanation: Checks whether the person has membership and stores True or False.
+
+if age < 18 or is_member:
+    print("Discount allowed")  # Explanation: Allows a discount if the person is under 18 or has membership.
+else:
+    print("Discount not allowed")  # Explanation: Displays this if neither condition is true.
