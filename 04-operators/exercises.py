@@ -509,9 +509,67 @@ print(original == copied)  # Explanation: Checks whether both lists contain the 
 
 # 7. Write a program that takes a name as input. If the variable is None, display "Name is missing". Otherwise, display the name.
 # Use an identity operator for the check.
+
+name = input("Enter a name: ")
+
+if name is None:
+    print("Name is missing")  # Explanation: Displays this if name is None.
+else:
+    print(f"{name}")  # Explanation: Displays the entered name.
+
 # 8. Create a list called first_list and assign it to second_list. Then create a third, separate list with the same contents. Use
 #  identity operators to compare the three variables.
+
+first_list = ['animal', 'bird', 'butterfly']
+
+second_list = first_list  # Explanation: Refers to the same list as first_list.
+third_list = second_list.copy()  # Explanation: Creates a separate list with the same contents.
+
+print(first_list is second_list)  # Explanation: Checks whether both refer to the same object.
+print(first_list is third_list)  # Explanation: Checks whether they refer to the same object.
+print(second_list is third_list)  # Explanation: Checks whether they refer to the same object.
+
+"""output:
+True
+False
+False
+"""
+
 # 9. Write a function that returns None when a number is negative and returns the number otherwise. Call the function and use is to 
 # check whether the result is None.
+
+def check_number(num):
+    if num < 0:
+        return None  # Explanation: Returns None if the number is negative.
+    else:
+        return num  # Explanation: Returns the number if it is zero or positive.
+
+result = check_number(-5)  # Explanation: Calls the function with -5 and stores its result.
+
+if result is None:
+    print("Result is None")  # Explanation: Checks whether the returned result is None.
+else:
+    print(result)  # Explanation: Displays the returned number.
+
+## output:
+# Result is None
+
 # 10. Create two variables that refer to the same dictionary. Create a third dictionary with the same key-value pairs. Use is, is
 #  not, and == to compare the dictionaries.
+
+first = {"name": "John", "age": 25}
+
+second = first  # Explanation: Both variables refer to the same dictionary.
+
+third = {"name": "John", "age": 25}  # Explanation: Creates a separate dictionary with the same key-value pairs.
+
+print(first is second)  # Explanation: Checks whether both refer to the same object.
+print(first is third)  # Explanation: Checks whether they refer to the same object.
+print(first is not third)  # Explanation: Checks whether they refer to different objects.
+print(first == third)  # Explanation: Checks whether both dictionaries contain the same values.
+
+## output:
+# True
+# False
+# True      
+# True
