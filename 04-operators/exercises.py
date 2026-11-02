@@ -471,8 +471,42 @@ print(result is not None)  # Explanation: Checks whether result does not refer t
 
 # 5. Create a list called fruits and assign it to another variable called my_fruits. Change an item through my_fruits and 
 # demonstrate that the change is visible through fruits. Use is to verify their identity.
+
+fruits = ['apple', 'banana', 'orange']
+
+my_fruits = fruits  # Explanation: Both variables refer to the same list.
+
+my_fruits[1] = 'watermelon'  # Explanation: Changes the second item in the shared list.
+
+print(fruits)  # Explanation: Displays the changed list through fruits.
+print(my_fruits)  # Explanation: Displays the changed list through my_fruits.
+
+print(fruits is my_fruits)  # Explanation: Checks whether both variables refer to the same object.
+
+""" output:
+['apple', 'watermelon', 'orange']
+['apple', 'watermelon', 'orange']
+True 
+
+Explanation: The change made through my_fruits is reflected in fruits because both variables refer to the same list object.
+Because my_fruits = fruits does not create a new list. Both variables refer to the same list object.
+
+So, when you change an item through my_fruits, the change is also visible through fruits."""
+
 # 6. Create a list called original and make a separate copy called copied using the list's .copy() method. Use is and == to 
 # check whether the lists are the same object and whether their contents are equal.
+
+original = ['book', 'pen']
+
+copied = original.copy()  # Explanation: Creates a separate copy of the original list.
+
+print(original is copied)  # Explanation: Checks whether both variables refer to the same object.
+print(original == copied)  # Explanation: Checks whether both lists contain the same values.
+
+## output:
+# False
+# True
+
 # 7. Write a program that takes a name as input. If the variable is None, display "Name is missing". Otherwise, display the name.
 # Use an identity operator for the check.
 # 8. Create a list called first_list and assign it to second_list. Then create a third, separate list with the same contents. Use
