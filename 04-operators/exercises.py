@@ -381,6 +381,23 @@ else:
     print("18 or older")  # Explanation: Displays this if the person is 18 or older.
 
 # 7. Write a program that takes a day of the week as input. Display "Weekend" if the day is Saturday or Sunday; otherwise, display "Weekday".
-# 8. Write a program that takes a number as input and checks whether it is outside the range of 10 to 50. Use the not operator to reverse the condition that checks whether the number is within the range.
+
+day = input("Enter a day of the week: ")
+
+if day == "Saturday" or day == "Sunday":
+    print("Weekend")  # Explanation: Displays Weekend if the day is Saturday or Sunday.
+else:
+    print("Weekday")  # Explanation: Displays Weekday for all other days.
+
+# 8. Write a program that takes a number as input and checks whether it is outside the range of 10 to 50. Use the not operator to
+#  reverse the condition that checks whether the number is within the range.
+
+num = int(input("Enter a number: "))
+
+if not (num >= 10 and num <= 50):
+    print("Number is not in range")  # Explanation: Displays this if the number is below 10 or above 50.
+else:
+    print("Number is in range")  # Explanation: Displays this if the number is between 10 and 50, including both limits.
+    
 # 9. Write a program that takes a student's marks in three subjects as input. Check whether the student has scored at least 40 in every subject.
 # 10. Write a program that takes a person's age and membership status as input. Allow a discount if the person is under 18 or has a valid membership. Use or to combine the conditions.
