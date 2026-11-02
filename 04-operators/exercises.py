@@ -440,6 +440,8 @@ another_numbers = numbers  # Explanation: Assigns the same list object to anothe
 
 print(numbers is another_numbers)  # Explanation: Checks whether both variables refer to the same object.
 
+# output: True
+
 # 2. Create two separate lists containing the same three numbers. Use is and == to check their identities and values.
 
 number = [1, 2, 3]
@@ -448,8 +450,25 @@ another_number = [1, 2, 3]
 print(number is another_number)  # Explanation: Checks whether both variables refer to the same object.
 print(number == another_number)  # Explanation: Checks whether both lists contain the same values.
 
+# output: False
+# output: True
+
 # 3. Create a variable called name and assign None to it. Use is to check whether name is None.
+
+name = None  # Explanation: Assigns the special None value to name.
+
+print(name is None)  # Explanation: Checks whether name refers to None.
+
+## output: True
+
 # 4. Create a variable called result and assign None to it. Use is not to check whether result is not None.
+
+result = None  # Explanation: Assigns the special None value to result.
+
+print(result is not None)  # Explanation: Checks whether result does not refer to None.
+
+## output: False
+
 # 5. Create a list called fruits and assign it to another variable called my_fruits. Change an item through my_fruits and 
 # demonstrate that the change is visible through fruits. Use is to verify their identity.
 # 6. Create a list called original and make a separate copy called copied using the list's .copy() method. Use is and == to 
