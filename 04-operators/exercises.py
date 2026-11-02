@@ -422,3 +422,43 @@ if age < 18 or is_member:
     print("Discount allowed")  # Explanation: Allows a discount if the person is under 18 or has membership.
 else:
     print("Discount not allowed")  # Explanation: Displays this if neither condition is true.
+
+
+""" Identity Operators 
+Operators: is, is not
+
+Important: Identity operators check whether two variables refer to the same object, not whether their values are equal.
+
+For these exercises, use lists, variables, and None where appropriate.
+"""
+# 1. Create a list called numbers containing five integers. Assign it to another variable called another_numbers. Use is
+# to check whether both variables refer to the same list.
+
+numbers = [1, 2, 3, 5, 4]
+
+another_numbers = numbers  # Explanation: Assigns the same list object to another variable.
+
+print(numbers is another_numbers)  # Explanation: Checks whether both variables refer to the same object.
+
+# 2. Create two separate lists containing the same three numbers. Use is and == to check their identities and values.
+
+number = [1, 2, 3]
+another_number = [1, 2, 3]
+
+print(number is another_number)  # Explanation: Checks whether both variables refer to the same object.
+print(number == another_number)  # Explanation: Checks whether both lists contain the same values.
+
+# 3. Create a variable called name and assign None to it. Use is to check whether name is None.
+# 4. Create a variable called result and assign None to it. Use is not to check whether result is not None.
+# 5. Create a list called fruits and assign it to another variable called my_fruits. Change an item through my_fruits and 
+# demonstrate that the change is visible through fruits. Use is to verify their identity.
+# 6. Create a list called original and make a separate copy called copied using the list's .copy() method. Use is and == to 
+# check whether the lists are the same object and whether their contents are equal.
+# 7. Write a program that takes a name as input. If the variable is None, display "Name is missing". Otherwise, display the name.
+# Use an identity operator for the check.
+# 8. Create a list called first_list and assign it to second_list. Then create a third, separate list with the same contents. Use
+#  identity operators to compare the three variables.
+# 9. Write a function that returns None when a number is negative and returns the number otherwise. Call the function and use is to 
+# check whether the result is None.
+# 10. Create two variables that refer to the same dictionary. Create a third dictionary with the same key-value pairs. Use is, is
+#  not, and == to compare the dictionaries.
