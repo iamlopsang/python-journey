@@ -717,3 +717,36 @@ print(extension in files)  # Explanation: Checks whether the extracted extension
 Enter a filename with extension: index.html
 True
 """
+
+""" Bitwise Operators — 10 Questions
+Operators: &, |, ^, ~, <<, >>
+
+These questions require you to write code that performs bitwise operations. You can use bin() to display the 
+binary representation of a number."""
+
+# 1. Take two integers as input and use the bitwise AND operator (&) to calculate and display their result.
+
+num1 = int(input("Enter a number: "))  # Explanation: Takes the first integer as input.
+num2 = int(input("Enter a number: "))  # Explanation: Takes the second integer as input.
+
+calc = num1 & num2  # Explanation: Performs bitwise AND on both numbers.
+print(calc)  # Explanation: Displays the result.
+
+# 2. Take two integers as input and use the bitwise OR operator (|) to calculate and display their result.
+
+num1 = int(input("Enter a number: "))  # Explanation: Takes the first integer as input.
+num2 = int(input("Enter a number: "))  # Explanation: Takes the second integer as input.
+
+calc = num1 | num2  # Explanation: Performs bitwise OR on both numbers.
+print(calc)  # Explanation: Displays the result.
+
+# 3. Take two integers as input and use the bitwise XOR operator (^) to calculate and display their result.
+# 4. Take an integer as input and use the bitwise NOT operator (~) to display its result. Also display the binary
+#  representation of the original positive integer using bin().
+# 5. Take an integer as input and shift its bits two positions to the left using <<. Display the result.
+# 6. Take an integer as input and shift its bits one position to the right using >>. Display the result.
+# 7. Take two integers as input. Perform AND, OR, and XOR operations on them, then display all three results with meaningful labels.
+# 8. Take an integer as input and use bitwise AND with 1 to determine whether the integer is odd or even. Display the result using if-else.
+# 9. Take an integer as input and use bitwise left shift to multiply it by 8. Display the original number and the result.
+# 10. Take two integers as input and display their binary representations. Then perform AND, OR, and XOR operations on
+#  the integers and display the results in both decimal and binary formats.
