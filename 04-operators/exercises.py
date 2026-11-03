@@ -625,3 +625,32 @@ print(country in countries)  # Explanation: Checks whether the entered country e
 Enter a country name: nepal
 True
 """
+
+# 5. Create a set of five numbers. Take a number as input and check whether it exists in the set.\
+
+numbers = {1, 6, 7, 4, 9}
+
+number = int(input("Enter a number: "))
+
+print(number in numbers)  # Explanation: Checks whether the entered number exists in the set.
+
+"""output:
+Enter a number: 6
+True"""
+
+# 6. Create a dictionary containing a student's name, age, and GPA. Take a key as input and check whether the key exists in the dictionary.
+
+students = {
+    "name": "jerry",
+    "age": 25,
+    "gpa": 3.97
+}
+
+student = input("Enter a key: ")
+
+print(student in students)  # Explanation: Checks whether the entered key exists in the dictionary.
+
+"""output:
+Enter a key: age
+True
+"""
