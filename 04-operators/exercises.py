@@ -573,3 +573,30 @@ print(first == third)  # Explanation: Checks whether both dictionaries contain t
 # False
 # True      
 # True
+
+""" Membership Operators — 10 Questions
+Operators: in, not in"""
+
+# 1. Create a list of five fruits. Take a fruit name as input and check whether it exists in the list using in.
+
+fruits = ['apple', 'banana', 'cherry', 'orange', 'melon']
+
+fruit = input("Enter a fruit name: ")
+
+print(fruit in fruits)  # Explanation: Checks whether the entered fruit exists in the fruits list.
+
+"""output:
+Enter a fruit name: apple
+True"""
+
+# 2. Create a string containing a sentence. Take a word as input and check whether that word exists in the sentence.
+
+sentence = "Python is a popular programming language"
+
+word = input("Enter a word: ")
+
+print(word in sentence)  # Explanation: Checks whether the entered word exists in the sentence.
+
+"""output:
+Enter a word: popular
+True"""
