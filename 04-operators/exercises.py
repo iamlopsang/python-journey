@@ -741,8 +741,25 @@ calc = num1 | num2  # Explanation: Performs bitwise OR on both numbers.
 print(calc)  # Explanation: Displays the result.
 
 # 3. Take two integers as input and use the bitwise XOR operator (^) to calculate and display their result.
+
+num1 = int(input("Enter a number: "))  # Explanation: Takes the first integer.
+num2 = int(input("Enter a number: "))  # Explanation: Takes the second integer.
+
+calc = num1 ^ num2  # Explanation: Performs bitwise XOR on both numbers.
+print(calc)  # Explanation: Displays the result.
+
 # 4. Take an integer as input and use the bitwise NOT operator (~) to display its result. Also display the binary
 #  representation of the original positive integer using bin().
+
+num1 = int(input("Enter a number: "))  # Explanation: Takes an integer as input.
+
+print(~num1)  # Explanation: Performs bitwise NOT on the number.
+print(bin(num1))  # Explanation: Displays the original number in binary.
+
+"""output:
+Enter a number: 5
+-6
+0b101"""
 # 5. Take an integer as input and shift its bits two positions to the left using <<. Display the result.
 # 6. Take an integer as input and shift its bits one position to the right using >>. Display the result.
 # 7. Take two integers as input. Perform AND, OR, and XOR operations on them, then display all three results with meaningful labels.
