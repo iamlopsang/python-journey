@@ -760,8 +760,32 @@ print(bin(num1))  # Explanation: Displays the original number in binary.
 Enter a number: 5
 -6
 0b101"""
+
 # 5. Take an integer as input and shift its bits two positions to the left using <<. Display the result.
+
+x = int(input("Enter a number: "))  # Explanation: Takes an integer as input.
+
+print(x << 2)  # Explanation: Shifts the bits of x two positions to the left.
+
+"""output:
+Enter a number: 5
+5 = 0101
+Shift left by 2 = 10100
+Result = 20
+"""
+
 # 6. Take an integer as input and shift its bits one position to the right using >>. Display the result.
+
+x = int(input("Enter a number: "))  # Explanation: Takes an integer as input.
+
+print(x >> 1)  # Explanation: Shifts the bits of x one position to the right.
+
+"""output:
+Enter a number: 5
+5 = 0101
+Shift right by 1 = 0010
+Result = 2
+"""
 # 7. Take two integers as input. Perform AND, OR, and XOR operations on them, then display all three results with meaningful labels.
 # 8. Take an integer as input and use bitwise AND with 1 to determine whether the integer is odd or even. Display the result using if-else.
 # 9. Take an integer as input and use bitwise left shift to multiply it by 8. Display the original number and the result.
