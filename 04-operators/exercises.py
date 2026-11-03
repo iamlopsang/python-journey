@@ -654,3 +654,32 @@ print(student in students)  # Explanation: Checks whether the entered key exists
 Enter a key: age
 True
 """
+
+
+# 7. Create a dictionary containing three products and their prices. Take a product name as input and check whether it exists as a key in the dictionary.
+
+shops = {
+    "noodles": 560,
+    "momo": 250,
+    "pizza": 450
+}  # Explanation: Stores three product names as keys and their prices as values.
+
+shop = input("Enter a product name: ")
+
+print(shop in shops)  # Explanation: Checks whether the entered product exists as a dictionary key.
+
+"""output:
+Enter a product name: momo
+True
+"""
+
+# 8. Write a program that takes a sentence as input and checks whether it contains the letter "a". Use in.
+
+sent = input("Enter a sentence: ")
+
+print("a" in sent)  # Explanation: Checks whether the letter a exists in the entered sentence.
+
+"""output:
+Enter a sentence: I am learning Python
+True
+"""
