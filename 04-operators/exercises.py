@@ -683,3 +683,37 @@ print("a" in sent)  # Explanation: Checks whether the letter a exists in the ent
 Enter a sentence: I am learning Python
 True
 """
+
+# 9. Create a list of usernames. Take a username as input and display "Username already exists" if it is in the list.
+#  Otherwise, display "Username is available".
+
+names = ["park", "baek", "lee"]  # Explanation: Stores three existing usernames in a list.
+
+name = input("Enter a username: ")
+
+if name in names:
+    print("Username already exists")  # Explanation: Displays this if the username is found in the list.
+else:
+    print("Username is available")  # Explanation: Displays this if the username is not found.
+
+"""output:  
+Enter a username: park
+Username already exists"""
+
+# 10. Create a list of five allowed file extensions, such as .py, .html, and .css. Take a filename as input and check whether 
+# it ends with one of the allowed extensions using membership operators. Do not use the in operator on the entire filename
+#  alone; first extract or check its extension.
+
+files = ['.py', '.html', '.css', '.xml', '.js']  # Explanation: Stores five allowed file extensions.
+
+file = input("Enter a filename with extension: ")
+
+extension = "." + file.split(".")[-1]  # Explanation: Extracts the extension from the filename.
+
+print(extension in files)  # Explanation: Checks whether the extracted extension is in the allowed list.
+
+
+"""output:
+Enter a filename with extension: index.html
+True
+"""
