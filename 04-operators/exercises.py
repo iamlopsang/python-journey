@@ -600,3 +600,28 @@ print(word in sentence)  # Explanation: Checks whether the entered word exists i
 """output:
 Enter a word: popular
 True"""
+
+# 3. Create a list of numbers. Take a number as input and use not in to check whether it is absent from the list.
+
+numbers = [4, 5, 7, 2, 6]
+
+number = int(input("Enter a number: "))
+
+print(number not in numbers)  # Explanation: Checks whether the entered number is absent from the list.
+
+"""output:
+Enter a number: 8
+True"""
+
+# 4. Create a tuple containing five country names. Take a country name as input and check whether it exists in the tuple.
+
+countries = ("nepal", "china", "bhutan", "uk", "switzerland")
+
+country = input("Enter a country name: ")
+
+print(country in countries)  # Explanation: Checks whether the entered country exists in the tuple.
+
+"""output:
+Enter a country name: nepal
+True
+"""
