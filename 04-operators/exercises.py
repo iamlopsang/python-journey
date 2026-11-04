@@ -844,3 +844,6 @@ print("OR binary:", bin(or_opr))
 
 print("XOR decimal:", xor_opr)
 print("XOR binary:", bin(xor_opr))
+
+"""Note:
+The bin() function converts an integer into its binary representation (a number made up of 0s and 1s)."""
