@@ -787,6 +787,18 @@ Shift right by 1 = 0010
 Result = 2
 """
 # 7. Take two integers as input. Perform AND, OR, and XOR operations on them, then display all three results with meaningful labels.
+
+x = int(input("Enter a number: "))  # Explanation: Takes the first integer.
+y = int(input("Enter a number: "))  # Explanation: Takes the second integer.
+
+and_opr = x & y  # Explanation: Performs bitwise AND.
+or_opr = x | y  # Explanation: Performs bitwise OR.
+xor_opr = x ^ y  # Explanation: Performs bitwise XOR.
+
+print("AND result:", and_opr)
+print("OR result:", or_opr)
+print("XOR result:", xor_opr)
+
 # 8. Take an integer as input and use bitwise AND with 1 to determine whether the integer is odd or even. Display the result using if-else.
 # 9. Take an integer as input and use bitwise left shift to multiply it by 8. Display the original number and the result.
 # 10. Take two integers as input and display their binary representations. Then perform AND, OR, and XOR operations on
