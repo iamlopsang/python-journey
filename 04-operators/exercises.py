@@ -809,5 +809,19 @@ else:
     print("Even")  # Explanation: Displays this if the number is even.
 
 # 9. Take an integer as input and use bitwise left shift to multiply it by 8. Display the original number and the result.
+
+x = int(input("Enter a number: "))  # Explanation: Takes an integer as input.
+
+y = x << 3  # Explanation: Shifts bits 3 positions left, multiplying by 8.
+
+print("Original number:", x)
+print("Result after left shift:", y)
+
+"""Note:
+x << 1 = multiply by 2
+x << 2 = multiply by 4
+x << 3 = multiply by 8
+"""
+
 # 10. Take two integers as input and display their binary representations. Then perform AND, OR, and XOR operations on
 #  the integers and display the results in both decimal and binary formats.
