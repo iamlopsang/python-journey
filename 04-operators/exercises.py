@@ -825,3 +825,22 @@ x << 3 = multiply by 8
 
 # 10. Take two integers as input and display their binary representations. Then perform AND, OR, and XOR operations on
 #  the integers and display the results in both decimal and binary formats.
+
+x = int(input("Enter a number: "))  # Explanation: Takes the first integer.
+y = int(input("Enter a number: "))  # Explanation: Takes the second integer.
+
+print("Binary of x:", bin(x))  # Explanation: Displays x in binary.
+print("Binary of y:", bin(y))  # Explanation: Displays y in binary.
+
+and_opr = x & y  # Explanation: Performs bitwise AND.
+or_opr = x | y  # Explanation: Performs bitwise OR.
+xor_opr = x ^ y  # Explanation: Performs bitwise XOR.
+
+print("AND decimal:", and_opr)
+print("AND binary:", bin(and_opr))
+
+print("OR decimal:", or_opr)
+print("OR binary:", bin(or_opr))
+
+print("XOR decimal:", xor_opr)
+print("XOR binary:", bin(xor_opr))
