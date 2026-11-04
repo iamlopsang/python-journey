@@ -800,6 +800,14 @@ print("OR result:", or_opr)
 print("XOR result:", xor_opr)
 
 # 8. Take an integer as input and use bitwise AND with 1 to determine whether the integer is odd or even. Display the result using if-else.
+
+x = int(input("Enter a number: "))  # Explanation: Takes an integer as input.
+
+if x & 1:  # Explanation: Checks whether the last binary bit is 1.
+    print("Odd")  # Explanation: Displays this if the number is odd.
+else:
+    print("Even")  # Explanation: Displays this if the number is even.
+
 # 9. Take an integer as input and use bitwise left shift to multiply it by 8. Display the original number and the result.
 # 10. Take two integers as input and display their binary representations. Then perform AND, OR, and XOR operations on
 #  the integers and display the results in both decimal and binary formats.
