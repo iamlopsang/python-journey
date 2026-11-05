@@ -96,20 +96,18 @@
 
     Logical operators are used to combine multiple conditions or reverse the result of a condition.
 
-| Operator | Name | Description | Example |
-|---|---|---|---|
-| `and` | Logical AND | Returns `True` if both conditions are true | `10 > 5 and 10 < 20` → `True` |
-| `or` | Logical OR | Returns `True` if at least one condition is true | `10 < 5 or 10 > 5` → `True` |
-| `not` | Logical NOT | Reverses the result of a condition | `not(10 > 5)` → `False` |
+    | Operator | Name       | Description                                      | Example                      |
+    |---       |---         |---                                               |---                           |
+    | `and`    | Logical AND| Returns `True` if both conditions are true       | `10 > 5 and 10 < 20` → `True`|
+    | `or`     | Logical OR | Returns `True` if at least one condition is true | `10 < 5 or 10 > 5` → `True`  |
+    | `not`    | Logical NOT| Reverses the result of a condition               | `not(10 > 5)` → `False`      |
 
+    Example:
 
+    age = 20
 
-Example:
-
-age = 20
-
-print(age >= 18 and age <= 60)  # Output: True
-print(not age >= 18)            # Output: False
+    print(age >= 18 and age <= 60)  # Output: True
+    print(not age >= 18)            # Output: False
 
 5. Identity Operators (identity.py)
 
