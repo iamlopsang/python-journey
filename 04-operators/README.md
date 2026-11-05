@@ -144,25 +144,24 @@
     print("apple" in fruits)      # Output: True
     print("orange" not in fruits) # Output: True
 
+    7. Bitwise Operators (bitwise.py)
 
-7. Bitwise Operators (bitwise.py)
-
-Bitwise operators are used to perform operations on the binary representation of integers (0s and 1s).
+    Bitwise operators are used to perform operations on the binary representation of integers (0s and 1s).
 
 
-| Operator | Name | Description | Example |
-|---|---|---|---|
-| `&` | AND | Sets each bit to 1 if both bits are 1 | `5 & 3 = 1` |
-| `\|` | OR | Sets each bit to 1 if at least one bit is 1 | `5 \| 3 = 7` |
-| `^` | XOR | Sets each bit to 1 if the bits are different | `5 ^ 3 = 6` |
-| `~` | NOT | Inverts all bits | `~5 = -6` |
-| `<<` | Left Shift | Shifts bits to the left | `5 << 1 = 10` |
-| `>>` | Right Shift | Shifts bits to the right | `5 >> 1 = 2` |
+    | Operator | Name       | Description                                 | Example      |
+    |---       |---         |---                                          |---           |
+    | `&`      | AND        | Sets each bit to 1 if both bits are 1       | `5 & 3 = 1`  |
+    | `\|`     | OR         | Sets each bit to 1 if at least one bit is 1 | `5 \| 3 = 7` |
+    | `^`      | XOR        | Sets each bit to 1 if the bits are different| `5 ^ 3 = 6`  |
+    | `~`      | NOT        | Inverts all bits                            | `~5 = -6`    |
+    | `<<`     | Left Shift | Shifts bits to the left                     | `5 << 1 = 10`|
+    | `>>`     | Right Shift| Shifts bits to the right                    | `5 >> 1 = 2` |
 
-Example:
+    Example:
 
-a = 5
-b = 3
+    a = 5
+    b = 3
 
-print(a & b)  # Output: 1
+    print(a & b)  # Output: 1
 
