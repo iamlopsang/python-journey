@@ -82,7 +82,7 @@
     | `<`      | Less Than             | Checks if the left value is smaller               | `5 < 10` → `True`  |
     | `>=`     | Greater Than or Equal | Checks if the left value is greater than or equal | `10 >= 10` → `True`|
     | `<=`     | Less Than or Equal    | Checks if the left value is smaller than or equal | `5 <= 10` → `True` |
-    
+
     Example:
 
     a = 10
@@ -92,9 +92,9 @@
     print(a == b) # Output: False
 
 
-4. Logical Operators (logical.py)
+    4. Logical Operators (logical.py)
 
-Logical operators are used to combine multiple conditions or reverse the result of a condition.
+    Logical operators are used to combine multiple conditions or reverse the result of a condition.
 
 | Operator | Name | Description | Example |
 |---|---|---|---|
