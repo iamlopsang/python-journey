@@ -11,4 +11,27 @@ their contents can be changed after they are created. Lists can contain elements
  - Allow duplicates: Lists can contain duplicate elements.
  - Indexed: Each element in a list has an index, starting from 0 for the first element.
  - Written with square brackets: Lists are defined using square brackets [].
+
+    Lists are one of the 4 built-in data types in Python used to store collections of data,
+      the other 3 are 
+      > Tuple, 
+      > Set, and 
+      > Dictionary, 
+      all with different qualities and usage.
  """
+
+"""## Creating a List:"""
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)   # Output: ['apple', 'banana', 'cherry']
+
+"""A list can contain elements of different data types, including other lists:"""
+
+student = ["John", 25, 3.5, ["Math", "Science"]]
+print(student)  # Output: ['John', 25, 3.5, ['Math', 'Science']]
+
+"""Empty lists can be created using empty square brackets or the list() constructor:"""
+
+empty_list1 = []
+print(empty_list1)  # Output: []
+
