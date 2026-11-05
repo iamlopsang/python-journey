@@ -109,22 +109,22 @@
     print(age >= 18 and age <= 60)  # Output: True
     print(not age >= 18)            # Output: False
 
-5. Identity Operators (identity.py)
+    5. Identity Operators (identity.py)
 
-Identity operators are used to check whether two variables refer to the same object in memory. They are different from comparison operators, which compare values.
+    Identity operators are used to check whether two variables refer to the same object in memory. They are different from comparison operators, which compare values.
 
 
-| Operator | Name | Description | Example |
-|---|---|---|---|
-| `is` | Identity | Returns `True` if both variables refer to the same object | `a is b` |
-| `is not` | Not Identity | Returns `True` if both variables refer to different objects | `a is not b` |
+    | Operator | Name        | Description                                                | Example     |
+    |---       |---          |---                                                         |---          |
+    | `is`     | Identity    | Returns `True` if both variables refer to the same object  | `a is b`    |
+    | `is not` | Not Identity| Returns `True` if both variables refer to different objects| `a is not b`|
 
-Example:
+    Example:
 
-a = [1, 2, 3]
-b = a
+    a = [1, 2, 3]
+    b = a
 
-print(a is b)  # Output: True
+    print(a is b)  # Output: True
 
 
 6. Membership Operators (membership.py)
