@@ -127,22 +127,22 @@
     print(a is b)  # Output: True
 
 
-6. Membership Operators (membership.py)
+    6. Membership Operators (membership.py)
 
-Membership operators are used to check whether a value exists in a sequence or collection, such as a string, list, tuple, set, or dictionary.
+    Membership operators are used to check whether a value exists in a sequence or collection, such as a string, list, tuple, set, or dictionary.
 
-| Operator | Name | Description | Example |
-|---|---|---|---|
-| `in` | Membership | Returns `True` if a value exists in a sequence | `"apple" in ["apple", "banana"]` → `True` |
-| `not in` | Not Membership | Returns `True` if a value does not exist in a sequence | `"mango" not in ["apple", "banana"]` → `True` |
+    | Operator | Name          | Description                                           | Example                                      |
+    |---       |---            |---                                                    |---                                           |
+    | `in`     | Membership    | Returns `True` if a value exists in a sequence        | `"apple" in ["apple", "banana"]` → `True`    |
+    | `not in` | Not Membership| Returns `True` if a value does not exist in a sequence| `"mango" not in ["apple", "banana"]` → `True`|
 
 
-Example:
+    Example:
 
-fruits = ["apple", "banana", "mango"]
+    fruits = ["apple", "banana", "mango"]
 
-print("apple" in fruits)      # Output: True
-print("orange" not in fruits) # Output: True
+    print("apple" in fruits)      # Output: True
+    print("orange" not in fruits) # Output: True
 
 
 7. Bitwise Operators (bitwise.py)
