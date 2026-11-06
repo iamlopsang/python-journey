@@ -137,3 +137,10 @@ print(fruits)  # Output: ['blueberry', 'cranberry', 'cherry']
  The new values replace the old values in that range.
  Index 0 is blueberry and index 1 is cranberry, so the list becomes ['blueberry', 'cranberry', 'cherry']."""
 
+"""6. List Length:
+
+    > You can find the number of items in a list using the len() function.
+    > The len() function returns the total number of elements in the list.
+    """
+print(len(fruits))  # Output: 3
+
