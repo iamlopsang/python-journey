@@ -57,3 +57,28 @@ print(fruits[-1])  # Output: elderberry
 print(fruits[-2])  # Output: date
 print(fruits[-3])  # Output: cherry
 
+"""3. Range of Lists Items (Slicing):
+    > Slicing allows you to access a range of elements in a list. 
+    The syntax for slicing is list[start:end], where start is the index of the first element to include, 
+    and end is the index of the first element to exclude.
+    > You can also use list[start:end:step] to specify a step value, which determines the interval
+      between elements.
+    > If you omit the start index, it defaults to 0. If you omit the end index, it defaults to the 
+    length of the list."""
+
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+print(fruits[1:4])     # Output: ['banana', 'cherry',
+print(fruits[:3])      # Output: ['apple', 'banana', 'cherry']
+print(fruits[2:])      # Output: ['cherry', 'date', 'elderberry']
+print(fruits[::2])     # Output: ['apple', 'cherry', 'elderberry']
+print(fruits[1:4:2])   # Output: ['banana', 'date']
+print(fruits[-1:-3])   # Output: ['elderberry', 'date', 'cherry']
+
+    ## 3.1. Start from the beginning:
+"""     If you omit the start index, it defaults to 0, meaning that the slice will start from
+        the beginning of the list.
+        """
+
+print(fruits[:3])  # Output: ['apple', 'banana', 'cherry']
+
+"""Note: Starts at the beginning of the list and goes up to, but does not include, the element at index 3."""
