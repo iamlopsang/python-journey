@@ -35,10 +35,11 @@ print(student)  # Output: ['John', 25, 3.5, ['Math', 'Science']]
 empty_list1 = []
 print(empty_list1)  # Output: []
 
-"""1. List Indexing and Slicing:
+"""1. List Items and Indexing:
 
     > Indexing: Each element in a list has an index, starting from 0 for the first element.
-    > Slicing: You can access a range of elements in a list using slicing.
+    > Accessing List Items: You can access individual elements in a list using their index. 
+    The syntax for accessing an element is list[index].
     """
 
 fruits = ["apple", "banana", "cherry", "date", "elderberry"]
@@ -46,9 +47,13 @@ print(fruits[0])  # Output: apple
 print(fruits[1])  # Output: banana
 print(fruits[2])  # Output: cherry
 
+"""2. Negative Indexing:
 
-"""Slicing allows you to access a range of elements in a list. The syntax for slicing is list[start:end],"""
-print(fruits[1:4])  # Output: ['banana', 'cherry', 'date']
-print(fruits[:3])   # Output: ['apple', 'banana', 'cherry']
-print(fruits[3:5])  # Output: ['date', 'elderberry']
+    > Negative indexing allows you to access elements from the end of the list. 
+    The last element has an index of -1, the second last has an index of -2, and so on.
+    """
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+print(fruits[-1])  # Output: elderberry
+print(fruits[-2])  # Output: date
+print(fruits[-3])  # Output: cherry
 
