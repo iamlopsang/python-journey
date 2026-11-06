@@ -144,3 +144,22 @@ print(fruits)  # Output: ['blueberry', 'cranberry', 'cherry']
     """
 print(len(fruits))  # Output: 3
 
+"""7. Adding Items to a List:
+    > You can add a new item to the end of a list using the 'append()' method.
+    > You can also add a new item at a specific index using the 'insert()' method.
+    """
+fruits = ["blueberry", "cranberry", "cherry"]
+fruits.append("fig")  # Add "fig" to the end of the list
+print(fruits)  # Output: ['blueberry', 'cranberry', 'cherry', 'fig']
+
+fruits.insert(1, "grape")  # Insert "grape" at index 1
+print(fruits)  # Output: ['blueberry', 'grape', 'cranberry', 'cherry', 'fig']   
+
+## 7.1. append() method:
+"""     The append() method adds a single item to the end of the list. It takes one argument, which is the item to be added.
+        """
+name = ["Alice", "Bob", "Charlie"]
+name.append("David")  # Add "David" to the end of the list
+print(name)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
+
+
