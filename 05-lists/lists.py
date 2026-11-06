@@ -35,3 +35,20 @@ print(student)  # Output: ['John', 25, 3.5, ['Math', 'Science']]
 empty_list1 = []
 print(empty_list1)  # Output: []
 
+"""1. List Indexing and Slicing:
+
+    > Indexing: Each element in a list has an index, starting from 0 for the first element.
+    > Slicing: You can access a range of elements in a list using slicing.
+    """
+
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+print(fruits[0])  # Output: apple
+print(fruits[1])  # Output: banana
+print(fruits[2])  # Output: cherry
+
+
+"""Slicing allows you to access a range of elements in a list. The syntax for slicing is list[start:end],"""
+print(fruits[1:4])  # Output: ['banana', 'cherry', 'date']
+print(fruits[:3])   # Output: ['apple', 'banana', 'cherry']
+print(fruits[3:5])  # Output: ['date', 'elderberry']
+
