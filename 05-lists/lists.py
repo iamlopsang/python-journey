@@ -115,3 +115,25 @@ else:
 if "orange " not in fruits:
     print("No, 'orange' is not in the fruits list.")  # Output: No, 'orange' is not in the fruits list. 
 
+
+"""5. Changing List Items:
+
+    > Lists are mutable, meaning that you can change their contents after they are created.
+    > You can change the value of a specific item in a list by accessing it using its index and 
+    assigning a new value to it.
+    """
+
+fruits = ["apple", "banana", "cherry"]
+
+fruits[1] = "blueberry"  # Change the second item (index 1) to "blueberry"
+print(fruits)  # Output: ['apple', 'blueberry', 'cherry']   
+
+    ## 5.1. Change Multiple Items:
+"""     You can also change multiple items in a list by specifying a range of indices and assigning new values to that slice."""
+fruits[0:2] = ["blueberry", "cranberry"]  # Change the first two items
+print(fruits)  # Output: ['blueberry', 'cranberry', 'cherry']   
+
+"""Note: The slice 0:2 includes the elements at index 0 and 1, but not the element at index 2.
+ The new values replace the old values in that range.
+ Index 0 is blueberry and index 1 is cranberry, so the list becomes ['blueberry', 'cranberry', 'cherry']."""
+
