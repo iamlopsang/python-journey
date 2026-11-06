@@ -96,3 +96,22 @@ print(fruits[2:])  # Output: ['cherry', 'date', 'elderberry']
 start index and go up to, but not include, the element at the end index.
         """
 print(fruits[-3:-1])  # Output: ['cherry', 'date']
+
+
+"""4. Checking if an Item Exists in a List:
+
+    > You can check if an item exists in a list using the 'in' keyword.
+    > The 'in' keyword returns True if the item is found in the list, and False otherwise."""
+
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+
+if "cherry" in fruits:
+    print("Yes, 'cherry' is in the fruits list.")  # Output: Yes, 'cherry' is in the fruits list.
+else:
+    print("No, 'cherry' is not in the fruits list.")
+
+"""Example of 'not in' list check:"""
+
+if "orange " not in fruits:
+    print("No, 'orange' is not in the fruits list.")  # Output: No, 'orange' is not in the fruits list. 
+
