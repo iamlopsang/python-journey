@@ -82,3 +82,17 @@ print(fruits[-1:-3])   # Output: ['elderberry', 'date', 'cherry']
 print(fruits[:3])  # Output: ['apple', 'banana', 'cherry']
 
 """Note: Starts at the beginning of the list and goes up to, but does not include, the element at index 3."""
+
+    ## 3.2 . Go to the end:
+"""     If you omit the end index, it defaults to the length of the list, meaning that the slice will
+        go to the end of the list.
+        """
+print(fruits[2:])  # Output: ['cherry', 'date', 'elderberry']
+
+"""Note: Starts at index 2 and goes to the end of the list."""
+
+    ## 3.3. Negative range:
+"""     You can also use negative indices in slicing. The slice will start from the element at the 
+start index and go up to, but not include, the element at the end index.
+        """
+print(fruits[-3:-1])  # Output: ['cherry', 'date']
