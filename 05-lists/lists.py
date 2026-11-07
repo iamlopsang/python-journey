@@ -170,4 +170,15 @@ colors = ["red", "green", "blue"]
 colors.insert(1, "yellow")  # Insert "yellow" at index 1
 print(colors)  # Output: ['red', 'yellow', 'green', 'blue']
 
+## 7.3. extend() method:
+"""     The extend() method allows you to add multiple items to the end of a list. 
+It takes an iterable (like another list) as an argument and adds each element of that iterable to 
+the end of the list.
+        """
 
+fruits = ["apple", "banana", "cherry"]
+more_fruits = ["date", "elderberry", "fig"]
+fruits.extend(more_fruits)  # Add all items from more_fruits to fruits
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+
+"""Note: extends() adds the individual elements rather than making the second list one item."""
