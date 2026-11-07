@@ -246,3 +246,18 @@ len(fruits) = 3
 so, index is 0,1,2 
 and  i = 3"""
 
+
+"""10. Sorting a List:
+    > You can sort the items in a list using the 'sort()' method, which sorts the list in ascending order by default.
+    > You can also use the 'sorted()' function to return a new sorted list without modifying the original list.
+    > To sort in descending order, you can use the 'reverse=True' argument with the 'sort()' method or the 'sorted()' function.
+    > The 'sort()' method modifies the original list, while the 'sorted()' function returns a new sorted list.
+    """
+
+## 10.1. sort() method:
+"""     The sort() method sorts the items of the list in place (modifies the original list) in ascending order by default.
+        """
+numbers = [5, 2, 9, 1, 5, 6]
+numbers.sort()  # Sort the list in ascending order
+print(numbers)  # Output: [1, 2, 5, 5, 6, 9]
+
