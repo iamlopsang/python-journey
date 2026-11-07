@@ -222,3 +222,9 @@ print(fruits)  # Output: ['apple', 'cherry', 'date']
 """Note: You can also use del to delete the entire list by using del list_name."""
 
 
+## 8.4. clear() method:
+"""     The clear() method removes all items from the list, leaving it empty.
+        """
+name = ["Alice", "Bob", "Charlie"]
+name.clear()  # Remove all items from the list
+print(name)  # Output: []
