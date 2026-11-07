@@ -211,4 +211,14 @@ print(names)  # Output: ['Alice', 'Charlie', 'David']
 
 """Note: If you call pop() without an index, it will remove and return the last item in the list."""
 
+## 8.3. del statement:
+"""     The del statement can be used to remove an item at a specific index or delete the entire list.
+        """
+
+fruits = ["apple", "banana", "cherry", "date"]
+del fruits[1]  # Remove the item at index 1 ("banana")
+print(fruits)  # Output: ['apple', 'cherry', 'date']
+
+"""Note: You can also use del to delete the entire list by using del list_name."""
+
 
