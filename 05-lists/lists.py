@@ -162,4 +162,12 @@ name = ["Alice", "Bob", "Charlie"]
 name.append("David")  # Add "David" to the end of the list
 print(name)  # Output: ['Alice', 'Bob', 'Charlie', 'David']
 
+## 7.2. insert() method:
+"""     The insert() method allows you to add an item at a specific index in the list. 
+It takes two arguments: the index where the item should be inserted and the item itself.
+        """
+colors = ["red", "green", "blue"]
+colors.insert(1, "yellow")  # Insert "yellow" at index 1
+print(colors)  # Output: ['red', 'yellow', 'green', 'blue']
+
 
