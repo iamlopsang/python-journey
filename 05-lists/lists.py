@@ -228,3 +228,21 @@ print(fruits)  # Output: ['apple', 'cherry', 'date']
 name = ["Alice", "Bob", "Charlie"]
 name.clear()  # Remove all items from the list
 print(name)  # Output: []
+
+"""9. Looping Through a List:
+    > You can loop through the items in a list using a for loop."""
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+"""you can also loop through the list using a while loop with an index."""
+
+for i in range(len(fruits)):
+    print(fruits[i])
+
+"""Explanation:
+len(fruits) = 3
+so, index is 0,1,2 
+and  i = 3"""
+
