@@ -198,3 +198,17 @@ print(colors)  # Output: ['red', 'blue', 'green']
 
 """Note:  If the value appears multiple times in the list, only the first occurrence will be removed.
  If the value is not found, a ValueError will be raised."""
+
+## 8.2. pop() method:
+"""     The pop() method removes and returns the item at the specified index.
+        If no index is specified, it removes and returns the last item in the list.
+        """
+
+names = ["Alice", "Bob", "Charlie", "David"]
+removed_name = names.pop(1)  # Remove the item at index 1 ("Bob")
+print(removed_name)  # Output: Bob
+print(names)  # Output: ['Alice', 'Charlie', 'David']
+
+"""Note: If you call pop() without an index, it will remove and return the last item in the list."""
+
+
