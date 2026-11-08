@@ -326,3 +326,12 @@ print(joined_list)  # Output: ['apple', 'banana', 'cherry', 'date', 'elderberry'
 """Note: The '+' operator creates a new list that contains the elements of both lists, while the 'extend()' method adds the 
 elements of one list to the end of another list."""
 
+## 13.1. extend() method:
+"""     The extend() method adds the elements of one list to the end of another list.
+        """
+
+list1 = ["apple", "banana", "cherry"]
+list2 = ["date", "elderberry", "fig"]
+list1.extend(list2)  # Add the elements of list2 to the end of list1
+print(list1)  # Output: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+
