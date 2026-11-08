@@ -291,3 +291,24 @@ fruits = ["apple", "banana", "cherry"]
 fruits.reverse()  # Reverse the order of the list   
 print(fruits)  # Output: ['cherry', 'banana', 'apple']
 
+"""12. Copying a List:
+    > You can create a copy of a list using the 'copy()' method or the 'list()' constructor.
+    > The 'copy()' method creates a shallow copy of the list, while the 'list()' constructor creates a new list from an existing iterable.
+    """
+
+## 12.1. copy() method:
+"""     The copy() method creates a shallow copy of the list.
+        """
+
+fruits = ["apple", "banana", "cherry"]
+fruits_copy = fruits.copy()  # Create a copy of the list
+print(fruits_copy)  # Output: ['apple', 'banana', 'cherry']
+
+"""you can also use the list() constructor to create a copy of a list."""
+
+fruits = ["apple", "banana", "cherry"]
+fruits_copy = list(fruits)  # Create a copy of the list using the list() constructor
+print(fruits_copy)  # Output: ['apple', 'banana', 'cherry']
+
+"""Note: Both the copy() method and the list() constructor create a shallow copy of the list, meaning that if the list contains 
+mutable objects (like other lists), changes to those objects will be reflected in both the original and copied lists."""
