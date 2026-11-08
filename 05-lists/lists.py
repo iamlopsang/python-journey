@@ -277,3 +277,17 @@ fruits = ["banana", "apple", "cherry", "date"]
 fruits.sort()  # Sort the list in alphabetical order
 print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']
 
+"""Note: The sort() method sorts the list in place, modifying the original list.
+ If you want to keep the original list unchanged, you can use the sorted() function instead."""
+
+"""11. Reversing a List:
+    > You can reverse the order of items in a list using the 'reverse()' method, which modifies the original list.
+    > You can also use slicing to create a new reversed list without modifying the original list.
+    """
+## 11.1. use reverse():
+"""     The reverse() method reverses the order of the items in the list in place (modifies the original list).
+        """
+fruits = ["apple", "banana", "cherry"]
+fruits.reverse()  # Reverse the order of the list   
+print(fruits)  # Output: ['cherry', 'banana', 'apple']
+
