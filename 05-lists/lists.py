@@ -269,3 +269,11 @@ numbers = [5, 2, 9, 1, 5, 6]
 numbers.sort(reverse=True)  # Sort the list in descending order
 print(numbers)  # Output: [9, 6, 5, 5, 2, 1]
 
+## 10.3. sorting strings with sort() method:
+"""     The sort() method can also be used to sort a list of strings in alphabetical order.
+        """
+
+fruits = ["banana", "apple", "cherry", "date"]
+fruits.sort()  # Sort the list in alphabetical order
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']
+
