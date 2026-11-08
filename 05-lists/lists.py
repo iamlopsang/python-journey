@@ -347,3 +347,32 @@ print(students[0][0])  # Output: John
 print(students[0][1])  # Output: 25
 print(students[1][0])  # Output: Alice
 
+"""15. List Comprehensions / constructor:
+    > List comprehensions provide a concise way to create lists based on existing lists or other iterables.
+    > The syntax for a list comprehension is [expression for item in iterable if condition].
+    > You can also use the list() constructor to create a new list from an existing iterable.
+    """
+fruits = list(("apple", "banana", "cherry"))  # Create a list using the list() constructor
+print(fruits)  # Output: ['apple', 'banana', 'cherry']
+
+"""15.1. List Comprehension:
+    > List comprehensions provide a concise way to create lists based on existing lists or other iterables.
+    > The syntax for a list comprehension is [expression for item in iterable if condition].
+    > You can also use the list() constructor to create a new list from an existing iterable.
+    """
+
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [x**2 for x in numbers]  # Create a new list with the squares of the numbers
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+
+"""note: List comprehensions can also include an optional condition to filter the items from the original list.
+ For example, you can create a new list with only the even numbers from the original list using a list comprehension with a condition."""
+
+even_numbers = [x for x in numbers if x % 2 == 0]       
+print(even_numbers)  # Output: [2, 4]
+
+"""Explanation:
+ The list comprehension [x for x in numbers if x % 2 == 0] iterates through each element x in the original list numbers.
+ It checks if x is even (x % 2 == 0) and includes it in the new list even_numbers if the condition is True.
+ As a result, even_numbers contains only the even numbers from the original list, which are 2 and 4.
+ """
