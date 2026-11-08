@@ -335,3 +335,15 @@ list2 = ["date", "elderberry", "fig"]
 list1.extend(list2)  # Add the elements of list2 to the end of list1
 print(list1)  # Output: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
 
+"""14. Nested Lists:
+    > A nested list is a list that contains other lists as its elements."""
+
+students = [["John", 25],
+            ["Alice", 22],
+            ["Bob", 23]]
+print(students)  # Output: [['John', 25], ['Alice', 22], ['Bob', 23]]
+print(students[0])  # Output: ['John', 25]
+print(students[0][0])  # Output: John
+print(students[0][1])  # Output: 25
+print(students[1][0])  # Output: Alice
+
