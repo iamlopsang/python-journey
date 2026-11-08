@@ -312,3 +312,17 @@ print(fruits_copy)  # Output: ['apple', 'banana', 'cherry']
 
 """Note: Both the copy() method and the list() constructor create a shallow copy of the list, meaning that if the list contains 
 mutable objects (like other lists), changes to those objects will be reflected in both the original and copied lists."""
+
+"""13. Joining Lists:
+    > You can join two or more lists using the '+' operator or the 'extend()' method.
+    > The '+' operator creates a new list that contains the elements of both lists, while the 'extend()' method 
+    adds the elements of one list to the end of another list."""
+
+list1 = ["apple", "banana", "cherry"]
+list2 = ["date", "elderberry", "fig"]
+joined_list = list1 + list2  # Join the two lists using the '+' operator
+print(joined_list)  # Output: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig']
+
+"""Note: The '+' operator creates a new list that contains the elements of both lists, while the 'extend()' method adds the 
+elements of one list to the end of another list."""
+
