@@ -261,3 +261,11 @@ numbers = [5, 2, 9, 1, 5, 6]
 numbers.sort()  # Sort the list in ascending order
 print(numbers)  # Output: [1, 2, 5, 5, 6, 9]
 
+## 10.2. descending order with sort() method:
+"""     You can sort the list in descending order by using the 'reverse=True' argument with the sort() method.
+        """ 
+
+numbers = [5, 2, 9, 1, 5, 6]
+numbers.sort(reverse=True)  # Sort the list in descending order
+print(numbers)  # Output: [9, 6, 5, 5, 2, 1]
+
