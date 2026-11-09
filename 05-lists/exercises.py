@@ -72,13 +72,26 @@ print(customer)
 
 # 9. Create two separate lists: one containing five even numbers and another containing five odd numbers.
 
-# even = [2,4,6,8,10]
-# odd= [1,3,5,7,9,11]
-# print(even)
-# print(odd)
+# Creating a list of five even numbers
+even = [2, 4, 6, 8, 10]
+
+# Creating a list of five odd numbers
+odd = [1, 3, 5, 7, 9]
+
+# Printing both lists
+print(even)
+print(odd)
 
 # 10. Create a list containing the names of five programming languages and print the total list.
 
-# language = ["python", "c", "c++", "java","js"]
-# total_list = len(language)
-# print(total_list)
+# Creating a list of five programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Printing the complete list
+print(language)
+
+# Counting the total number of items
+total_list = len(language)
+
+# Printing the total count
+print(total_list)
