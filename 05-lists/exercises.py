@@ -54,13 +54,21 @@ print(students[4])  # Prints Radha
 
 # 7. Create a list containing duplicate values and display it.
 
-# color = ["red", "white", "gold", "red","blue"]
-# print(color)
+# Creating a list containing duplicate values
+
+color = ["red", "white", "gold", "red", "blue"]
+
+# Printing the list
+print(color)
 
 # 8. Create a list containing three different data types: string, integer, and float.
 
-# customer=["Kathmandu", 3345, 456.89]
-# print(customer)
+# Creating a list with string, integer, and float values
+
+customer = ["Kathmandu", 3345, 456.89]
+
+# Printing the list
+print(customer)
 
 # 9. Create two separate lists: one containing five even numbers and another containing five odd numbers.
 
