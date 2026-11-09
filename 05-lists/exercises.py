@@ -4,14 +4,18 @@ This file contains a series of exercises to help you practice working with Pytho
 """ Creating Lists """ 
 # 1. Create a list containing five different fruits and print the list.
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# print(fruits)
+# Creating a list of five different fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
 
+# Printing the complete list
+print(fruits)
 # 2. Create a list containing five integer numbers.
 
-# numbers= [1,2,3,4,6,]
-# print(numbers)
+# Creating a list of five integers
+numbers = [1, 2, 3, 4, 6]
 
+# Printing the list
+print(numbers)
 # 3. Create a list containing your name, age, GPA, and student status.
 
 # student=["Leon", 26, 3.89, "Active"]
