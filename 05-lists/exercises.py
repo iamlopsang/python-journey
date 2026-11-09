@@ -18,13 +18,19 @@ numbers = [1, 2, 3, 4, 6]
 print(numbers)
 # 3. Create a list containing your name, age, GPA, and student status.
 
-# student=["Leon", 26, 3.89, "Active"]
-# print(student)
+# Creating a list with different data types
+student = ["Leon", 26, 3.89, "Active"]
+
+# Printing student information
+print(student)
 
 # 4. Create an empty list and print it.
 
-# fruits=[]
-# print(fruits)
+# Creating an empty list
+fruits = []
+
+# Printing the empty list
+print(fruits)
 
 # 5. Create a list containing both integers and strings.
 
