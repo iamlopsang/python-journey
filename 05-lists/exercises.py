@@ -132,15 +132,25 @@ print(color[-2])
 
 # 5. Create a list of seven numbers and print the first, fourth, and last items.
 
-# numbers= [2,55,67,8,90,55, 11]
-# print(numbers[0])
-# print(numbers[3])
-# print(numbers[6])
+# Creating a list of seven numbers
+numbers = [2, 55, 67, 8, 90, 55, 11]
+
+# Accessing the first item
+print(numbers[0])
+
+# Accessing the fourth item
+print(numbers[3])
+
+# Accessing the last item
+print(numbers[6])
 
 # 6. Create a list of five student names and access the name at index 2.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# print(students[2])
+# Creating a list of five student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# Accessing the item at index 2
+print(students[2])
 
 
 # 7. Create a list of six programming languages and print the first and last languages.
