@@ -95,3 +95,56 @@ total_list = len(language)
 
 # Printing the total count
 print(total_list)
+
+""" 2. Accessing List Items"""
+
+# 1. Create a list of five fruits and print the first item.
+
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Accessing the first item using index 0
+print(fruits[0])
+
+# 2. Create a list of five countries and print the third item.
+
+# Creating a list of five countries
+countries = ["Nepal", "Bhutan", "China", "Maldives", "UK"]
+
+# Accessing the third item using index 2
+print(countries[2])
+
+# 3. Create a list of six numbers and print the last item using positive indexing.
+
+# numbers= [2,55,67,8,90,55]
+# print(numbers[5])
+
+# 4. Create a list of five colors and print the second-last item using negative indexing.
+# color = ["red", "white", "gold", "orange", "blue"]
+# print(color[-2])
+
+# 5. Create a list of seven numbers and print the first, fourth, and last items.
+
+# numbers= [2,55,67,8,90,55, 11]
+# print(numbers[0])
+# print(numbers[3])
+# print(numbers[6])
+
+# 6. Create a list of five student names and access the name at index 2.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# print(students[2])
+
+
+# 7. Create a list of six programming languages and print the first and last languages.
+
+# language = ["python", "c", "c++", "java", "js", "c#"]
+# print(language[0])
+# print(language[5])
+
+# 8. Create a list of five animals and access the items using negative indexes -1, -3, and -5.
+
+# animals=["cat","dog", "tiger", "lion","goat"]
+# print(animals[-1])
+# print(animals[-3])
+# print(animals[-5])
