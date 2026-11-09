@@ -34,17 +34,23 @@ print(fruits)
 
 # 5. Create a list containing both integers and strings.
 
-# friends = [6, 7, "hello", 9, "hi"]
-# print(friends)
+# Creating a list containing integers and strings
+friends = [6, 7, "hello", 9, "hi"]
+
+# Printing the list
+print(friends)
 
 # 6. Create a list containing five different student names. Print each item using print().
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# print(students[0])
-# print(students[1])
-# print(students[2])
-# print(students[3])
-# print(students[4])
+# Creating a list of five student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# Printing each item using its index
+print(students[0])  # Prints Ram
+print(students[1])  # Prints Shyan
+print(students[2])  # Prints Laxmi
+print(students[3])  # Prints Sita
+print(students[4])  # Prints Radha
 
 # 7. Create a list containing duplicate values and display it.
 
