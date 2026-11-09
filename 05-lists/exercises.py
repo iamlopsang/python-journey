@@ -116,12 +116,19 @@ print(countries[2])
 
 # 3. Create a list of six numbers and print the last item using positive indexing.
 
-# numbers= [2,55,67,8,90,55]
-# print(numbers[5])
+# Creating a list of six numbers
+numbers = [2, 55, 67, 8, 90, 55]
+
+# Accessing the last item using positive indexing
+print(numbers[5])
 
 # 4. Create a list of five colors and print the second-last item using negative indexing.
-# color = ["red", "white", "gold", "orange", "blue"]
-# print(color[-2])
+
+# Creating a list of five colors
+color = ["red", "white", "gold", "orange", "blue"]
+
+# Accessing the second-last item using negative indexing
+print(color[-2])
 
 # 5. Create a list of seven numbers and print the first, fourth, and last items.
 
