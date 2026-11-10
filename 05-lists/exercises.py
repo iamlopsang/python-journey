@@ -317,10 +317,22 @@ print(countries[2:])
 
 # 5. Create a list of ten numbers and print every second element.
 
-# numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
-# print(numbers[0:2:])
+# Creating a list of ten numbers
+numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+
+# Printing every second element using step value 2
+print(numbers[::2])
+
+# output:
+[1, 7, 2, 7, 11]
 
 # 6. Create a list of eight colors and print elements from index 1 to index 6.
 
-# colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "black"]
-# print(colors[1:7])
+# Creating a list of eight colors
+colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "black"]
+
+# Accessing elements from index 1 to index 6
+print(colors[1:7])
+
+# output:
+# ['blue', 'green', 'yellow', 'orange', 'purple', 'pink']
