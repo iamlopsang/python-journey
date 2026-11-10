@@ -9,6 +9,10 @@ fruits = ["apple", "banana", "orange", "cherry", "melon"]
 
 # Printing the complete list
 print(fruits)
+
+# output:
+['apple', 'banana', 'orange', 'cherry', 'melon']
+
 # 2. Create a list containing five integer numbers.
 
 # Creating a list of five integers
@@ -16,6 +20,10 @@ numbers = [1, 2, 3, 4, 6]
 
 # Printing the list
 print(numbers)
+
+# output:
+[1, 2, 3, 4, 6]
+
 # 3. Create a list containing your name, age, GPA, and student status.
 
 # Creating a list with different data types
@@ -155,13 +163,21 @@ print(students[2])
 
 # 7. Create a list of six programming languages and print the first and last languages.
 
-# language = ["python", "c", "c++", "java", "js", "c#"]
-# print(language[0])
-# print(language[5])
+# Creating a list of six programming languages
+language = ["python", "c", "c++", "java", "js", "c#"]
+
+# Accessing the first language
+print(language[0])
+
+# Accessing the last language
+print(language[5])
 
 # 8. Create a list of five animals and access the items using negative indexes -1, -3, and -5.
 
-# animals=["cat","dog", "tiger", "lion","goat"]
-# print(animals[-1])
-# print(animals[-3])
-# print(animals[-5])
+# Creating a list of five animals
+animals = ["cat", "dog", "tiger", "lion", "goat"]
+
+# Accessing items using negative indexing
+print(animals[-1])  # Last item
+print(animals[-3])  # Third-last item
+print(animals[-5])  # First item
