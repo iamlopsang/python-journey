@@ -32,6 +32,9 @@ student = ["Leon", 26, 3.89, "Active"]
 # Printing student information
 print(student)
 
+# output:
+['Leon', 26, 3.89, 'Active']
+
 # 4. Create an empty list and print it.
 
 # Creating an empty list
@@ -40,6 +43,9 @@ fruits = []
 # Printing the empty list
 print(fruits)
 
+# output:   
+[]
+
 # 5. Create a list containing both integers and strings.
 
 # Creating a list containing integers and strings
@@ -47,6 +53,9 @@ friends = [6, 7, "hello", 9, "hi"]
 
 # Printing the list
 print(friends)
+
+# output:
+[6, 7, 'hello', 9, 'hi']
 
 # 6. Create a list containing five different student names. Print each item using print().
 
@@ -60,6 +69,13 @@ print(students[2])  # Prints Laxmi
 print(students[3])  # Prints Sita
 print(students[4])  # Prints Radha
 
+# output:
+# Ram
+# Shyan
+# Laxmi
+# Sita
+# Radha
+
 # 7. Create a list containing duplicate values and display it.
 
 # Creating a list containing duplicate values
@@ -69,6 +85,11 @@ color = ["red", "white", "gold", "red", "blue"]
 # Printing the list
 print(color)
 
+# output:
+['red', 'white', 'gold', 'red', 'blue']
+
+"""Note: Lists allow duplicate values. Here, "red" appears twice."""
+
 # 8. Create a list containing three different data types: string, integer, and float.
 
 # Creating a list with string, integer, and float values
@@ -77,6 +98,9 @@ customer = ["Kathmandu", 3345, 456.89]
 
 # Printing the list
 print(customer)
+
+# output:
+['Kathmandu', 3345, 456.89]
 
 # 9. Create two separate lists: one containing five even numbers and another containing five odd numbers.
 
@@ -89,6 +113,10 @@ odd = [1, 3, 5, 7, 9]
 # Printing both lists
 print(even)
 print(odd)
+
+# output:
+[2, 4, 6, 8, 10]
+[1, 3, 5, 7, 9]
 
 # 10. Create a list containing the names of five programming languages and print the total list.
 
@@ -103,6 +131,10 @@ total_list = len(language)
 
 # Printing the total count
 print(total_list)
+
+# output:
+['python', 'c', 'c++', 'java', 'js']
+5
 
 """ 2. Accessing List Items"""
 
