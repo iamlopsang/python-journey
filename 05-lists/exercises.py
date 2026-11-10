@@ -269,3 +269,26 @@ print(movies[3])
 # output:
 # Inception
 # Avatar
+
+"""List Slicing """
+# 1. Create a list of ten numbers and print the first five elements.
+
+# Creating a list of ten numbers
+numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+
+# Accessing the first five elements using slicing
+print(numbers[0:5])
+
+# output:
+[1, 5, 7, 9, 2]
+
+# 2. Create a list of eight fruits and print elements from index 2 to index 5.
+
+# Creating a list of eight fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes", "pineapple", "watermelon", "strawberry"]
+
+# Accessing elements from index 2 to index 5
+print(fruits[2:6])
+
+# output:
+['orange', 'mango', 'grapes', 'pineapple']
