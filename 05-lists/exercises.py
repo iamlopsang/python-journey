@@ -146,6 +146,9 @@ fruits = ["apple", "banana", "orange", "cherry", "melon"]
 # Accessing the first item using index 0
 print(fruits[0])
 
+# output:
+# apple
+
 # 2. Create a list of five countries and print the third item.
 
 # Creating a list of five countries
@@ -153,6 +156,9 @@ countries = ["Nepal", "Bhutan", "China", "Maldives", "UK"]
 
 # Accessing the third item using index 2
 print(countries[2])
+
+# output:
+# China
 
 # 3. Create a list of six numbers and print the last item using positive indexing.
 
@@ -162,6 +168,9 @@ numbers = [2, 55, 67, 8, 90, 55]
 # Accessing the last item using positive indexing
 print(numbers[5])
 
+# output:
+# 55
+
 # 4. Create a list of five colors and print the second-last item using negative indexing.
 
 # Creating a list of five colors
@@ -169,6 +178,9 @@ color = ["red", "white", "gold", "orange", "blue"]
 
 # Accessing the second-last item using negative indexing
 print(color[-2])
+
+# output:
+# orange
 
 # 5. Create a list of seven numbers and print the first, fourth, and last items.
 
@@ -184,6 +196,9 @@ print(numbers[3])
 # Accessing the last item
 print(numbers[6])
 
+# output:
+# 11
+
 # 6. Create a list of five student names and access the name at index 2.
 
 # Creating a list of five student names
@@ -192,6 +207,8 @@ students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
 # Accessing the item at index 2
 print(students[2])
 
+# output:
+# Laxmi
 
 # 7. Create a list of six programming languages and print the first and last languages.
 
