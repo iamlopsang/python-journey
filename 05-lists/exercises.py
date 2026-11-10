@@ -292,3 +292,35 @@ print(fruits[2:6])
 
 # output:
 ['orange', 'mango', 'grapes', 'pineapple']
+
+# 3. Create a list of ten numbers and print the last three elements using slicing.
+
+# Creating a list of ten numbers
+numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+
+# Accessing the last three elements using slicing
+print(numbers[7:])
+
+# output:
+[3, 11, 15]
+
+# 4. Create a list of seven countries and print everything except the first two elements.
+
+# Creating a list of seven countries
+countries = ["Nepal", "India", "China", "Japan", "Bhutan", "Australia", "United Kingdom"]
+
+# Printing everything except the first two elements
+print(countries[2:])
+
+# output:
+# ['China', 'Japan', 'Bhutan', 'Australia', 'United Kingdom']
+
+# 5. Create a list of ten numbers and print every second element.
+
+# numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+# print(numbers[0:2:])
+
+# 6. Create a list of eight colors and print elements from index 1 to index 6.
+
+# colors = ["red", "blue", "green", "yellow", "orange", "purple", "pink", "black"]
+# print(colors[1:7])
