@@ -221,6 +221,9 @@ print(language[0])
 # Accessing the last language
 print(language[5])
 
+# output:
+# c#
+
 # 8. Create a list of five animals and access the items using negative indexes -1, -3, and -5.
 
 # Creating a list of five animals
@@ -231,16 +234,38 @@ print(animals[-1])  # Last item
 print(animals[-3])  # Third-last item
 print(animals[-5])  # First item
 
+# output:
+# goat
+# tiger
+# cat
+
 # 9. Create a list of eight numbers and print the items at indexes 1, 3, 5, and 7.
 
-# nmbers = [1,3,5,7,9,44,56,78]
-# print(numbers[1])
-# print(numbers[3])
-# print(numbers[5])
-# print(numbers[7])
+# Creating a list of eight numbers
+numbers = [1, 3, 5, 7, 9, 44, 56, 78]
+
+# Accessing items at indexes 1, 3, 5, and 7
+print(numbers[1])
+print(numbers[3])
+print(numbers[5])
+print(numbers[7])
+
+# output:
+# 3
+# 44
+# 56
 
 # 10. Create a list containing your five favorite movies and print the second and fourth movies.
 
-# movies = ["Interstellar", "Inception", "Titanic", "Avatar", "The Dark Knight"]
-# print(movies[1])
-# print(movies[3])
+# Creating a list of five favorite movies
+movies = ["Interstellar", "Inception", "Titanic", "Avatar", "The Dark Knight"]
+
+# Accessing the second movie
+print(movies[1])
+
+# Accessing the fourth movie
+print(movies[3])
+
+# output:
+# Inception
+# Avatar
