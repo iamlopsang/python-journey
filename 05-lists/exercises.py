@@ -213,3 +213,17 @@ animals = ["cat", "dog", "tiger", "lion", "goat"]
 print(animals[-1])  # Last item
 print(animals[-3])  # Third-last item
 print(animals[-5])  # First item
+
+# 9. Create a list of eight numbers and print the items at indexes 1, 3, 5, and 7.
+
+# nmbers = [1,3,5,7,9,44,56,78]
+# print(numbers[1])
+# print(numbers[3])
+# print(numbers[5])
+# print(numbers[7])
+
+# 10. Create a list containing your five favorite movies and print the second and fourth movies.
+
+# movies = ["Interstellar", "Inception", "Titanic", "Avatar", "The Dark Knight"]
+# print(movies[1])
+# print(movies[3])
