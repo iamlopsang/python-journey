@@ -367,13 +367,30 @@ Explanation:
 
 # 9. Create a list of ten numbers and print elements from index 2 to index 8 with a step of 2.
 
-# numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
-# print(numbers[2:9:2])
+# Creating a list of ten numbers
+numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+
+# Printing elements from index 2 to index 8 with a step of 2
+print(numbers[2:9:2])
+
+# output:
+[7, 2, 7, 11]
 
 # 10. Create a list of six programming languages and print the last three elements using negative indexing and slicing.
 
-# language = ["python", "c", "c++", "java", "js", "c#"]
-# print(language[-1:-4])
+# Creating a list of six programming languages
+language = ["python", "c", "c++", "java", "js", "c#"]
+
+# Printing the last three elements using negative indexing
+print(language[-3:])
+
+# output:
+['java', 'js', 'c#']
+
+"""note:
+Explanation:
+- -3 = Third-last item.
+- Empty ending index = Continue to the end."""
 
 # 4. Checking Items in a List — 10 Questions
 # 1. Create a list of five fruits and check whether "apple" exists in it.
