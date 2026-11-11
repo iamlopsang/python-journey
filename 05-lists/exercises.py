@@ -461,7 +461,61 @@ print("python" in language)
 # output:
 # True
 
+"""Note:
+Python is case-sensitive. "Python" with a capital P would return False because your list contains lowercase "python"."""
+
 # 7. Create a list of five animals and check whether "lion" is absent using not in.
 
-# animals = ["cat", "dog", "tiger", "lion", "goat"]
-#  print("lion" not in animals)
+# Creating a list of five animals
+animals = ["cat", "dog", "tiger", "lion", "goat"]
+
+# Checking whether lion is absent from the list
+print("lion" not in animals)
+
+# output:
+# False
+
+# 8. Create a list of numbers and check whether both 20 and 30 exist.
+
+# Creating a list of numbers
+numbers = [1, 5, 7, 9, 30]
+
+# Checking whether both 20 and 30 exist in the list
+if 20 in numbers and 30 in numbers:
+    print("Both numbers exist.")
+else:
+    print("Both numbers do not exist.")
+
+# output:
+# Both numbers do not exist.
+
+# 9. Create a list of fruits and check whether "mango" exists. Display an appropriate message depending on the result.
+
+# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+
+# if "mango" in fruits:
+# 	print("yes, it is")
+# else:
+# 	print("it is not")
+
+# 10. Ask the user to enter a fruit name and check whether that fruit exists in your predefined list.
+
+# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+
+# fruit = input("enter a fruit name:")
+
+# print (fruit in fruits)
+
+# 5. Changing List Items — 10 Questions
+
+# 1. Create a list of five fruits and change the first item to "mango".
+
+# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+# fruits[0] = "mango"
+# print(fruits)
+
+# 2. Create a list of five numbers and change the third number to 100.
+
+# numbers = [1, 5, 7, 9, 2]
+# numbers[2]=100
+# print(numbers)
