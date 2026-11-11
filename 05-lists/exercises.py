@@ -441,14 +441,25 @@ if "blue" in color:
 
 # 5. Create a list of student names and check whether a particular name exists.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# Creating a list of student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
 
-# print("Gita" in students)
+# Checking whether Gita exists
+print("Gita" in students)
+
+# output:
+# False
 
 # 6. Create a list of programming languages and check whether "Python" is present using in.
 
-# language = ["python", "c", "c++", "java", "js", "c#"]
-# print("python" in language)
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js", "c#"]
+
+# Checking whether python exists
+print("python" in language)
+
+# output:
+# True
 
 # 7. Create a list of five animals and check whether "lion" is absent using not in.
 
