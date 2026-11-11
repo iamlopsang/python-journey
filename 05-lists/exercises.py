@@ -392,28 +392,52 @@ Explanation:
 - -3 = Third-last item.
 - Empty ending index = Continue to the end."""
 
-# 4. Checking Items in a List — 10 Questions
+""" Checking Items in a List """
+
 # 1. Create a list of five fruits and check whether "apple" exists in it.
 
-# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes"]
 
-# print("apple" in fruits)
+# Checking whether apple exists
+print("apple" in fruits)
+
+# output:
+# True
 
 # 2. Create a list of five countries and check whether "Nepal" exists.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
-# print("Nepal" in countries)
+# Creating a list of five countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+
+# Checking whether Nepal exists
+print("Nepal" in countries)
+
+# output:
+# True
 
 # 3. Create a list of five numbers and check whether 10 is not present.
 
-# numbers = [1, 5, 7, 9, 2]
+# Creating a list of five numbers
+numbers = [1, 5, 7, 9, 2]
 
-# print(10 in numbers)
+# Checking whether 10 is not present
+print(10 not in numbers)
+
+# output:
+# True
 
 # 4. Create a list of five colors. Use an if statement to check whether "blue" exists.
 
-# color = ["red", "white", "gold", "orange", "blue"]
-# print("blue" in color)
+# Creating a list of five colors
+color = ["red", "white", "gold", "orange", "blue"]
+
+# Checking whether blue exists using an if statement
+if "blue" in color:
+    print("Blue exists in the list.")
+
+# output:
+# Blue exists in the list.
 
 # 5. Create a list of student names and check whether a particular name exists.
 
