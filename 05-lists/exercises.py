@@ -336,3 +336,80 @@ print(colors[1:7])
 
 # output:
 # ['blue', 'green', 'yellow', 'orange', 'purple', 'pink']
+
+# 7. Create a list of ten numbers and print the elements from the beginning up to index 4.
+
+# Creating a list of ten numbers
+numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+
+# Printing elements from the beginning up to index 4
+print(numbers[:5])
+
+# output:
+[1, 5, 7, 9, 2]
+
+# 8. Create a list of eight fruits and extract the elements using negative slicing.
+
+# Creating a list of eight fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes", "pineapple", "watermelon", "strawberry"]
+
+# Extracting all elements using negative slicing in reverse order
+print(fruits[-1:-9:-1])
+
+# output:
+"""['strawberry', 'watermelon', 'pineapple', 'grapes', 'mango', 'orange', 'banana', 'apple']"""
+
+"""Note: 
+Explanation:
+- -1 = Starting from the last item.
+- -9 = Ending position (excluded).
+- -1 = Moves backward."""
+
+# 9. Create a list of ten numbers and print elements from index 2 to index 8 with a step of 2.
+
+# numbers = [1, 5, 7, 9, 2, 5, 7, 3, 11, 15]
+# print(numbers[2:9:2])
+
+# 10. Create a list of six programming languages and print the last three elements using negative indexing and slicing.
+
+# language = ["python", "c", "c++", "java", "js", "c#"]
+# print(language[-1:-4])
+
+# 4. Checking Items in a List — 10 Questions
+# 1. Create a list of five fruits and check whether "apple" exists in it.
+
+# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+
+# print("apple" in fruits)
+
+# 2. Create a list of five countries and check whether "Nepal" exists.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+# print("Nepal" in countries)
+
+# 3. Create a list of five numbers and check whether 10 is not present.
+
+# numbers = [1, 5, 7, 9, 2]
+
+# print(10 in numbers)
+
+# 4. Create a list of five colors. Use an if statement to check whether "blue" exists.
+
+# color = ["red", "white", "gold", "orange", "blue"]
+# print("blue" in color)
+
+# 5. Create a list of student names and check whether a particular name exists.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# print("Gita" in students)
+
+# 6. Create a list of programming languages and check whether "Python" is present using in.
+
+# language = ["python", "c", "c++", "java", "js", "c#"]
+# print("python" in language)
+
+# 7. Create a list of five animals and check whether "lion" is absent using not in.
+
+# animals = ["cat", "dog", "tiger", "lion", "goat"]
+#  print("lion" not in animals)
