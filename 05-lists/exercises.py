@@ -521,16 +521,32 @@ else:
 # Enter a fruit name: mango
 # Yes, the fruit exists in the list.
 
-# 5. Changing List Items — 10 Questions
+""" Changing List Items """
 
 # 1. Create a list of five fruits and change the first item to "mango".
 
-# fruits = ["apple", "banana", "orange", "mango", "grapes"]
-# fruits[0] = "mango"
-# print(fruits)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes"]
+
+# Changing the first item to mango
+fruits[0] = "mango"
+
+# Printing the updated list
+print(fruits)
+
+# output:
+# ['mango', 'banana', 'orange', 'mango', 'grapes']
 
 # 2. Create a list of five numbers and change the third number to 100.
 
-# numbers = [1, 5, 7, 9, 2]
-# numbers[2]=100
-# print(numbers)
+# Creating a list of five numbers
+numbers = [1, 5, 7, 9, 2]
+
+# Changing the third number to 100
+numbers[2] = 100
+
+# Printing the updated list
+print(numbers)
+
+# output:
+# [1, 5, 100, 9, 2]
