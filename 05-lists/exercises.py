@@ -491,20 +491,35 @@ else:
 
 # 9. Create a list of fruits and check whether "mango" exists. Display an appropriate message depending on the result.
 
-# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+# Creating a list of fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes"]
 
-# if "mango" in fruits:
-# 	print("yes, it is")
-# else:
-# 	print("it is not")
+# Checking whether mango exists in the list
+if "mango" in fruits:
+    print("Yes, mango exists in the list.")
+else:
+    print("Mango does not exist in the list.")
+
+# output:
+# Yes, mango exists in the list.
 
 # 10. Ask the user to enter a fruit name and check whether that fruit exists in your predefined list.
 
-# fruits = ["apple", "banana", "orange", "mango", "grapes"]
+# Creating a predefined list of fruits
+fruits = ["apple", "banana", "orange", "mango", "grapes"]
 
-# fruit = input("enter a fruit name:")
+# Asking the user to enter a fruit name
+fruit = input("Enter a fruit name: ")
 
-# print (fruit in fruits)
+# Checking whether the entered fruit exists in the list
+if fruit in fruits:
+    print("Yes, the fruit exists in the list.")
+else:
+    print("No, the fruit does not exist in the list.")
+
+# output:
+# Enter a fruit name: mango
+# Yes, the fruit exists in the list.
 
 # 5. Changing List Items — 10 Questions
 
