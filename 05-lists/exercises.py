@@ -579,15 +579,29 @@ print(countries)
 
 # 5. Create a list of five student names and replace the third name with another name.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# students[2] = "John"
-# print(students)
+# Creating a list of five student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# Replacing the third name with John
+students[2] = "John"
+
+print(students)
+
+# output:
+# ['Ram', 'Shyan', 'John', 'Sita', 'Radha']
 
 # 6. Create a list of six numbers and change the first three elements using slicing.
 
+# # Creating a list of numbers
 # numbers = [2, 55, 67, 8, 90, 55, 11]
-# numbers[0:3]=[4,7,9]
+
+# # Replacing the first three elements
+# numbers[0:3] = [4, 7, 9]
+
 # print(numbers)
+
+# # output:
+# # [4, 7, 9, 8, 90, 55, 11]
 
 # 7. Create a list of five fruits and replace the second and third elements with two different fruits.
 
