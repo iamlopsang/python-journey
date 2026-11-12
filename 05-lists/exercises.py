@@ -566,9 +566,16 @@ print(color)
 
 # 4. Create a list of six countries and change the second item to "Japan".
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey"]
-# countries[1] = "Japan"
-# print(countries)
+# Creating a list of six countries
+countries = ["Nepal", "Bhutan", "China", "Australia", "United Kingdom", "Turkey"]
+
+# Changing the second item to Japan
+countries[1] = "Japan"
+
+print(countries)
+
+# output:
+# ['Nepal', 'Japan', 'China', 'Australia', 'United Kingdom', 'Turkey']
 
 # 5. Create a list of five student names and replace the third name with another name.
 
