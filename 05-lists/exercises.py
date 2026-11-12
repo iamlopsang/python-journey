@@ -705,10 +705,22 @@ print(len(info))
 
 # 5. Create a list of student names and display how many students are in the list.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# print(len(students))
+# Creating a list of student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# Counting the students
+print(len(students))
+
+# output:
+# 5
 
 # 6. Create a list of seven countries and find its length.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada"]
-# print(len(countries))
+# Creating a list of seven countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada"]
+
+# Finding the length
+print(len(countries))
+
+# output:
+# 7
