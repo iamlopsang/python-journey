@@ -614,13 +614,20 @@ fruits[1:3] = ["lemon", "tomato"]
 print(fruits)
 
 # output:
+# ['apple', 'lemon', 'tomato', 'cherry', 'melon']
 
 # 8. Create a list of eight numbers and replace the elements from index 2 to index 5 with [100, 200].
 
-# numbers = [2, 55, 67, 8, 90, 55, 11, 15]
-# numbers[2]=100
-# numbers[5]=200
-# print(numbers)
+# Creating a list of eight numbers
+numbers = [2, 55, 67, 8, 90, 55, 11, 15]
+
+# Replacing elements from index 2 up to index 5
+numbers[2:6] = [100, 200]
+
+print(numbers)
+
+# output:
+# [2, 55, 100, 200, 11, 15]
 
 # 9. Create a list of five programming languages and update the first and last elements.
 
