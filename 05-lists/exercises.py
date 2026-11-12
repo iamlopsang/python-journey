@@ -631,13 +631,27 @@ print(numbers)
 
 # 9. Create a list of five programming languages and update the first and last elements.
 
-# language = ["python", "c", "c++", "java", "js"]
-# language[0]="php"
-# language[4]="xml"
-# print(language)
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Updating the first and last elements
+language[0] = "php"
+language[4] = "xml"
+
+print(language)
+
+# output:
+# ['php', 'c', 'c++', 'java', 'xml']
 
 # 10. Create a list of seven numbers and replace the middle three elements with [50, 60, 70] using slicing.
 
-# numbers = [2, 55, 67, 8, 90, 55, 11]
-# numbers[2:5]=[50, 60, 70]
-# print(numbers)
+# Creating a list of seven numbers
+numbers = [2, 55, 67, 8, 90, 55, 11]
+
+# Replacing the middle three elements
+numbers[2:5] = [50, 60, 70]
+
+print(numbers)
+
+# output:
+# [2, 55, 50, 60, 70, 55, 11]
