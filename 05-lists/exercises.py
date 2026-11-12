@@ -592,21 +592,28 @@ print(students)
 
 # 6. Create a list of six numbers and change the first three elements using slicing.
 
-# # Creating a list of numbers
-# numbers = [2, 55, 67, 8, 90, 55, 11]
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90, 55, 11]
 
-# # Replacing the first three elements
-# numbers[0:3] = [4, 7, 9]
+# Replacing the first three elements
+numbers[0:3] = [4, 7, 9]
 
-# print(numbers)
+print(numbers)
 
-# # output:
-# # [4, 7, 9, 8, 90, 55, 11]
+# output:
+# [4, 7, 9, 8, 90, 55, 11]
 
 # 7. Create a list of five fruits and replace the second and third elements with two different fruits.
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# fruits[1:3]=["lemon", "tomato"]
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Replacing the second and third elements
+fruits[1:3] = ["lemon", "tomato"]
+
+print(fruits)
+
+# output:
 
 # 8. Create a list of eight numbers and replace the elements from index 2 to index 5 with [100, 200].
 
