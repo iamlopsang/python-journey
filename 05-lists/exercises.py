@@ -550,3 +550,59 @@ print(numbers)
 
 # output:
 # [1, 5, 100, 9, 2]
+
+# 3. Create a list of five colors and replace the last item with "purple".
+
+# Creating a list of five colors
+color = ["red", "white", "gold", "orange", "blue"]
+
+# Replacing the last item with purple
+color[4] = "purple"
+
+print(color)
+
+# output:
+# ['red', 'white', 'gold', 'orange', 'purple']
+
+# 4. Create a list of six countries and change the second item to "Japan".
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey"]
+# countries[1] = "Japan"
+# print(countries)
+
+# 5. Create a list of five student names and replace the third name with another name.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# students[2] = "John"
+# print(students)
+
+# 6. Create a list of six numbers and change the first three elements using slicing.
+
+# numbers = [2, 55, 67, 8, 90, 55, 11]
+# numbers[0:3]=[4,7,9]
+# print(numbers)
+
+# 7. Create a list of five fruits and replace the second and third elements with two different fruits.
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# fruits[1:3]=["lemon", "tomato"]
+
+# 8. Create a list of eight numbers and replace the elements from index 2 to index 5 with [100, 200].
+
+# numbers = [2, 55, 67, 8, 90, 55, 11, 15]
+# numbers[2]=100
+# numbers[5]=200
+# print(numbers)
+
+# 9. Create a list of five programming languages and update the first and last elements.
+
+# language = ["python", "c", "c++", "java", "js"]
+# language[0]="php"
+# language[4]="xml"
+# print(language)
+
+# 10. Create a list of seven numbers and replace the middle three elements with [50, 60, 70] using slicing.
+
+# numbers = [2, 55, 67, 8, 90, 55, 11]
+# numbers[2:5]=[50, 60, 70]
+# print(numbers)
