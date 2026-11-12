@@ -655,3 +655,48 @@ print(numbers)
 
 # output:
 # [2, 55, 50, 60, 70, 55, 11]
+
+
+""" Finding List Length """
+
+# 1. Create a list of five fruits and find its length.
+
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Finding the number of elements
+print(len(fruits))
+
+# output:
+# 5
+
+# 2. Create a list of ten numbers and display the total number of elements.
+
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 55, 11, 78, 90, 121]
+
+# Displaying the total number of elements
+print(len(numbers))
+
+# output:
+# 10
+
+# 3. Create an empty list and check its length.
+
+# fruits=[]
+# print(len(fruits))
+
+# 4. Create a list containing different data types and find its length.
+
+# info = ["hello", 23, 45.0, "TRUE"]
+# print(len(info))
+
+# 5. Create a list of student names and display how many students are in the list.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# print(len(students))
+
+# 6. Create a list of seven countries and find its length.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada"]
+# print(len(countries))
