@@ -683,13 +683,25 @@ print(len(numbers))
 
 # 3. Create an empty list and check its length.
 
-# fruits=[]
-# print(len(fruits))
+# Creating an empty list
+fruits = []
+
+# Checking its length
+print(len(fruits))
+
+# output:
+# 0
 
 # 4. Create a list containing different data types and find its length.
 
-# info = ["hello", 23, 45.0, "TRUE"]
-# print(len(info))
+# Creating a list with different data types
+info = ["hello", 23, 45.0, "TRUE"]
+
+# Finding the length
+print(len(info))
+
+# output:
+# 4
 
 # 5. Create a list of student names and display how many students are in the list.
 
