@@ -930,3 +930,12 @@ print(animals)
 
 # output:
 # ['cat', 'dog', 'tiger', 'lion', 'rabbit', 'goat', 'rat']
+
+"""
+Important methods to remember
+Method	             |  What it does
+---------------------------------------------------------------|
+append(value)	     |  Adds one item at the end
+insert(index, value) |	Adds an item at a specific position
+extend(list)	     |  Adds all items from another iterable
+"""
