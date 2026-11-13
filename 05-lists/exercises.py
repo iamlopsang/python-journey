@@ -724,3 +724,113 @@ print(len(countries))
 
 # output:
 # 7
+
+# 7. Create a list containing duplicate values and check whether duplicates affect the length.
+
+# Creating a list with duplicate values
+countries = ["Nepal", "Japan", "Bhutan", "Australia",
+             "United Kingdom", "Turkey", "Canada", "Japan"]
+
+# Finding the length
+print(len(countries))
+
+# output:
+# 8
+
+# 8. Ask the user to enter five numbers and store them in a list. Display the length of the list.
+
+# Creating an empty list
+numbers = []
+
+# Asking the user to enter five numbers
+for i in range(5):
+    num = int(input("Enter a number: "))
+    numbers.append(num)
+
+# Displaying the list
+print(numbers)
+
+# Displaying the length of the list
+print(len(numbers))
+
+# output:
+# [10, 20, 30, 40, 50]
+# 5
+
+# 9. Create a list of programming languages and display the total number of languages.
+
+# language = ["python", "c", "c++", "java", "js"]
+# print(len(language))
+
+# 10. Create a list of ten items and check its length before and after changing one item.
+
+# numbers = [2, 55, 67, 8, 90, 55, 11, 15, 57, 90]
+# print(len(numbers))
+
+# numbers.pop(55)
+# print(numbers)
+
+# 7. Adding Items to a List — 10 Questions
+# 1. Create a list of five fruits and add "mango" using append().
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# fruits.append("mango")
+# print(fruits)
+
+# 2. Create a list of five numbers and add 100 at the end.
+
+# numbers = [2, 55, 67, 8, 90]
+# numbers.append(100)
+# print(numbers)
+
+# 3. Create a list of colors and insert "yellow" at index 1.
+
+# color = ["red", "white", "gold", "orange", "blue"]
+# color[1]="yellow"
+# print(color)
+
+# 4. Create a list of student names and insert a new student at the beginning.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# students[0]="Rita"
+# print(students)
+
+# 5. Create a list of five countries and add another country using append().
+
+# countries = ["Nepal", "Bhutan", "China"]
+# countries.append("UK")
+# print(countries)
+
+# 6. Create two lists of fruits and add all elements of the second list to the first using extend().
+
+# fruit1 = ["apple", "banana", "orange"]
+# fruit2 = ["cherry", "melon"]
+# fruit2.extend(fruit1)
+# print(fruit2)
+
+# 7. Create a list of numbers and insert 50 at index 3.
+
+# numbers = [2, 55, 67, 8, 90]
+# numbers[3] = 50
+# print(numbers)
+
+# 8. Create a list of programming languages and add three more languages using extend().
+
+# language = ["python", "c", "c++"]
+# language.extend("r", "java", "js")
+# print(language)
+
+# 9. Create an empty list and add five numbers to it using append().
+
+# num = []
+# num.append(1,2,3,4,5)
+# print(num)
+
+# 10. Create a list of five animals. Add one animal using append() and insert another at a specific position using insert(). Display the final list.
+
+# animals = ["cat", "dog", "tiger", "lion", "goat"]
+# animals.append("rat")
+# print(animals)
+
+# animals.insert(4, "rabbit")
+# print(animals)
