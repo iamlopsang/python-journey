@@ -873,15 +873,29 @@ print(fruit1)
 
 # 7. Create a list of numbers and insert 50 at index 3.
 
-# numbers = [2, 55, 67, 8, 90]
-# numbers[3] = 50
-# print(numbers)
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90]
+
+# Inserting 50 at index 3
+numbers.insert(3, 50)
+
+print(numbers)
+
+# output:
+# [2, 55, 67, 50, 8, 90]
 
 # 8. Create a list of programming languages and add three more languages using extend().
 
-# language = ["python", "c", "c++"]
-# language.extend("r", "java", "js")
-# print(language)
+# Creating a list of programming languages
+language = ["python", "c", "c++"]
+
+# Adding three more languages
+language.extend(["r", "java", "js"])
+
+print(language)
+
+# output:
+# ['python', 'c', 'c++', 'r', 'java', 'js']
 
 # 9. Create an empty list and add five numbers to it using append().
 
