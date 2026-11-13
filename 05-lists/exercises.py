@@ -820,15 +820,29 @@ print(numbers)
 
 # 3. Create a list of colors and insert "yellow" at index 1.
 
-# color = ["red", "white", "gold", "orange", "blue"]
-# color[1]="yellow"
-# print(color)
+# Creating a list of colors
+color = ["red", "white", "gold", "orange", "blue"]
+
+# Inserting yellow at index 1
+color.insert(1, "yellow")
+
+print(color)
+
+# output:
+# ['red', 'yellow', 'white', 'gold', 'orange', 'blue']
 
 # 4. Create a list of student names and insert a new student at the beginning.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# students[0]="Rita"
-# print(students)
+# Creating a list of student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+
+# Inserting Rita at the beginning
+students.insert(0, "Rita")
+
+print(students)
+
+# output:
+# ['Rita', 'Ram', 'Shyan', 'Laxmi', 'Sita', 'Radha']
 
 # 5. Create a list of five countries and add another country using append().
 
