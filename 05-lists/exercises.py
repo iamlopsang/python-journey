@@ -899,15 +899,34 @@ print(language)
 
 # 9. Create an empty list and add five numbers to it using append().
 
-# num = []
-# num.append(1,2,3,4,5)
-# print(num)
+# Creating an empty list
+num = []
+
+# Adding five numbers using append()
+num.append(1)
+num.append(2)
+num.append(3)
+num.append(4)
+num.append(5)
+
+print(num)
+
+# output:
+# [1, 2, 3, 4, 5]
 
 # 10. Create a list of five animals. Add one animal using append() and insert another at a specific position using insert(). Display the final list.
 
-# animals = ["cat", "dog", "tiger", "lion", "goat"]
-# animals.append("rat")
-# print(animals)
+# Creating a list of five animals
+animals = ["cat", "dog", "tiger", "lion", "goat"]
 
-# animals.insert(4, "rabbit")
-# print(animals)
+# Adding rat at the end
+animals.append("rat")
+
+# Inserting rabbit at index 4
+animals.insert(4, "rabbit")
+
+# Displaying the final list
+print(animals)
+
+# output:
+# ['cat', 'dog', 'tiger', 'lion', 'rabbit', 'goat', 'rat']
