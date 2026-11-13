@@ -794,15 +794,29 @@ print(len(numbers))
 """ 7. Adding Items to a List """
 # 1. Create a list of five fruits and add "mango" using append().
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# fruits.append("mango")
-# print(fruits)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Adding mango at the end
+fruits.append("mango")
+
+print(fruits)
+
+# output:
+# ['apple', 'banana', 'orange', 'cherry', 'melon', 'mango']
 
 # 2. Create a list of five numbers and add 100 at the end.
 
-# numbers = [2, 55, 67, 8, 90]
-# numbers.append(100)
-# print(numbers)
+# Creating a list of five numbers
+numbers = [2, 55, 67, 8, 90]
+
+# Adding 100 at the end
+numbers.append(100)
+
+print(numbers)
+
+# output:
+# [2, 55, 67, 8, 90, 100]
 
 # 3. Create a list of colors and insert "yellow" at index 1.
 
