@@ -759,18 +759,39 @@ print(len(numbers))
 
 # 9. Create a list of programming languages and display the total number of languages.
 
-# language = ["python", "c", "c++", "java", "js"]
-# print(len(language))
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Displaying the total number of languages
+print(len(language))
+
+# output:
+# 5
 
 # 10. Create a list of ten items and check its length before and after changing one item.
 
-# numbers = [2, 55, 67, 8, 90, 55, 11, 15, 57, 90]
-# print(len(numbers))
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 55, 11, 15, 57, 90]
 
-# numbers.pop(55)
-# print(numbers)
+# Checking the length before changing an item
+print(len(numbers))
 
-# 7. Adding Items to a List — 10 Questions
+# Changing the item at index 0
+numbers[0] = 100
+
+# Printing the updated list
+print(numbers)
+
+# Checking the length after changing an item
+print(len(numbers))
+
+# output:
+
+# 10
+# [100, 55, 67, 8, 90, 55, 11, 15, 57, 90]
+# 10
+
+""" 7. Adding Items to a List """
 # 1. Create a list of five fruits and add "mango" using append().
 
 # fruits = ["apple", "banana", "orange", "cherry", "melon"]
