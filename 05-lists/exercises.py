@@ -846,16 +846,30 @@ print(students)
 
 # 5. Create a list of five countries and add another country using append().
 
-# countries = ["Nepal", "Bhutan", "China"]
-# countries.append("UK")
-# print(countries)
+# Creating a list of five countries
+countries = ["Nepal", "Bhutan", "China", "Japan", "Canada"]
+
+# Adding the UK
+countries.append("UK")
+
+print(countries)
+
+# output:
+# ['Nepal', 'Bhutan', 'China', 'Japan', 'Canada', 'UK']
 
 # 6. Create two lists of fruits and add all elements of the second list to the first using extend().
 
-# fruit1 = ["apple", "banana", "orange"]
-# fruit2 = ["cherry", "melon"]
-# fruit2.extend(fruit1)
-# print(fruit2)
+# Creating two lists of fruits
+fruit1 = ["apple", "banana", "orange"]
+fruit2 = ["cherry", "melon"]
+
+# Adding fruit2 elements to fruit1
+fruit1.extend(fruit2)
+
+print(fruit1)
+
+# output:
+# ['apple', 'banana', 'orange', 'cherry', 'melon']
 
 # 7. Create a list of numbers and insert 50 at index 3.
 
