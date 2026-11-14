@@ -1086,3 +1086,47 @@ print(animals)
 # output:
 # ['tiger', 'lion']
 
+""" Looping Through a List """
+# 1. Create a list of five fruits and print each fruit using a for loop.
+
+#  fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# for fruit in fruits:
+# 	print(fruit)
+
+
+# 2. Create a list of ten numbers and print each number using a for loop.
+
+# numbers = [2, 55, 67, 8, 90, 67, 11, 45]
+
+# for number in numbers:
+# 	print(number)
+
+# 3. Create a list of five student names and display each name on a separate line.
+
+# students = ["Ram", "Shyan", "John" "Laxmi", "Sita", "Radha"]
+
+# for student in students:
+# 	print(student)
+# 	print("\n")
+
+# 4. Create a list of five countries and print each country using a while loop.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia",
+#              "United Kingdom"]
+
+# while i <= len(countries):
+# 	print(i)
+
+# 5. Create a list of ten numbers and print each item along with its index using range() and len().
+
+# numbers = [2, 55, 67, 8, 90, 67, 11, 45,22,88]
+
+# print(range(numbers))
+# print(len(numbers))
+
+# 6. Create a list of five programming languages and display each item using a for loop.
+
+# language = ["python", "c", "c++", "java", "js"]
+
+#  for l in language:
+# 	print(l)
