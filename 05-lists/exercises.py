@@ -1130,30 +1130,86 @@ for number in numbers:
 
 # 3. Create a list of five student names and display each name on a separate line.
 
-# students = ["Ram", "Shyan", "John" "Laxmi", "Sita", "Radha"]
+# Creating a list of five student names
+students = ["Ram", "Shyan", "John", "Laxmi", "Sita"]
 
-# for student in students:
-# 	print(student)
-# 	print("\n")
+# Printing each student name on a separate line
+for student in students:
+    print(student)
+
+# output:
+
+# Ram
+# Shyan
+# John
+# Laxmi
+# Sita
+
 
 # 4. Create a list of five countries and print each country using a while loop.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia",
-#              "United Kingdom"]
+# Creating a list of five countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
 
-# while i <= len(countries):
-# 	print(i)
+# Starting the index at 0
+i = 0
+
+# Repeating while the index is within the list
+while i < len(countries):
+    print(countries[i])
+
+    # Moving to the next index
+    i += 1
+
+# output:
+ 
+# Nepal
+# Japan
+# Bhutan
+# Australia
+# United Kingdom 
 
 # 5. Create a list of ten numbers and print each item along with its index using range() and len().
 
-# numbers = [2, 55, 67, 8, 90, 67, 11, 45,22,88]
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
 
-# print(range(numbers))
-# print(len(numbers))
+# Accessing each index using range() and len()
+for i in range(len(numbers)):
+    print("Index:", i, "Value:", numbers[i])
+
+# output:
+
+# Index: 0 Value: 2
+# Index: 1 Value: 55
+# Index: 2 Value: 67
+# Index: 3 Value: 8
+# Index: 4 Value: 90
+# Index: 5 Value: 67
+# Index: 6 Value: 11
+# Index: 7 Value: 45
+# Index: 8 Value: 22
+# Index: 9 Value: 88
+
+"""explanation:
+
+len(numbers) gives the total number of elements: 10.
+range(10) generates indexes from 0 to 9.
+numbers[i] accesses the value at each index."""
 
 # 6. Create a list of five programming languages and display each item using a for loop.
 
-# language = ["python", "c", "c++", "java", "js"]
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
 
-#  for l in language:
-# 	print(l)
+# Printing each programming language
+for l in language:
+    print(l)
+
+# output:
+
+# python
+# c
+# c++
+# java
+# js
