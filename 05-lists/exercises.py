@@ -1087,19 +1087,46 @@ print(animals)
 # ['tiger', 'lion']
 
 """ Looping Through a List """
+
 # 1. Create a list of five fruits and print each fruit using a for loop.
 
-#  fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# for fruit in fruits:
-# 	print(fruit)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Printing each fruit
+for fruit in fruits:
+    print(fruit)
+
+# output:
+
+# apple
+# banana
+# orange
+# cherry
+# melon
 
 
 # 2. Create a list of ten numbers and print each number using a for loop.
 
-# numbers = [2, 55, 67, 8, 90, 67, 11, 45]
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
 
-# for number in numbers:
-# 	print(number)
+# Printing each number
+for number in numbers:
+    print(number)
+
+# output:
+
+2
+55
+67
+8
+90
+67
+11
+45
+22
+88
 
 # 3. Create a list of five student names and display each name on a separate line.
 
