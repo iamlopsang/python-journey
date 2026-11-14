@@ -1050,21 +1050,39 @@ print(numbers)
 
 # 9. Create a list of five fruits and use pop() to remove the last element. Store the removed item in another variable and print it.
 
-# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
-# fruit1.pop(4)
-# print(fruit1)
+# Creating a list of five fruits
+fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
 
-# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
-# print(fruit1)
+# Removing the last item and storing it
+removed_fruit = fruit1.pop()
+
+# Displaying the updated list
+print(fruit1)
+
+# Displaying the removed fruit
+print(removed_fruit)
+
+# output:
+# ['apple', 'banana', 'orange', 'cherry']
+# melon
 
 # 10. Create a list of five animals and remove one item using remove(), another using pop(), and another using del. Display the final list.
 
-# animals = ["cat", "dog", "tiger", "lion", "goat"]
-# animals.remove("dog")
-# print(animals)
+# Creating a list of five animals
+animals = ["cat", "dog", "tiger", "lion", "goat"]
 
-# animals.pop(4)
-# print(animals)
+# Removing dog using remove()
+animals.remove("dog")
 
-# del animals[0]
-# print(animals)
+# Removing the last item using pop()
+animals.pop(4)
+
+# Deleting the first item using del
+del animals[0]
+
+# Displaying the final list
+print(animals)
+
+# output:
+# ['tiger', 'lion']
+
