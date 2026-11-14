@@ -1024,15 +1024,29 @@ print(numbers)
 
 # 7. Create a list of five programming languages and clear all its elements using clear().
 
-# language = ["python", "c", "c++", "java", "js"]
-# language.clear()
-# print(language)
+# Creating a list of five programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Removing all elements
+language.clear()
+
+print(language)
+
+# output:
+# []
 
 # 8. Create a list of eight numbers and delete the elements from index 2 to index 5 using del.
 
-# numbers = [2, 55, 67, 8, 90, 67, 11, 45]
-# del numbers[2:6]
-# print(numbers)
+# Creating a list of eight numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45]
+
+# Deleting elements from index 2 up to index 5
+del numbers[2:6]
+
+print(numbers)
+
+# output:
+# [2, 55, 11, 45]
 
 # 9. Create a list of five fruits and use pop() to remove the last element. Store the removed item in another variable and print it.
 
