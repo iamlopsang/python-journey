@@ -998,15 +998,29 @@ print(countries)
 
 # 5. Create a list of six student names and remove "John" using remove().
 
-# students = ["Ram", "Shyan", "John" "Laxmi", "Sita", "Radha"]
-# remove.("John")
-# print(students)
+# Creating a list of six student names
+students = ["Ram", "Shyan", "John", "Laxmi", "Sita", "Radha"]
+
+# Removing John
+students.remove("John")
+
+print(students)
+
+# output:
+# ['Ram', 'Shyan', 'Laxmi', 'Sita', 'Radha']
 
 # 6. Create a list containing duplicate numbers and remove one occurrence of a particular number.
 
-# numbers = [2, 55, 67, 8, 90, 67]
-# remove.(67)
-# print(numbers)
+# Creating a list containing duplicate numbers
+numbers = [2, 55, 67, 8, 90, 67]
+
+# Removing one occurrence of 67
+numbers.remove(67)
+
+print(numbers)
+
+# output:
+# [2, 55, 8, 90, 67]
 
 # 7. Create a list of five programming languages and clear all its elements using clear().
 
