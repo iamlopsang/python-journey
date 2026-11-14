@@ -728,8 +728,7 @@ print(len(countries))
 # 7. Create a list containing duplicate values and check whether duplicates affect the length.
 
 # Creating a list with duplicate values
-countries = ["Nepal", "Japan", "Bhutan", "Australia",
-             "United Kingdom", "Turkey", "Canada", "Japan"]
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada", "Japan"]
 
 # Finding the length
 print(len(countries))
@@ -939,3 +938,92 @@ append(value)	     |  Adds one item at the end
 insert(index, value) |	Adds an item at a specific position
 extend(list)	     |  Adds all items from another iterable
 """
+
+
+
+""" Removing Items from a List """
+
+# 1. Create a list of five fruits and remove "banana" using remove().
+
+# Creating a list of five fruits
+fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Removing banana
+fruit1.remove("banana")
+
+print(fruit1)
+
+# output:
+# ['apple', 'orange', 'cherry', 'melon']
+
+# 2. Create a list of five numbers and remove the third item using pop().
+
+# Creating a list of five numbers
+numbers = [2, 55, 67, 8, 90]
+
+# Removing the third item (index 2)
+numbers.pop(2)
+
+print(numbers)
+
+# output:
+# [2, 55, 8, 90]
+
+
+# 3. Create a list of six colors and remove the last item using pop().
+
+# color = ["red", "white", "gold", "orange", "blue", "silver"]
+# color.pop(5)
+# print(color)
+
+# 4. Create a list of five countries and delete the first item using del.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia",
+#              "United Kingdom"]
+# del countries
+# print(countries)
+
+# 5. Create a list of six student names and remove "John" using remove().
+
+# students = ["Ram", "Shyan", "John" "Laxmi", "Sita", "Radha"]
+# remove.("John")
+# print(students)
+
+# 6. Create a list containing duplicate numbers and remove one occurrence of a particular number.
+
+# numbers = [2, 55, 67, 8, 90, 67]
+# remove.(67)
+# print(numbers)
+
+# 7. Create a list of five programming languages and clear all its elements using clear().
+
+# language = ["python", "c", "c++", "java", "js"]
+# language.clear()
+# print(language)
+
+# 8. Create a list of eight numbers and delete the elements from index 2 to index 5 using del.
+
+# numbers = [2, 55, 67, 8, 90, 67, 11, 45]
+# del numbers[2:6]
+# print(numbers)
+
+# 9. Create a list of five fruits and use pop() to remove the last element. Store the removed item in another variable and print it.
+
+# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+# fruit1.pop(4)
+# print(fruit1)
+
+# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+# print(fruit1)
+
+# 10. Create a list of five animals and remove one item using remove(), another using pop(), and another using del. Display the final list.
+
+# animals = ["cat", "dog", "tiger", "lion", "goat"]
+# animals.remove("dog")
+# print(animals)
+
+# animals.pop(4)
+# print(animals)
+
+# del animals[0]
+# print(animals)
