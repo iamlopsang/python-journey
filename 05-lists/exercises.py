@@ -972,16 +972,29 @@ print(numbers)
 
 # 3. Create a list of six colors and remove the last item using pop().
 
-# color = ["red", "white", "gold", "orange", "blue", "silver"]
-# color.pop(5)
-# print(color)
+# Creating a list of six colors
+color = ["red", "white", "gold", "orange", "blue", "silver"]
+
+# Removing the last item
+color.pop(5)
+
+print(color)
+
+# output:
+# ['red', 'white', 'gold', 'orange', 'blue'] 
 
 # 4. Create a list of five countries and delete the first item using del.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia",
-#              "United Kingdom"]
-# del countries
-# print(countries)
+# Creating a list of five countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+
+# Deleting the first item
+del countries[0]
+
+print(countries)
+
+# output:
+# ['Japan', 'Bhutan', 'Australia', 'United Kingdom']
 
 # 5. Create a list of six student names and remove "John" using remove().
 
