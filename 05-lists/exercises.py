@@ -1213,3 +1213,136 @@ for l in language:
 # c++
 # java
 # js
+
+
+# 7. Create a list of numbers and print only the even numbers using a loop and an if statement.
+
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
+
+# Checking each number
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
+
+# output:
+2
+8
+90
+22
+88
+
+"""Explanation:
+for num in numbers: takes each number from the list.
+num % 2 calculates the remainder.
+== 0 checks whether the remainder is zero.
+Even numbers are divisible by 2.
+"""
+
+# 8. Create a list of numbers and calculate their total using a loop.
+
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
+
+# Starting the total at zero
+total = 0
+
+# Adding each number to the total
+for num in numbers:
+    total += num
+
+# Displaying the total
+print(total)
+
+# output:
+455
+
+# 9. Create a list of five fruits and print each fruit in uppercase using a loop.
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# for fruit in fruits:
+# 	fruit= fruits.lowercase()
+# 	print(fruit)
+
+# 10. Create a list of ten numbers and count how many numbers are greater than 50 using a loop and an if statement.
+
+# numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
+# num=[]
+
+# for num in numbers:
+# 	if numbers >50:
+# 	num +=1
+# 	print(num)
+	
+# 	else:
+# 	print("small number")
+
+
+# 10. Sorting a List — 10 Questions
+# 1. Create a list of five numbers and sort them in ascending order using sort().
+
+# numbers = [2, 55, 67, 8, 90]
+# numbers.sort()
+# print(numbers)
+
+# 2. Create a list of ten numbers and sort them in descending order.
+
+# numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
+# numbers.sort(reverse= True)
+
+# 3. Create a list of five fruits and arrange them alphabetically.
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# fruits.sort()
+# print(fruits)
+
+# 4. Create a list of five countries and sort them alphabetically.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+# countries.sort()
+# print(countries)
+
+# 5. Create a list of numbers and use sorted() to create a new sorted list.
+
+
+# numbers = [2, 55, 67, 8, 90]
+
+# sorted_num= numbers.sort()
+# print(sorted_num)
+
+# 6. Create a list of numbers and sort them in descending order using sorted().
+
+
+# numbers = [2, 55, 67, 8, 90]
+# numbets.sort(reverse = True)
+# print(numbers)
+
+# 7. Create a list of five programming languages and arrange them alphabetically.
+
+# language = ["python", "c", "c++", "java", "js"]
+# language.sort()
+# print(language)
+
+# 8. Create a list of numbers containing duplicate values and sort them in ascending order.
+
+# numbers = [2, 55, 67, 8, 90,2]
+# numbers.sort()
+# print(numbers)
+
+# 9. Create a list of numbers. Use sorted() to create a new sorted list and display both the original and sorted lists.
+
+# numbers = [2, 55, 67, 8, 90]
+# print(numbers)
+
+# sorted= numbers.sort()
+# print(sorted)
+
+# 10. Create a list of five student names and sort them alphabetically in both ascending and descending order.
+
+# students = ["Ram", "Shyan", "John", "Laxmi", "Sita", "Radha"]
+# students.sort()
+# print(students)
+
+# sorted= students.sort(reverse = True)
+# pritn(sorted)
