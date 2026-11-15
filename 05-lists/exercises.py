@@ -1417,17 +1417,38 @@ print(numbers)
 
 # 9. Create a list of numbers. Use sorted() to create a new sorted list and display both the original and sorted lists.
 
-# numbers = [2, 55, 67, 8, 90]
-# print(numbers)
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90]
 
-# sorted= numbers.sort()
-# print(sorted)
+# Creating a new sorted list
+sorted_numbers = sorted(numbers)
+
+# Displaying the original list
+print("Original list:", numbers)
+
+# Displaying the sorted list
+print("Sorted list:", sorted_numbers)
+
+# output:
+
+# Original list: [2, 55, 67, 8, 90]
+# Sorted list: [2, 8, 55, 67, 90]
 
 # 10. Create a list of five student names and sort them alphabetically in both ascending and descending order.
 
-# students = ["Ram", "Shyan", "John", "Laxmi", "Sita", "Radha"]
-# students.sort()
-# print(students)
+# Creating a list of five student names
+students = ["Ram", "Shyan", "John", "Laxmi", "Sita"]
 
-# sorted= students.sort(reverse = True)
-# pritn(sorted)
+# Sorting names in ascending order
+students.sort()
+print("Ascending order:", students)
+
+# Sorting names in descending order
+students.sort(reverse=True)
+print("Descending order:", students)
+
+# output:
+
+# Ascending order: ['John', 'Laxmi', 'Ram', 'Shyan', 'Sita']
+
+# Descending order: ['Sita', 'Shyan', 'Ram', 'Laxmi', 'John']
