@@ -1297,19 +1297,33 @@ print(count)
 # output:
 5
 
+""" Sorting a List """
 
-
-# 10. Sorting a List — 10 Questions
 # 1. Create a list of five numbers and sort them in ascending order using sort().
 
-# numbers = [2, 55, 67, 8, 90]
-# numbers.sort()
-# print(numbers)
+# Creating a list of five numbers
+numbers = [2, 55, 67, 8, 90]
+
+# Sorting in ascending order
+numbers.sort()
+
+print(numbers)
+
+# output:
+[2, 8, 55, 67, 90]
 
 # 2. Create a list of ten numbers and sort them in descending order.
 
-# numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
-# numbers.sort(reverse= True)
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
+
+# Sorting in descending order
+numbers.sort(reverse=True)
+
+print(numbers)
+
+# output:
+[90, 88, 67, 67, 55, 45, 22, 11, 8, 2]
 
 # 3. Create a list of five fruits and arrange them alphabetically.
 
