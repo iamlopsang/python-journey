@@ -1356,17 +1356,38 @@ print(countries)
 # 5. Create a list of numbers and use sorted() to create a new sorted list.
 
 
-# numbers = [2, 55, 67, 8, 90]
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90]
 
-# sorted_num= numbers.sort()
-# print(sorted_num)
+# Creating a new sorted list
+sorted_num = sorted(numbers)
+
+# Displaying the new sorted list
+print(sorted_num)
+
+# output:
+[2, 8, 55, 67, 90]
+
+"""note:
+The difference is:
+- sort() changes the original list.
+- sorted() creates and returns a new sorted list.
+"""
 
 # 6. Create a list of numbers and sort them in descending order using sorted().
 
 
-# numbers = [2, 55, 67, 8, 90]
-# numbets.sort(reverse = True)
-# print(numbers)
+# Creating a list of numbers
+numbers = [2, 55, 67, 8, 90]
+
+# Creating a new list in descending order
+sorted_numbers = sorted(numbers, reverse=True)
+
+# Displaying the sorted list
+print(sorted_numbers)
+
+# output:
+[90, 67, 55, 8, 2]
 
 # 7. Create a list of five programming languages and arrange them alphabetically.
 
