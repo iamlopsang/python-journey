@@ -1327,15 +1327,31 @@ print(numbers)
 
 # 3. Create a list of five fruits and arrange them alphabetically.
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# fruits.sort()
-# print(fruits)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Sorting alphabetically
+fruits.sort()
+
+print(fruits)
+
+# output:
+
+# ['apple', 'banana', 'cherry', 'melon', 'orange']
 
 # 4. Create a list of five countries and sort them alphabetically.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
-# countries.sort()
-# print(countries)
+# Creating a list of five countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+
+# Sorting alphabetically
+countries.sort()
+
+print(countries)
+
+# output:
+
+# ['Australia', 'Bhutan', 'Japan', 'Nepal', 'United Kingdom']
 
 # 5. Create a list of numbers and use sorted() to create a new sorted list.
 
