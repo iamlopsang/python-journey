@@ -1391,15 +1391,29 @@ print(sorted_numbers)
 
 # 7. Create a list of five programming languages and arrange them alphabetically.
 
-# language = ["python", "c", "c++", "java", "js"]
-# language.sort()
-# print(language)
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Sorting alphabetically
+language.sort()
+
+print(language)
+
+# output:
+# ['c', 'c++', 'java', 'js', 'python']
 
 # 8. Create a list of numbers containing duplicate values and sort them in ascending order.
 
-# numbers = [2, 55, 67, 8, 90,2]
-# numbers.sort()
-# print(numbers)
+# Creating a list containing duplicate numbers
+numbers = [2, 55, 67, 8, 90, 2]
+
+# Sorting in ascending order
+numbers.sort()
+
+print(numbers)
+
+# output:
+[2, 2, 8, 55, 67, 90]
 
 # 9. Create a list of numbers. Use sorted() to create a new sorted list and display both the original and sorted lists.
 
