@@ -1259,24 +1259,44 @@ print(total)
 
 # 9. Create a list of five fruits and print each fruit in uppercase using a loop.
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
 
-# for fruit in fruits:
-# 	fruit= fruits.lowercase()
-# 	print(fruit)
+# Converting each fruit to uppercase
+for fruit in fruits:
+    print(fruit.upper())
+
+# output:
+# APPLE
+# BANANA
+# ORANGE
+# CHERRY
+# MELON
+
+"""Note:
+.upper() converts text to uppercase.
+.lower() converts text to lowercase.
+"""
 
 # 10. Create a list of ten numbers and count how many numbers are greater than 50 using a loop and an if statement.
 
-# numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
-# num=[]
+# Creating a list of ten numbers
+numbers = [2, 55, 67, 8, 90, 67, 11, 45, 22, 88]
 
-# for num in numbers:
-# 	if numbers >50:
-# 	num +=1
-# 	print(num)
-	
-# 	else:
-# 	print("small number")
+# Starting the counter at zero
+count = 0
+
+# Checking each number
+for num in numbers:
+    if num > 50:
+        count += 1
+
+# Displaying the count
+print(count)
+
+# output:
+5
+
 
 
 # 10. Sorting a List — 10 Questions
