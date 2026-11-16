@@ -1484,15 +1484,29 @@ print(numbers)
 
 # 3. Create a list of five countries and reverse their order.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
-# countries.reverse()
-# print(countries)
+# Creating a list of five countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+
+# Reversing the list
+countries.reverse()
+
+print(countries)
+
+# output:
+# ['United Kingdom', 'Australia', 'Bhutan', 'Japan', 'Nepal']
 
 # 4. Create a list of student names and reverse the list.
 
-# students = ["Ram", "Shyan", "John", "Laxmi", "Sita"]
-# students.reverse()
-# print(students)
+# Creating a list of student names
+students = ["Ram", "Shyan", "John", "Laxmi", "Sita"]
+
+# Reversing the list
+students.reverse()
+
+print(students)
+
+# output:
+# ['Sita', 'Laxmi', 'John', 'Shyan', 'Ram']
 
 # 5. Create a list of numbers and reverse it using slicing.
 
