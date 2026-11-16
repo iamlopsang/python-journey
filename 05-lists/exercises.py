@@ -1648,19 +1648,38 @@ print(numbers)
 
 # 3. Create a list of student names and display both the original and copied lists.
 
-# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
-# print(students)
+# Creating a list of student names
+students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
 
-# new_s= students.copy()
-# print(new_s)
+# Creating a copy
+new_s = students.copy()
+
+# Displaying both lists
+print("Original:", students)
+print("Copied:", new_s)
+
+# output:
+# Original: ['Ram', 'Shyan', 'Laxmi', 'Sita', 'Radha']
+# Copied: ['Ram', 'Shyan', 'Laxmi', 'Sita', 'Radha']
 
 # 4. Create a list of colors and copy it. Change an item in the copied list and display both lists.
 
-# color = ["red", "white", "gold", "orange", "blue", "silver"]
-# print(color)
+# Creating a list of colors
+color = ["red", "white", "gold", "orange", "blue", "silver"]
 
-# new_c = color.copy()
-# print(new_c)
+# Creating a copy
+new_c = color.copy()
+
+# Changing an item in the copied list
+new_c[0] = "purple"
+
+# Displaying both lists
+print("Original:", color)
+print("Copied:", new_c)
+
+# output:
+# Original: ['red', 'white', 'gold', 'orange', 'blue', 'silver']
+# Copied: ['purple', 'white', 'gold', 'orange', 'blue', 'silver']
 
 # 5. Create a list of five numbers and make two separate copies using copy() and list().
 
