@@ -1585,14 +1585,33 @@ print("Reversed copy:", num)
 
 # 9. Create a list of five animals and reverse the order using slicing.
 
-# animals = ["cat", "dog", "tiger", "lion", "goat"]
-# print(animals[-1:-5])
+# Creating a list of five animals
+animals = ["cat", "dog", "tiger", "lion", "goat"]
+
+# Reversing using slicing
+print(animals[::-1])
+
+# output:
+# ['goat', 'lion', 'tiger', 'dog', 'cat']
 
 # 10. Create a list of ten numbers and compare the results of reverse() and slicing.
 
-# numbers = [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
-# numbers.reverse()
-# print(numbers)
+# Creating a list of ten numbers
+numbers = [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
+
+# Reversing using reverse()
+numbers.reverse()
+print("Using reverse():", numbers)
+
+# Reversing using slicing
+reversed_numbers = numbers[::-1]
+print("Using slicing:", reversed_numbers)
+
+# output:
+# Using reverse(): [67, 55, 88, 90, 45, 55, 67, 67, 88, 90]
+# Using slicing: [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
+
+"""note: slicing creates a reversed copy, while reverse() changes the original list."""
 
 # 12. Copying a List — 10 Questions
 
