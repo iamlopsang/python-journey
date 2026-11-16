@@ -1683,18 +1683,38 @@ print("Copied:", new_c)
 
 # 5. Create a list of five numbers and make two separate copies using copy() and list().
 
-# numbers = [90, 88, 67, 67, 55]
-# new_n = numbers.copy()
-# print(new_n)
+# Creating a list of five numbers
+numbers = [90, 88, 67, 67, 55]
 
-# num = list((90, 88, 67, 67, 55))
-# print(num)
+# Creating the first copy using copy()
+new_n = numbers.copy()
+
+# Creating the second copy using list()
+num = list(numbers)
+
+# Displaying both copies
+print(new_n)
+print(num)
+
+# output:
+[90, 88, 67, 67, 55]
+[90, 88, 67, 67, 55]
 
 # 6. Create a list of programming languages and make a copy without modifying the original.
 
-# language = ["python", "c", "c++", "java", "js"]
-# l = language.copy()
-# print(l)
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Creating a copy
+l = language.copy()
+
+# Displaying both lists
+print("Original:", language)
+print("Copy:", l)
+
+# output:
+# Original: ['python', 'c', 'c++', 'java', 'js']
+# Copy: ['python', 'c', 'c++', 'java', 'js']
 
 # 7. Create a list of countries and copy it. Add a new country to the copied list and compare both lists.
 
