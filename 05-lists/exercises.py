@@ -1534,16 +1534,54 @@ print(language)
 
 # 7. Create a list of six colors and display the original and reversed lists.
 
-# color = ["red", "white", "gold", "orange", "blue", "silver"]
-# color.reverse()
-# print(color)
+# Creating a list of six colors
+color = ["red", "white", "gold", "orange", "blue", "silver"]
+
+# Displaying the original list
+print("Original list:", color)
+
+# Reversing the list
+color.reverse()
+
+# Displaying the reversed list
+print("Reversed list:", color)
+
+# output:
+# Original list: ['red', 'white', 'gold', 'orange', 'blue', 'silver']
+# Reversed list: ['silver', 'blue', 'orange', 'gold', 'white', 'red']
 
 # 8. Create a list of numbers and create a reversed copy without modifying the original list.
 
-# numbers = [90, 88, 67, 67, 55, 45]
-# num=numbers.copy()
-# num.reverse()
-# print(num)
+# Creating a list of numbers
+numbers = [90, 88, 67, 67, 55, 45]
+
+# Creating a copy
+num = numbers.copy()
+
+# Reversing the copied list
+num.reverse()
+
+# Displaying both lists
+print("Original:", numbers)
+print("Reversed copy:", num)
+
+# output:
+# Creating a list of numbers
+numbers = [90, 88, 67, 67, 55, 45]
+
+# Creating a copy
+num = numbers.copy()
+
+# Reversing the copied list
+num.reverse()
+
+# Displaying both lists
+print("Original:", numbers)
+print("Reversed copy:", num)
+
+# output:
+# Original: [90, 88, 67, 67, 55, 45]
+# Reversed copy: [45, 55, 67, 67, 88, 90]
 
 # 9. Create a list of five animals and reverse the order using slicing.
 
