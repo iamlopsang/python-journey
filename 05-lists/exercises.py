@@ -1510,14 +1510,27 @@ print(students)
 
 # 5. Create a list of numbers and reverse it using slicing.
 
-# numbers = [90, 88, 67, 67, 55, 45]
-# print(numbers[-1:-6])
+# Creating a list of numbers
+numbers = [90, 88, 67, 67, 55, 45]
+
+# Reversing using slicing
+print(numbers[::-1])
+
+# output:
+# [45, 55, 67, 67, 88, 90]
 
 # 6. Create a list of programming languages and reverse the order using reverse().
 
-# language = ["python", "c", "c++", "java", "js"]
-# language.reverse()
-# print(language)
+# Creating a list of programming languages
+language = ["python", "c", "c++", "java", "js"]
+
+# Reversing the list
+language.reverse()
+
+print(language)
+
+# output:
+# ['js', 'java', 'c++', 'c', 'python']
 
 # 7. Create a list of six colors and display the original and reversed lists.
 
