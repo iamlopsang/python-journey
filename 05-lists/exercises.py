@@ -1613,18 +1613,38 @@ print("Using slicing:", reversed_numbers)
 
 """note: slicing creates a reversed copy, while reverse() changes the original list."""
 
-# 12. Copying a List — 10 Questions
+""" Copying a List """
 
 # 1. Create a list of five fruits and make a copy using copy().
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# new_f = fruits.copy()
-# print(new_f)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Creating a copy
+new_f = fruits.copy()
+
+print(new_f)
+
+# output:
+# ['apple', 'banana', 'orange', 'cherry', 'melon']
 
 # 2. Create a list of ten numbers and copy it using the list() constructor.
 
-# numbers = list( (90, 88, 67, 67, 55, 45, 90, 88, 55, 67))
-# print(fruits)
+# Creating a list using the list() constructor
+numbers = list((90, 88, 67, 67, 55, 45, 90, 88, 55, 67))
+
+# Displaying the list
+print(numbers)
+
+# output:
+# Creating a list using the list() constructor
+numbers = list((90, 88, 67, 67, 55, 45, 90, 88, 55, 67))
+
+# Displaying the list
+print(numbers)
+
+# output:
+[90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
 
 # 3. Create a list of student names and display both the original and copied lists.
 
