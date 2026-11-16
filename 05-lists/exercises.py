@@ -1452,3 +1452,161 @@ print("Descending order:", students)
 # Ascending order: ['John', 'Laxmi', 'Ram', 'Shyan', 'Sita']
 
 # Descending order: ['Sita', 'Shyan', 'Ram', 'Laxmi', 'John']
+
+
+""" Reversing a List """
+
+# 1. Create a list of five fruits and reverse it using reverse().
+
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
+
+# Reversing the list
+fruits.reverse()
+
+print(fruits)
+
+# output:
+# ['melon', 'cherry', 'orange', 'banana', 'apple']
+
+# 2. Create a list of ten numbers and reverse their order.
+
+# Creating a list of ten numbers
+numbers = [90, 88, 67, 67, 55, 45, 22, 11, 8, 2]
+
+# Reversing the list
+numbers.reverse()
+
+print(numbers)
+
+#output:
+# [2, 8, 11, 22, 45, 55, 67, 67, 88, 90]
+
+# 3. Create a list of five countries and reverse their order.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom"]
+# countries.reverse()
+# print(countries)
+
+# 4. Create a list of student names and reverse the list.
+
+# students = ["Ram", "Shyan", "John", "Laxmi", "Sita"]
+# students.reverse()
+# print(students)
+
+# 5. Create a list of numbers and reverse it using slicing.
+
+# numbers = [90, 88, 67, 67, 55, 45]
+# print(numbers[-1:-6])
+
+# 6. Create a list of programming languages and reverse the order using reverse().
+
+# language = ["python", "c", "c++", "java", "js"]
+# language.reverse()
+# print(language)
+
+# 7. Create a list of six colors and display the original and reversed lists.
+
+# color = ["red", "white", "gold", "orange", "blue", "silver"]
+# color.reverse()
+# print(color)
+
+# 8. Create a list of numbers and create a reversed copy without modifying the original list.
+
+# numbers = [90, 88, 67, 67, 55, 45]
+# num=numbers.copy()
+# num.reverse()
+# print(num)
+
+# 9. Create a list of five animals and reverse the order using slicing.
+
+# animals = ["cat", "dog", "tiger", "lion", "goat"]
+# print(animals[-1:-5])
+
+# 10. Create a list of ten numbers and compare the results of reverse() and slicing.
+
+# numbers = [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
+# numbers.reverse()
+# print(numbers)
+
+# 12. Copying a List — 10 Questions
+
+# 1. Create a list of five fruits and make a copy using copy().
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# new_f = fruits.copy()
+# print(new_f)
+
+# 2. Create a list of ten numbers and copy it using the list() constructor.
+
+# numbers = list( (90, 88, 67, 67, 55, 45, 90, 88, 55, 67))
+# print(fruits)
+
+# 3. Create a list of student names and display both the original and copied lists.
+
+# students = ["Ram", "Shyan", "Laxmi", "Sita", "Radha"]
+# print(students)
+
+# new_s= students.copy()
+# print(new_s)
+
+# 4. Create a list of colors and copy it. Change an item in the copied list and display both lists.
+
+# color = ["red", "white", "gold", "orange", "blue", "silver"]
+# print(color)
+
+# new_c = color.copy()
+# print(new_c)
+
+# 5. Create a list of five numbers and make two separate copies using copy() and list().
+
+# numbers = [90, 88, 67, 67, 55]
+# new_n = numbers.copy()
+# print(new_n)
+
+# num = list((90, 88, 67, 67, 55))
+# print(num)
+
+# 6. Create a list of programming languages and make a copy without modifying the original.
+
+# language = ["python", "c", "c++", "java", "js"]
+# l = language.copy()
+# print(l)
+
+# 7. Create a list of countries and copy it. Add a new country to the copied list and compare both lists.
+
+# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada", "Japan"]
+# country= countries.copy()
+# print(country)
+
+# country = append.("Korea")
+# print(country)
+
+# 8. Create a list of five fruits and remove an item from its copied list. Display both lists.
+
+# fruits = ["apple", "banana", "orange", "cherry", "melon"]
+# print(fruits)
+
+# new_fruits=fruits.copy()
+# new_fruits=remove("cherry")
+# print(new_fruits)
+
+# 9. Create a list of numbers and check whether changing the copied list affects the original list.
+
+# numbers = [90, 88, 67, 67, 55]
+# print(numbers)
+
+# num= numbers.copy()
+# print(num)
+
+# 10. Create a list of five student names, copy it, and independently modify both lists. Display the results.
+
+# students = ["Ram", "Shyam", "John", "Laxmi", "Sita"]
+# print(students)
+
+# students.remove("Shyam")
+# print(students)
+
+# student= students.copy()
+# student.append("Lisa")
+# print(student)
