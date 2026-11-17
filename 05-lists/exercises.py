@@ -1758,24 +1758,56 @@ print("Copied:", new_fruits)
 
 # 9. Create a list of numbers and check whether changing the copied list affects the original list.
 
-# numbers = [90, 88, 67, 67, 55]
-# print(numbers)
+# Creating a list of numbers
+numbers = [90, 88, 67, 67, 55]
 
-# num= numbers.copy()
-# print(num)
+# Creating a copy
+num = numbers.copy()
+
+# Changing an item in the copied list
+num[0] = 100
+
+# Displaying both lists
+print("Original:", numbers)
+print("Copied:", num)
+
+# output:
+
+# Original: [90, 88, 67, 67, 55]
+# Copied: [100, 88, 67, 67, 55]
 
 # 10. Create a list of five student names, copy it, and independently modify both lists. Display the results.
 
-# students = ["Ram", "Shyam", "John", "Laxmi", "Sita"]
-# print(students)
+# Creating a list of five student names
+students = ["Ram", "Shyam", "John", "Laxmi", "Sita"]
 
-# students.remove("Shyam")
-# print(students)
+# Creating a copy before making changes
+student = students.copy()
 
-# student= students.copy()
-# student.append("Lisa")
-# print(student)
+# Modifying the original list
+students.remove("Shyam")
 
+# Modifying the copied list
+student.append("Lisa")
+
+# Displaying both lists
+print("Original:", students)
+print("Copied:", student)
+
+# output:
+
+# Original: ['Ram', 'John', 'Laxmi', 'Sita']
+# Copied: ['Ram', 'Shyam', 'John', 'Laxmi', 'Sita', 'Lisa']
+
+"""
+Method          |    Syntax	Purpose
+-----------------------------------------------------
+list.reverse()	|    Reverses the original list
+list[::-1]	    |    Creates a reversed copy
+list.copy()	    |    Creates a separate copy
+list()	        |    Creates a list from an iterable
+list.sort()	    |    Sorts the original list
+sorted(list)	|    Creates a new sorted list      """
 
 # 13. Joining Lists — 10 Questions
 # 1. Create two lists of fruits and combine them using the + operator.
