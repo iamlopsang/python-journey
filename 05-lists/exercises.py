@@ -1873,17 +1873,34 @@ print(l1)
 
 # 5. Create three separate lists of numbers and combine them into one list using +.
 
-# num1 = [90, 88, 67, 67, 55]
-# num2 = [45, 90, 88, 55, 67]
-# num1.extend(num2)
-# print(num1)
+# Creating three separate lists of numbers
+num1 = [90, 88, 67]
+num2 = [67, 55, 45]
+num3 = [90, 88, 55]
+
+# Combining all three lists using +
+num = num1 + num2 + num3
+
+# Displaying the combined list
+print(num)
+
+# output:
+# [90, 88, 67, 67, 55, 45, 90, 88, 55]
 
 # 6. Create two lists of student names and combine them using extend().
 
-# student1 = ["Ram", "Shyan", "Radha"]
-# student2 = [ "Laxmi", "Sita"]
-# student1.extend(student2)
-# print(student1)
+# Creating two lists of student names
+student1 = ["Ram", "Shyan", "Radha"]
+student2 = ["Laxmi", "Sita"]
+
+# Adding all elements of student2 to student1
+student1.extend(student2)
+
+# Displaying the combined list
+print(student1)
+
+# output:
+# ['Ram', 'Shyan', 'Radha', 'Laxmi', 'Sita']
 
 # 7. Create two lists containing duplicate values and join them using +.
 
