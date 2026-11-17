@@ -1943,21 +1943,40 @@ print("Joined list:", color)
 
 # 9. Create two lists of fruits. Combine them using + and then using extend(). Compare the results.
 
-# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
-# fruit2 = ["grape", "orchid"]
-# fruits= fruit1 + fruit2
-# print(fruits)
+# Creating two lists of fruits
+fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+fruit2 = ["grape", "orchid"]
 
-# fruit1.extend(fruit2)
-# print(fruit1)
+# Combining lists using +
+# This creates a new list without changing fruit1
+fruits = fruit1 + fruit2
+print("Using +:", fruits)
+
+# Combining lists using extend()
+# This adds fruit2 elements directly to fruit1
+fruit1.extend(fruit2)
+print("Using extend():", fruit1)
+
+# output:
+# Using +: ['apple', 'banana', 'orange', 'cherry', 'melon', 'grape', 'orchid']
+# Using extend(): ['apple', 'banana', 'orange', 'cherry', 'melon', 'grape', 'orchid']
 
 # 10. Create two lists of five numbers each and combine them into one list. Display the total number of elements in the final list.
 
-# num1 = [90, 88, 67, 67, 55]
-# num2 = [45, 90, 88, 55, 67]
-# num1.extend(num2)
-# print(num1)
-# print(len(num1))
+# Creating two lists containing five numbers each
+num1 = [90, 88, 67, 67, 55]
+num2 = [45, 90, 88, 55, 67]
 
+# Combining both lists using extend()
+num1.extend(num2)
 
+# Displaying the combined list
+print(num1)
+
+# Counting the total number of elements
+print(len(num1))
+
+# output:
+# [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
+# 10
 
