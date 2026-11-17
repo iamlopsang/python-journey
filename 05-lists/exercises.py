@@ -1905,21 +1905,41 @@ print(student1)
 # 7. Create two lists containing duplicate values and join them using +.
 
 
-# num1 = [90, 88, 67, 67, 55]
-# num2 = [45, 90, 88, 55, 67]
-# num = num1 + num2
-# print(num)
+# Creating two lists containing duplicate values
+num1 = [90, 88, 67, 67, 55]
+num2 = [45, 90, 88, 55, 67]
+
+# Joining both lists using +
+num = num1 + num2
+
+# Displaying the combined list
+print(num)
+
+# output:
+# [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
 
 # 8. Create two lists of colors and combine them. Display the original lists and the joined list.
 
-# color1 = ["red", "white", "silver"]
-# print(color1)
+# Creating the first list of colors
+color1 = ["red", "white", "silver"]
 
-# color2 = ["gold", "orange", "blue"]
-# print(color2)
+# Creating the second list of colors
+color2 = ["gold", "orange", "blue"]
 
-# color = color1 + color2
-# print(color)
+# Combining both lists into a new list
+color = color1 + color2
+
+# Displaying the original lists
+print("Original list 1:", color1)
+print("Original list 2:", color2)
+
+# Displaying the joined list
+print("Joined list:", color)
+
+# output:
+# Original list 1: ['red', 'white', 'silver']
+# Original list 2: ['gold', 'orange', 'blue']
+# Joined list: ['red', 'white', 'silver', 'gold', 'orange', 'blue']
 
 # 9. Create two lists of fruits. Combine them using + and then using extend(). Compare the results.
 
