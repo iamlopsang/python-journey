@@ -1809,20 +1809,37 @@ list()	        |    Creates a list from an iterable
 list.sort()	    |    Sorts the original list
 sorted(list)	|    Creates a new sorted list      """
 
-# 13. Joining Lists — 10 Questions
+""" Joining Lists """
+
 # 1. Create two lists of fruits and combine them using the + operator.
 
-# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
-# fruit2 = ["grape", "orchid"]
-# fruits= fruit1 + fruit2
-# print(fruits)
+# Creating two lists of fruits
+fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+fruit2 = ["grape", "orchid"]
+
+# Combining two lists using the + operator
+fruits = fruit1 + fruit2
+
+# Displaying the combined list
+print(fruits)
+
+# output:
+# ['apple', 'banana', 'orange', 'cherry', 'melon', 'grape', 'orchid']
 
 # 2. Create two lists of numbers and join them using +.
 
-# num1 = [90, 88, 67, 67, 55]
-# num2 = [45, 90, 88, 55, 67]
-# num = num1 + num2
-# print(num)
+# Creating two lists of numbers
+num1 = [90, 88, 67, 67, 55]
+num2 = [45, 90, 88, 55, 67]
+
+# Joining two lists using +
+num = num1 + num2
+
+# Displaying the combined list
+print(num)
+
+# output:
+# [90, 88, 67, 67, 55, 45, 90, 88, 55, 67]
 
 # 3. Create two lists of countries and combine them into a new list.
 
