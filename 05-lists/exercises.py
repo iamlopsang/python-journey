@@ -1718,21 +1718,43 @@ print("Copy:", l)
 
 # 7. Create a list of countries and copy it. Add a new country to the copied list and compare both lists.
 
-# countries = ["Nepal", "Japan", "Bhutan", "Australia", "United Kingdom", "Turkey", "Canada", "Japan"]
-# country= countries.copy()
-# print(country)
+# Creating a list of countries
+countries = ["Nepal", "Japan", "Bhutan", "Australia",
+             "United Kingdom", "Turkey", "Canada", "Japan"]
 
-# country = append.("Korea")
-# print(country)
+# Creating a copy
+country = countries.copy()
+
+# Adding Korea to the copied list
+country.append("Korea")
+
+# Displaying both lists
+print("Original:", countries)
+print("Copied:", country)
+
+# output:
+# Original: ['Nepal', 'Japan', 'Bhutan', 'Australia', 'United Kingdom', 'Turkey', 'Canada', 'Japan']
+# Copied: ['Nepal', 'Japan', 'Bhutan', 'Australia', 'United Kingdom', 'Turkey', 'Canada', 'Japan', 'Korea']
 
 # 8. Create a list of five fruits and remove an item from its copied list. Display both lists.
 
-# fruits = ["apple", "banana", "orange", "cherry", "melon"]
-# print(fruits)
+# Creating a list of five fruits
+fruits = ["apple", "banana", "orange", "cherry", "melon"]
 
-# new_fruits=fruits.copy()
-# new_fruits=remove("cherry")
-# print(new_fruits)
+# Creating a copy
+new_fruits = fruits.copy()
+
+# Removing cherry from the copied list
+new_fruits.remove("cherry")
+
+# Displaying both lists
+print("Original:", fruits)
+print("Copied:", new_fruits)
+
+# output:
+
+# Original: ['apple', 'banana', 'orange', 'cherry', 'melon']
+# Copied: ['apple', 'banana', 'orange', 'melon']
 
 # 9. Create a list of numbers and check whether changing the copied list affects the original list.
 
@@ -1753,3 +1775,87 @@ print("Copy:", l)
 # student= students.copy()
 # student.append("Lisa")
 # print(student)
+
+
+# 13. Joining Lists — 10 Questions
+# 1. Create two lists of fruits and combine them using the + operator.
+
+# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+# fruit2 = ["grape", "orchid"]
+# fruits= fruit1 + fruit2
+# print(fruits)
+
+# 2. Create two lists of numbers and join them using +.
+
+# num1 = [90, 88, 67, 67, 55]
+# num2 = [45, 90, 88, 55, 67]
+# num = num1 + num2
+# print(num)
+
+# 3. Create two lists of countries and combine them into a new list.
+
+# country1 = ["Nepal", "Japan",  "United Kingdom"]
+# country2 = ["Bhutan", "Australia"]
+# countries = country1 + country 2
+# print(countries)
+
+# 4. Create two lists of programming languages and join them using extend().
+
+# l1 = ["python","js"]
+# l2 = ["c", "c++", "java"]
+# l1.extend(l2)
+# print(l1)
+
+# 5. Create three separate lists of numbers and combine them into one list using +.
+
+# num1 = [90, 88, 67, 67, 55]
+# num2 = [45, 90, 88, 55, 67]
+# num1.extend(num2)
+# print(num1)
+
+# 6. Create two lists of student names and combine them using extend().
+
+# student1 = ["Ram", "Shyan", "Radha"]
+# student2 = [ "Laxmi", "Sita"]
+# student1.extend(student2)
+# print(student1)
+
+# 7. Create two lists containing duplicate values and join them using +.
+
+
+# num1 = [90, 88, 67, 67, 55]
+# num2 = [45, 90, 88, 55, 67]
+# num = num1 + num2
+# print(num)
+
+# 8. Create two lists of colors and combine them. Display the original lists and the joined list.
+
+# color1 = ["red", "white", "silver"]
+# print(color1)
+
+# color2 = ["gold", "orange", "blue"]
+# print(color2)
+
+# color = color1 + color2
+# print(color)
+
+# 9. Create two lists of fruits. Combine them using + and then using extend(). Compare the results.
+
+# fruit1 = ["apple", "banana", "orange", "cherry", "melon"]
+# fruit2 = ["grape", "orchid"]
+# fruits= fruit1 + fruit2
+# print(fruits)
+
+# fruit1.extend(fruit2)
+# print(fruit1)
+
+# 10. Create two lists of five numbers each and combine them into one list. Display the total number of elements in the final list.
+
+# num1 = [90, 88, 67, 67, 55]
+# num2 = [45, 90, 88, 55, 67]
+# num1.extend(num2)
+# print(num1)
+# print(len(num1))
+
+
+
