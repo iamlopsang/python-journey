@@ -1843,17 +1843,33 @@ print(num)
 
 # 3. Create two lists of countries and combine them into a new list.
 
-# country1 = ["Nepal", "Japan",  "United Kingdom"]
-# country2 = ["Bhutan", "Australia"]
-# countries = country1 + country 2
-# print(countries)
+# Creating two lists of countries
+country1 = ["Nepal", "Japan", "United Kingdom"]
+country2 = ["Bhutan", "Australia"]
+
+# Combining both lists into a new list
+countries = country1 + country2
+
+# Displaying the combined list
+print(countries)
+
+# output:
+# ['Nepal', 'Japan', 'United Kingdom', 'Bhutan', 'Australia']
 
 # 4. Create two lists of programming languages and join them using extend().
 
-# l1 = ["python","js"]
-# l2 = ["c", "c++", "java"]
-# l1.extend(l2)
-# print(l1)
+# Creating two lists of programming languages
+l1 = ["python", "js"]
+l2 = ["c", "c++", "java"]
+
+# Adding all elements of l2 to l1
+l1.extend(l2)
+
+# Displaying the combined list
+print(l1)
+
+# output:
+# ['python', 'js', 'c', 'c++', 'java']
 
 # 5. Create three separate lists of numbers and combine them into one list using +.
 
