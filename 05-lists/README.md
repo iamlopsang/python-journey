@@ -77,4 +77,32 @@
     > Displaying individual list elements,
     > Performing operations on list elements inside loops.
 
-    
+    10. Sorting a List
+
+    > Sorting elements in ascending order using sort(),
+    > Sorting elements in descending order using reverse=True,
+    > Sorting strings alphabetically,
+    > Using sorted() to create a new sorted list,
+    > Understanding the difference between sort() and sorted().
+
+    11. Reversing a List
+
+    > Reversing the order of elements using reverse(),
+    > Reversing a list using slicing [::-1],
+    > Understanding the difference between modifying the original list and creating a reversed copy.
+
+    12. Copying a List
+
+    > Creating a copy using copy(),
+    > Creating a copy using the list() constructor,
+    > Understanding the difference between an original list and a copied list,
+    > Modifying copied lists independently,
+    > Understanding shallow copies.
+
+    13. Joining Lists
+
+    > Combining two or more lists using the + operator,
+    > Joining lists using extend(),
+    > Understanding the difference between + and extend(),
+    > Combining lists containing duplicate values,
+    > Finding the total number of elements after joining lists.
