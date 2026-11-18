@@ -125,3 +125,20 @@
     List Comprehension Syntax:
 
     [expression for item in iterable if condition]
+
+ ##   Exercises (exercises.py):
+
+    > Practising list creation and working with different data types,
+    > Accessing elements using positive and negative indexing,
+    > Extracting elements using list slicing,
+    > Checking whether items exist in a list,
+    > Modifying individual and multiple list elements,
+    > Finding the length of a list using len(),
+    > Adding elements using append(), insert(), and extend(),
+    > Removing elements using remove(), pop(), del, and clear(),
+    > Looping through lists using for and while loops,
+    > Sorting and reversing lists,
+    > Creating and modifying copies of lists,
+    > Joining multiple lists using + and extend(),
+    > Working with nested lists and list comprehensions.
+
