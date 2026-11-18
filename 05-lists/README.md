@@ -33,4 +33,15 @@
     > Using negative indexing in slices,
     > Reversing a list using slicing.
 
-    
+    4. Checking Items in a List
+
+    > Checking whether an item exists using the in operator,
+    > Checking whether an item does not exist using not in,
+    > Using membership checks in if statements,
+    > Understanding the Boolean results of membership checks.
+
+    5. Changing List Items
+
+    > Modifying individual elements using their indexes,
+    > Replacing multiple elements using slicing,
+    > Understanding how list mutability allows elements to be changed.
