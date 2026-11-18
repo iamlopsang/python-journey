@@ -106,3 +106,22 @@
     > Understanding the difference between + and extend(),
     > Combining lists containing duplicate values,
     > Finding the total number of elements after joining lists.
+
+    14. Nested Lists
+
+    > Understanding lists inside other lists,
+    > Creating nested lists,
+    > Accessing inner lists using indexing,
+    > Accessing individual elements inside nested lists using multiple indexes.
+
+    15. List Comprehensions
+
+    > Understanding list comprehensions,
+    > Creating new lists from existing iterables,
+    > Using the basic list comprehension syntax,
+    > Performing expressions on list elements,
+    > Filtering elements using conditions in list comprehensions.
+
+    List Comprehension Syntax:
+
+    [expression for item in iterable if condition]
