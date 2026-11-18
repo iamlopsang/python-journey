@@ -45,3 +45,19 @@
     > Modifying individual elements using their indexes,
     > Replacing multiple elements using slicing,
     > Understanding how list mutability allows elements to be changed.
+
+    6. Finding List Length
+
+    > Finding the number of elements using len(),
+    > Checking the length of empty and non-empty lists,
+    > Understanding how duplicate elements contribute to list length.
+
+    7. Adding Items to a List
+
+    List Methods:
+
+    > append() — adds a single item to the end of a list,
+    > insert() — adds an item at a specified index,
+    > extend() — adds elements from another iterable to the end of a list.
+
+    
