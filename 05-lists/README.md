@@ -60,4 +60,21 @@
     > insert() — adds an item at a specified index,
     > extend() — adds elements from another iterable to the end of a list.
 
+    8. Removing Items from a List
+
+    List Methods and Statements:
+
+    > remove() — removes the first occurrence of a specified value,
+    > pop() — removes and returns an item at a specified index, or the last item by default,
+    > del — removes an item at a specified index or deletes the entire list,
+    > clear() — removes all items from a list.
+
+    9. Looping Through a List
+
+    > Iterating through list elements using a for loop,
+    > Accessing list elements using a while loop and indexing,
+    > Looping through indexes using range() and len(),
+    > Displaying individual list elements,
+    > Performing operations on list elements inside loops.
+
     
