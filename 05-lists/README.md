@@ -15,3 +15,10 @@
     > Creating lists containing other lists
     > Understanding ordered, mutable, and duplicate elements
     > Creating lists using the list() constructor
+
+    2. Accessing List Items and Indexing
+
+    > Understanding list indexing
+    > Accessing elements using positive indexing
+    > Accessing elements using negative indexing
+    > Retrieving items from different positions in a list
