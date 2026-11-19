@@ -89,6 +89,33 @@ print(my_tuple)
 Python allows different data types to be stored together in one tuple.
 """
 
+## 4.Creating an empty tuple:
+
+"""An empty tuple is a tuple that contains no items."""
+
+# Example:
+
+# Creating an empty tuple
+my_tuple = ()
+
+# Displaying the tuple
+print(my_tuple)
+
+# Checking the data type
+print(type(my_tuple))
+
+## output:
+
+# ()
+# <class 'tuple'>
+
+"""Explanation:
+
+> () creates an empty tuple.
+> type() checks the data type of a variable.
+> Python returns <class 'tuple'>, confirming that it is a tuple.
+"""
+
 ## 1.Tuples Items and Indexing:
 
 """Tuples use indexes just like lists."""
