@@ -142,7 +142,7 @@
     > Joining multiple lists using + and extend(),
     > Working with nested lists and list comprehensions.
 
- ##  What I Learned
+ ##  What I Learned:
 
    > Creating lists and understanding their characteristics, including ordering, mutability, and duplicate elements.
    > Accessing, modifying, and extracting list elements using indexing and slicing.
@@ -154,4 +154,7 @@
    > Combining multiple lists using the + operator and extend().
    > Understanding nested lists and creating new lists using list comprehensions.
 
-   
+##   Purpose:
+
+      To develop a strong foundation in Python list operations and data manipulation by understanding list characteristics, practising 
+      built-in methods, and applying different techniques to work with collections of data.
