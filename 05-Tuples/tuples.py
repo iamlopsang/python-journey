@@ -64,6 +64,31 @@ Python automatically recognizes multiple comma-separated values as a tuple, even
 However, using round brackets is recommended because it makes your code easier to read.
 """
 
+## 3.Creating a Tuple with Different Data Types:
+
+"""A tuple can store different types of data, such as strings, integers, floats, and Boolean values."""
+
+## Example:
+
+# Creating a tuple with different data types
+my_tuple = ("Ram", 22, 3.27, True)
+
+# Displaying the tuple
+print(my_tuple)
+
+## output:
+
+('Ram', 22, 3.27, True)
+
+"""Explanation:
+
+- "Ram" is a string.
+- 22 is an integer.
+- 3.27 is a float.
+- True is a Boolean value.
+Python allows different data types to be stored together in one tuple.
+"""
+
 ## 1.Tuples Items and Indexing:
 
 """Tuples use indexes just like lists."""
