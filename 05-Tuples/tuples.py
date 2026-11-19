@@ -42,6 +42,28 @@ print(fruits)
 > print(fruits) displays all the items in the tuple.
 """
 
+## 2.Creating a tuple without round brackets:
+
+"""In Python, you can also create a tuple without using round brackets. This is called tuple packing.
+"""
+
+# Example:
+
+# Creating a tuple without round brackets
+fruits = "apple", "banana", "cherry"
+
+# Displaying the tuple
+print(fruits)
+
+## output:
+
+('apple', 'banana', 'cherry')
+
+"""Explanation:
+Python automatically recognizes multiple comma-separated values as a tuple, even without round brackets.
+However, using round brackets is recommended because it makes your code easier to read.
+"""
+
 ## 1.Tuples Items and Indexing:
 
 """Tuples use indexes just like lists."""
