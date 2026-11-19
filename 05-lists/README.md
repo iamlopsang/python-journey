@@ -158,3 +158,11 @@
 
       To develop a strong foundation in Python list operations and data manipulation by understanding list characteristics, practising 
       built-in methods, and applying different techniques to work with collections of data.
+
+## Folder Structure:
+
+      04-lists/
+      │
+      ├── README.md
+      ├── lists.py
+      └── exercises.py
