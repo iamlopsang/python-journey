@@ -15,3 +15,15 @@ Tuples are:
     output:
     ('apple', 'banana', 'cherry')
     """
+
+## 1.Tuples Items and Indexing:
+
+"""Tuples use indexes just like lists."""
+
+fruits = ("apple", "banana", "cherry")
+print(fruits[0])
+print(fruits[1])
+
+## output:
+# apple
+# banana
