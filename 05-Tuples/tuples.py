@@ -216,3 +216,29 @@ print(fruits[-1])
 
 # cherry
 
+"""6.3 Accessing Items Using Variables:
+
+You can also store an index number in a variable and use it to access a tupe item.
+"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Storing an index number
+index = 2
+
+# Accessing an item using the index variable
+print(fruits[index])
+
+## output:
+
+# cherry
+
+"""
+Explanation:
+- index = 2 stores the index number 2.
+- fruits[index] accesses the item at index 2.
+- The item at index 2 is "cherry".
+"""
