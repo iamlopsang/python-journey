@@ -272,3 +272,37 @@ Explanation:
 - fruits[-3] accesses "banana".
 - fruits[-4] accesses the first item "apple".
 """
+
+"""6.5 Indexing with Different Data Types:
+You can access items from a tuple containing different data types using their index positions.
+"""
+# Creating a tuple with different data types
+student = ("Mark", 22, 3.27, True)
+
+# Accessing individual items
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[3])
+
+## output:
+
+# Mark
+# 22
+# 3.27
+# True
+
+"""6.6 Accessing an Item with an Invalid Index:
+If you try to access an item using an index that does not exist, Python raises an IndexError."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Accessing an invalid index
+print(fruits[5])
+
+## output:
+
+# IndexError: tuple index out of range
