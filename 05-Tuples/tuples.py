@@ -181,7 +181,27 @@ print(fruits[1])
 # apple
 # banana
 
+""" 6.1 Positive Indexing:
+Positive indexing means accessing tuple items using index numbers starting from 0 (left to right).
+"""
 
+## Example:
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Accessing tuple items using positive indexing
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+print(fruits[3])
+
+## output:
+
+# apple
+# banana
+# cherry
+# orange
 
 ## 2.Negative Indexing:
 
