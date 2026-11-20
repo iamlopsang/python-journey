@@ -182,6 +182,7 @@ print(fruits[1])
 # banana
 
 """ 6.1 Positive Indexing:
+
 Positive indexing means accessing tuple items using index numbers starting from 0 (left to right).
 """
 
@@ -203,6 +204,15 @@ print(fruits[3])
 # cherry
 # orange
 
-## 2.Negative Indexing:
+""" 6.2 Negative Indexing:
 
-""""""
+Negative indexing is used to access tuple items starting from the end (right to left). In Python, the 
+last item has an index of -1, the second-last item has an index of -2, and so on.
+"""
+fruits = ("apple", "banana", "cherry")
+print(fruits[-1])
+
+## output:
+
+# cherry
+
