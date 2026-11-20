@@ -159,10 +159,17 @@ print(type(my_tuple))
 # apple
 # <class 'str'>
 
+"""Accessing Tuple Items (Indexing):
 
+1. What is Tuple Indexing?
+Indexing is used to access individual items from a tuple using their position (index number).
 
+In Python, indexing starts from 0, not 1.
 
-## 1.Tuples Items and Indexing:
+For example, the first item has index 0, the second item has index 1, and so on.
+"""
+
+## 6.Tuples Items and Indexing:
 
 """Tuples use indexes just like lists."""
 
@@ -173,6 +180,8 @@ print(fruits[1])
 ## output:
 # apple
 # banana
+
+
 
 ## 2.Negative Indexing:
 
