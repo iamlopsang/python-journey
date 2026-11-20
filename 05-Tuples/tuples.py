@@ -116,6 +116,52 @@ print(type(my_tuple))
 > Python returns <class 'tuple'>, confirming that it is a tuple.
 """
 
+## 5.Creating a Tuple with One Item:
+
+"""When creating a tuple with only one item, you must include a comma , after the item."""
+
+## Example:
+
+# Creating a tuple with one item
+my_tuple = ("apple",)
+
+# Displaying the tuple
+print(my_tuple)
+
+# Checking the data type
+print(type(my_tuple))
+
+## output:
+
+# ('apple',)
+# <class 'tuple'>
+
+"""
+Explanation:
+
+> The comma tells Python that we are creating a tuple.
+> Without the comma, Python considers the brackets as ordinary grouping parentheses.
+"""
+
+## Example without a comma:
+
+# Creating a variable with one string
+my_tuple = ("apple")
+
+# Displaying the value
+print(my_tuple)
+
+# Checking the data type
+print(type(my_tuple))
+
+## output:
+
+# apple
+# <class 'str'>
+
+
+
+
 ## 1.Tuples Items and Indexing:
 
 """Tuples use indexes just like lists."""
