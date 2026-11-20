@@ -242,3 +242,33 @@ Explanation:
 - fruits[index] accesses the item at index 2.
 - The item at index 2 is "cherry".
 """
+
+""" 6.4 Accessing Items Using Negative Indexing:
+Negative indexing allows you to access tuple items starting from the end (right to left).
+
+In negative indexing, the last item has index -1, the second-last item has index -2, and so on.
+"""
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Accessing items using negative indexing
+print(fruits[-1])
+print(fruits[-2])
+print(fruits[-3])
+print(fruits[-4])
+
+## output:
+
+# orange
+# cherry
+# banana
+# apple
+
+"""
+Explanation:
+- fruits[-1] accesses the last item "orange".
+- fruits[-2] accesses the second-last item "cherry".
+- fruits[-3] accesses "banana".
+- fruits[-4] accesses the first item "apple".
+"""
