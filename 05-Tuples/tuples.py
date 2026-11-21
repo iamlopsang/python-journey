@@ -447,3 +447,27 @@ print(numbers[0:7:2])
 > Python selects the items at indexes 0, 2, 4, and 6.
 > The ending index 7 is excluded.
 """
+
+"""7.5 Reversing a Tuple Using Slicing:
+
+You can reverse the order of tuple items using a negative step value of -1.
+"""
+
+## Example:
+
+# Creating a tuple
+numbers = (10, 20, 30, 40, 50)
+
+# Reversing the tuple
+print(numbers[::-1])
+
+## output:
+
+(50, 40, 30, 20, 10)
+
+"""Explanation:
+
+> numbers[::-1] leaves the start and end indexes empty.
+> The step value -1 tells Python to move backward.
+> Python retrieves all items in reverse order.
+"""
