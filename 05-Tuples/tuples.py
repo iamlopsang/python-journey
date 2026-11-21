@@ -413,3 +413,18 @@ print(fruits[-4:-1])
 > fruits[-4] starts from "banana".
 > fruits[-1] refers to "mango", but the end index is excluded.
 > Therefore, the result contains "banana", "cherry", and "orange"."""
+
+"""7.4 Using the Step Value in Slicing of Tuple:
+
+You can use a third value called step to control how many positions Python skips when retrieving tuple items.
+
+    Syntax:
+
+        tuple_name[start:end:step]
+
+    Explantion:
+
+    > start: Starting index.
+    > end: Ending index (excluded).
+    > step: Number of positions to move between selected items.
+"""
