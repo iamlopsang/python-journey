@@ -428,3 +428,22 @@ You can use a third value called step to control how many positions Python skips
     > end: Ending index (excluded).
     > step: Number of positions to move between selected items.
 """
+## Example:
+
+# Creating a tuple
+numbers = (10, 20, 30, 40, 50, 60, 70)
+
+# Accessing items with a step of 2
+print(numbers[0:7:2])
+
+## output:
+
+(10, 30, 50, 70)
+
+"""Explanation:
+
+> numbers[0:7:2] starts from index 0.
+> It moves forward by 2 positions each time.
+> Python selects the items at indexes 0, 2, 4, and 6.
+> The ending index 7 is excluded.
+"""
