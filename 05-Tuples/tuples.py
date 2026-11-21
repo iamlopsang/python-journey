@@ -391,4 +391,25 @@ print(fruits[2:])
 > It retrieves all items from "cherry" to the end of the tuple.
 """
 
+"""7.3 Using negative Indexing in  Slicing:
 
+You can also use negative indexes to slice a tuple from the end.
+"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange", "mango")
+
+# Slicing using negative indexing
+print(fruits[-4:-1])
+
+## output:
+
+('banana', 'cherry', 'orange')
+
+"""Explanation:
+
+> fruits[-4] starts from "banana".
+> fruits[-1] refers to "mango", but the end index is excluded.
+> Therefore, the result contains "banana", "cherry", and "orange"."""
