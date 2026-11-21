@@ -314,4 +314,33 @@ Tuple slicing is used to access a range of items from a tuple by specifying thei
 Instead of accessing one item at a time, slicing allows you to retrieve multiple items from a tuple.
 
 Slicing uses square brackets [] with a colon :.
+
+    Syntax:
+
+    tuple_name[start:end]
+
+    Explanation:
+
+    start: The index where slicing begins (included).
+    end: The index where slicing stops (excluded).
+
+"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange", "mango")
+
+# Accessing a range of items
+print(fruits[1:4])
+
+## output:
+
+('banana', 'cherry', 'orange')
+
+"""Explantion:
+
+fruits[1:4] starts slicing from index 1.
+It includes "banana", "cherry", and "orange".
+It stops before index 4, so "mango" is not included.
 """
