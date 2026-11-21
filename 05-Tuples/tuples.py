@@ -321,8 +321,8 @@ Slicing uses square brackets [] with a colon :.
 
     Explanation:
 
-    start: The index where slicing begins (included).
-    end: The index where slicing stops (excluded).
+    > start: The index where slicing begins (included).
+    > end: The index where slicing stops (excluded).
 
 """
 
@@ -340,7 +340,30 @@ print(fruits[1:4])
 
 """Explantion:
 
-fruits[1:4] starts slicing from index 1.
-It includes "banana", "cherry", and "orange".
-It stops before index 4, so "mango" is not included.
+> fruits[1:4] starts slicing from index 1.
+> It includes "banana", "cherry", and "orange".
+> It stops before index 4, so "mango" is not included.
+"""
+
+""" 7.1 Slicing from the beginning:
+
+You can leave the start index empty to access items from the beginning of the tuple.
+"""
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange", "mango")
+
+# Slicing from the beginning
+print(fruits[:3])
+
+## output:
+
+('apple', 'banana', 'cherry')
+
+"""Explanation:
+
+> fruits[:3] starts from the beginning (index 0).
+> It accesses items up to index 2.
+> It stops before index 3.
 """
