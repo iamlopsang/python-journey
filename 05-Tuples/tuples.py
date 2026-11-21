@@ -367,3 +367,28 @@ print(fruits[:3])
 > It accesses items up to index 2.
 > It stops before index 3.
 """
+
+"""7.2 Slicing to the end:
+
+You can leave the end index empty to access items from a particular index to the end of the tuple.
+"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange", "mango")
+
+# Slicing to the end
+print(fruits[2:])
+
+## output:
+
+('cherry', 'orange', 'mango')
+
+"""Explanation:
+
+> fruits[2:] starts from index 2.
+> It retrieves all items from "cherry" to the end of the tuple.
+"""
+
+
