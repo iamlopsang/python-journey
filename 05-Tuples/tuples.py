@@ -306,3 +306,12 @@ print(fruits[5])
 ## output:
 
 # IndexError: tuple index out of range
+
+"""7. Slicing in Tuple:
+
+Tuple slicing is used to access a range of items from a tuple by specifying their index positions.
+
+Instead of accessing one item at a time, slicing allows you to retrieve multiple items from a tuple.
+
+Slicing uses square brackets [] with a colon :.
+"""
