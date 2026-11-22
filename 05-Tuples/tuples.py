@@ -571,3 +571,32 @@ Explanation:
 - Therefore, the code inside the if block is executed.
 - The else block is skipped.
 """
+
+"""9. Length of a Tuple (len()):
+1. What is the len() Function?
+The len() function is a built-in Python function used to find the total number of items in a tuple.
+
+It counts every item in the tuple, including duplicate values and items with different data types.
+
+    Syntax:
+
+    len(tuple_name)
+"""
+
+    ## Example- finding the length of the tuple
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Finding the length of the tuple
+print(len(fruits))
+
+## output:
+
+4
+
+"""Explanation:
+- The fruits tuple contains four items.
+- len(fruits) counts the total number of items.
+- Therefore, Python returns 4.
+"""
