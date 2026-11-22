@@ -592,11 +592,32 @@ fruits = ("apple", "banana", "cherry", "orange")
 print(len(fruits))
 
 ## output:
-
 4
 
 """Explanation:
 - The fruits tuple contains four items.
 - len(fruits) counts the total number of items.
 - Therefore, Python returns 4.
+"""
+
+"""
+9.1. Finding the Length of a Tuple with Duplicate Items:
+
+The len() function counts duplicate items separately.
+"""
+
+## Example:
+
+# Creating a tuple with duplicate items
+numbers = (10, 20, 20, 30, 40, 40)
+
+# Finding the length
+print(len(numbers))
+
+## output:
+6
+
+"""Explanation:
+> Even though some values are repeated, Python counts every occurrence as a separate item.
+> Therefore, the total number of items is 6.
 """
