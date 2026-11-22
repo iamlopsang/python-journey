@@ -481,5 +481,14 @@ Python provides two membership operators:
 - in: Checks whether an item exists in a tuple.
 - not in: Checks whether an item does not exist in a tuple.
 Both operators return a Boolean value: True or False.
+"""
 
+""" 8.1 Using the in Operator:
+
+The in operator checks whether a specified item exists in a tuple.
+It returns True if the item exists and False if it does not. 
+
+    Syntax:
+
+    item in tuple_name
 """
