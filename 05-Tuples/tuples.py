@@ -492,3 +492,24 @@ It returns True if the item exists and False if it does not.
 
     item in tuple_name
 """
+
+## Example:
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Checking whether an item exists
+print("banana" in fruits)
+print("mango" in fruits)
+
+## output:
+
+True
+False
+
+"""
+Explanation:
+
+- "banana" in fruits checks whether "banana" exists in the tuple. Since it exists, Python returns True.
+- "mango" in fruits checks whether "mango" exists in the tuple. Since it does not exist, Python returns False.
+"""
