@@ -637,3 +637,30 @@ print(len(my_tuple))
 ## output:
 0
 
+"""9.3  Using len() with Conditional Statements:
+
+You can use the len() function with conditional statements to check whether a tuple contains items or is empty.
+"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Checking whether the tuple is empty
+if len(fruits) > 0:
+    print("The tuple is not empty.")
+else:
+    print("The tuple is empty.")
+
+## output:
+
+# The tuple is not empty.
+
+"""
+Explanation:
+- len(fruits) returns 3.
+- Python checks whether 3 > 0.
+- Since the condition is True, the if block executes.
+- Therefore, it prints "The tuple is not empty.".
+"""
