@@ -543,3 +543,31 @@ Explanation:
 - "elephant" not in animals returns True because elephant is not present in the tuple.
 - "lion" not in animals returns False because lion already exists in the tuple.
 """
+
+"""8.3 Using Membership Operators with Conditional Statements:
+
+You can also use in and not in inside if-else statements to execute code based on whether an item exists in a tuple.
+"""
+
+## Example:
+
+# Creating a tuple of available courses
+courses = ("Python", "SQL", "Java", "Excel")
+
+# Checking whether a course is available
+if "Python" in courses:
+    print("Python course is available.")
+else:
+    print("Python course is not available.")
+
+## output:
+
+# Python course is available.
+
+"""
+Explanation:
+- The if statement checks whether "Python" exists in the courses tuple.
+- Since Python exists, the condition returns True.
+- Therefore, the code inside the if block is executed.
+- The else block is skipped.
+"""
