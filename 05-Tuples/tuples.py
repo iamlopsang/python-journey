@@ -471,3 +471,15 @@ print(numbers[::-1])
 > The step value -1 tells Python to move backward.
 > Python retrieves all items in reverse order.
 """
+
+"""8. Checking if an Item Exists in a Tuple (in and not in):
+
+What is Tuple Membership?
+Tuple membership is used to check whether a particular item exists or does not exist in a tuple.
+
+Python provides two membership operators:
+- in: Checks whether an item exists in a tuple.
+- not in: Checks whether an item does not exist in a tuple.
+Both operators return a Boolean value: True or False.
+
+"""
