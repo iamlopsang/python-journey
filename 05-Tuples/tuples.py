@@ -513,3 +513,33 @@ Explanation:
 - "banana" in fruits checks whether "banana" exists in the tuple. Since it exists, Python returns True.
 - "mango" in fruits checks whether "mango" exists in the tuple. Since it does not exist, Python returns False.
 """
+
+"""8.2 Using the not in Operator:
+
+The not in operator checks whether a specified item does not exist in a tuple.
+It returns True if the item is absent and False if it exists.
+
+    Syntax:
+
+    item not in tuple_name
+"""
+
+## Example:
+
+# Creating a tuple of animals
+animals = ("cat", "dog", "lion", "tiger")
+
+# Checking whether an item is absent
+print("elephant" not in animals)
+print("lion" not in animals)
+
+## output:
+
+True
+False
+
+"""
+Explanation:
+- "elephant" not in animals returns True because elephant is not present in the tuple.
+- "lion" not in animals returns False because lion already exists in the tuple.
+"""
