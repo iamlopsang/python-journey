@@ -621,3 +621,19 @@ print(len(numbers))
 > Even though some values are repeated, Python counts every occurrence as a separate item.
 > Therefore, the total number of items is 6.
 """
+
+"""9.2 Finding the Length of an Empty Tuple:
+
+An empty tuple contains no items. Therefore, its length is 0.
+"""
+## Example:
+
+# Creating an empty tuple
+my_tuple = ()
+
+# Finding the length
+print(len(my_tuple))
+
+## output:
+0
+
