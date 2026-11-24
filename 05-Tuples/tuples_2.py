@@ -43,3 +43,30 @@ for fruit in fruits:
 3. The print() statement displays the current item.
 4. The loop moves to the next item.
 5. This process continues until all tuple items have been accessed."""
+
+"""10.1 Looping through a tuple using index numbers:
+
+You can also use a for loop with the range() and len() functions to access tuple items through their index numbers."""
+
+##  Example:
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Looping through tuple using index numbers
+for i in range(len(fruits)):
+    print(fruits[i])
+
+## output:
+
+# apple
+# banana
+# cherry
+# orange
+
+"""Explanation:
+- len(fruits) returns 4 because the tuple contains four items.
+- range(4) generates index numbers 0, 1, 2, 3.
+- The variable i stores each index number.
+- fruits[i] accesses the item at the current index.
+- The loop continues until all four items are displayed."""
