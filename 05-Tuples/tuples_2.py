@@ -161,3 +161,50 @@ Statement	|   Purpose                                             |
 ---------------------------------------------------------------------
 break	    |   Terminates the entire loop.                         |
 continue	|   Skips the current iteration and continues the loop. |"""
+
+"""11. Looping Through Tuples Using a while Loop:
+
+    What is a while Loop?
+
+    A while loop is used to execute a block of code repeatedly as long as a specified condition is True.
+    When looping through a tuple, a while loop uses index numbers to access each item one by one.
+    Unlike a for loop, a while loop requires you to manually manage the index number.
+    """
+
+## 11.1 Using a while Loop to Access Tuple Items
+    
+    # Syntax:
+
+""" while condition:
+        # Code to execute
+        # Update the index """
+
+## Example:
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Initializing the index
+i = 0
+
+# Looping through the tuple
+while i < len(fruits):
+    print(fruits[i])
+    i += 1
+
+## output:
+
+# apple
+# banana
+# cherry
+# orange
+
+"""Explanation:
+
+Let's understand the code step by step.
+1. i = 0 initializes the index at 0, which represents the first item.
+2. while i < len(fruits) checks whether the index is smaller than the total number of items.
+3. print(fruits[i]) accesses and displays the item at the current index.
+4. i += 1 increases the index by 1 after each iteration.
+5. The loop continues until i becomes 4.
+6. When i becomes 4, the condition 4 < 4 becomes False, and the loop stops."""
