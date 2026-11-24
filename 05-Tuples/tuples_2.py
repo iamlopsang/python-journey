@@ -155,3 +155,9 @@ for num in numbers:
 - The continue statement skips the current iteration.
 - Therefore, 30 is not printed.
 - The loop continues with 40 and 50."""
+
+"""note:
+Statement	|   Purpose                                             |
+---------------------------------------------------------------------
+break	    |   Terminates the entire loop.                         |
+continue	|   Skips the current iteration and continues the loop. |"""
