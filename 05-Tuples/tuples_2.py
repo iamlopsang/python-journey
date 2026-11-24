@@ -70,3 +70,30 @@ for i in range(len(fruits)):
 - The variable i stores each index number.
 - fruits[i] accesses the item at the current index.
 - The loop continues until all four items are displayed."""
+
+"""10.2 Looping through a tuple with a conditional statement:
+
+You can combine a for loop with an if statement to check conditions for each item in a tuple.
+"""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 15, 20, 25, 30, 35)
+
+# Displaying only even numbers
+for num in numbers:
+    if num % 2 == 0:
+        print(num)
+
+## output:
+
+10
+20
+30
+
+"""Explanation:
+- The for loop accesses each number one by one.
+- num % 2 == 0 checks whether the current number is divisible by 2.
+- If the condition is True, Python prints the number.
+- If the condition is False, Python skips the print() statement and moves to the next item."""
