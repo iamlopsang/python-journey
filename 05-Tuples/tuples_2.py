@@ -125,3 +125,33 @@ for num in numbers:
 - When it reaches 30, the condition num == 30 becomes True.
 - The break statement immediately terminates the loop.
 - Therefore, 30, 40, and 50 are not printed."""
+
+"""10.4 Using continue in a tuple loop:
+
+The continue statement skips the current iteration and moves to the next item in the loop.
+"""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 20, 30, 40, 50)
+
+# Skipping the number 30
+for num in numbers:
+    if num == 30:
+        continue
+    print(num)
+
+## output:
+
+10
+20
+40
+50
+
+"""Explanation:
+- The loop accesses each number one by one.
+- When it reaches 30, the condition becomes True.
+- The continue statement skips the current iteration.
+- Therefore, 30 is not printed.
+- The loop continues with 40 and 50."""
