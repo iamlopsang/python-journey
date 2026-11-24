@@ -97,3 +97,31 @@ for num in numbers:
 - num % 2 == 0 checks whether the current number is divisible by 2.
 - If the condition is True, Python prints the number.
 - If the condition is False, Python skips the print() statement and moves to the next item."""
+
+"""10.3 Using break in  a tuple loop:
+
+The break statement is used to stop a loop immediately when a specified condition is met.
+"""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 20, 30, 40, 50)
+
+# Stopping the loop when the number is 30
+for num in numbers:
+    if num == 30:
+        break
+    print(num)
+
+## output:
+
+10
+20
+
+"""Explanation:
+- The loop starts with 10 and prints it.
+- Next, it accesses 20 and prints it.
+- When it reaches 30, the condition num == 30 becomes True.
+- The break statement immediately terminates the loop.
+- Therefore, 30, 40, and 50 are not printed."""
