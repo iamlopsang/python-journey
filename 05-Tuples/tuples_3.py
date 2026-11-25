@@ -26,3 +26,9 @@ print(fruits)
 
 # TypeError: 'tuple' object does not support item assignment
 
+"""Explanation:
+- fruits[1] refers to "banana".
+- We are trying to replace "banana" with "orange".
+- However, tuples do not support item assignment.
+- Python raises a TypeError because tuple items cannot be changed.
+The print() statement does not execute because the error stops the program."""
