@@ -104,3 +104,28 @@ fruits.remove("banana")
 
 The remove() method belongs to lists. Since tuples cannot be modified, Python does not provide this method for tuples."""
 
+"""12.3 Important Exception: Tuples Can Contain Mutable Objects:
+
+Although tuples themselves are immutable, they can contain mutable objects such as lists.
+The tuple cannot change which objects it contains, but a mutable object inside it can still be modified."""
+
+## Example:
+
+# Creating a tuple containing a list
+my_tuple = ("apple", [10, 20, 30], "banana")
+
+# Changing an item inside the list
+my_tuple[1][0] = 100
+
+# Displaying the tuple
+print(my_tuple)
+
+## output:
+
+('apple', [100, 20, 30], 'banana')
+
+"""Explanation:
+- my_tuple[1] accesses the list [10, 20, 30].
+- my_tuple[1][0] accesses the first item inside that list.
+- We change the list's first item from 10 to 100.
+- The list is mutable, so this change is allowed."""
