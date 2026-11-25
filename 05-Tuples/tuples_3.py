@@ -63,3 +63,24 @@ print(my_tuple)
 """Explanation:
 - Lists are mutable, so my_list[1] = "orange" works.
 - Tuples are immutable, so my_tuple[1] = "orange" raises an error."""
+
+"""12.1 Tuples Cannot Be Added to Directly:
+
+You cannot use the append() method to add an item to a tuple because tuples do not have an append() method."""
+
+##  Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Trying to add an item
+fruits.append("orange")
+
+## output:
+
+# AttributeError: 'tuple' object has no attribute 'append'
+
+"""Explanation:
+
+The append() method is used to add items to a list. Tuples do not support this method because they are immutable."""
+
