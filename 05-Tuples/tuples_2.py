@@ -350,3 +350,15 @@ while i < len(numbers):
 - i += 1 increases the index before continuing.
 - continue skips the remaining code in the current iteration.
 - The loop moves to the next number, which is 40."""
+
+
+"""Difference Between for and while Loops:
+
+For Loop	                                        |   While Loop
+-------------------------------------------------------------------------------------------------------------------
+Commonly used to iterate through a tuple directly.	|   Uses a condition to control iteration.
+Automatically moves to the next item.	            |   Requires manual index updates.
+Generally simpler for tuple iteration.	            |   Useful when you need more control over the loop condition.
+Example: for item in fruits:	                    |   Example: while i < len(fruits):
+
+"""
