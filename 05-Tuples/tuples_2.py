@@ -312,3 +312,41 @@ while i < len(numbers):
 - The break statement terminates the loop immediately.
 - Therefore, 30, 40, and 50 are not printed."""
 
+"""11.4 Using continue in a while Loop:
+
+The continue statement skips the current iteration and moves to the next iteration."""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 20, 30, 40, 50)
+
+# Initializing the index
+i = 0
+
+# Looping through the tuple
+while i < len(numbers):
+
+    # Skipping the number 30
+    if numbers[i] == 30:
+        i += 1
+        continue
+
+    print(numbers[i])
+
+    # Increasing the index
+    i += 1
+
+## output:
+
+10
+20
+40
+50
+
+"""Explanation:
+- The loop accesses each number using its index.
+- When it reaches 30, the condition becomes True.
+- i += 1 increases the index before continuing.
+- continue skips the remaining code in the current iteration.
+- The loop moves to the next number, which is 40."""
