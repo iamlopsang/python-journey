@@ -208,3 +208,35 @@ Let's understand the code step by step.
 4. i += 1 increases the index by 1 after each iteration.
 5. The loop continues until i becomes 4.
 6. When i becomes 4, the condition 4 < 4 becomes False, and the loop stops."""
+
+
+""" 11.2 Looping Through a Tuple Using Negative Indexing:
+
+You can also use negative indexing with a while loop to access tuple items from the end to the beginning."""
+
+## Example:
+
+# Creating a tuple of fruits
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Initializing the negative index
+i = -1
+
+# Looping through the tuple in reverse order
+while i >= -len(fruits):
+    print(fruits[i])
+    i -= 1
+
+## output:
+
+# orange
+# cherry
+# banana
+# apple
+
+"""Explanation:
+- i = -1 starts from the last item.
+- -len(fruits) returns -4, which represents the first item.
+- fruits[i] accesses the item at the current negative index.
+- i -= 1 decreases the index by 1 after each iteration.
+- The loop stops when i becomes -5 because the condition is no longer True."""
