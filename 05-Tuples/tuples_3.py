@@ -84,3 +84,23 @@ fruits.append("orange")
 
 The append() method is used to add items to a list. Tuples do not support this method because they are immutable."""
 
+"""12.2 5. Tuples Cannot Be Removed from Directly:
+
+You cannot use the remove() method to remove an item from a tuple."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Trying to remove an item
+fruits.remove("banana")
+
+## output:
+
+# AttributeError: 'tuple' object has no attribute 'remove'
+
+"""Explanation:
+
+The remove() method belongs to lists. Since tuples cannot be modified, Python does not provide this method for tuples."""
+
