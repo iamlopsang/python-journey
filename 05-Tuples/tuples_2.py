@@ -240,3 +240,39 @@ while i >= -len(fruits):
 - fruits[i] accesses the item at the current negative index.
 - i -= 1 decreases the index by 1 after each iteration.
 - The loop stops when i becomes -5 because the condition is no longer True."""
+
+"""11.3 Using a while Loop with a Conditional Statement:
+
+You can combine a while loop with an if statement to check conditions for each tuple item."""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 15, 20, 25, 30, 35)
+
+# Initializing the index
+i = 0
+
+# Looping through the tuple
+while i < len(numbers):
+
+    # Checking for even numbers
+    if numbers[i] % 2 == 0:
+        print(numbers[i])
+
+    # Increasing the index
+    i += 1
+
+## output:
+
+10
+20
+30
+
+"""Explanation:
+- The while loop accesses each number using its index.
+- numbers[i] % 2 == 0 checks whether the current number is even.
+- If the condition is True, the number is printed.
+- If the condition is False, Python skips the print() statement.
+- i += 1 moves to the next index."""
+
