@@ -276,3 +276,39 @@ while i < len(numbers):
 - If the condition is False, Python skips the print() statement.
 - i += 1 moves to the next index."""
 
+"""11.3 Using break in a while Loop:
+
+The break statement immediately terminates the loop when a specified condition is met."""
+
+## Example:
+
+# Creating a tuple of numbers
+numbers = (10, 20, 30, 40, 50)
+
+# Initializing the index
+i = 0
+
+# Looping through the tuple
+while i < len(numbers):
+
+    # Stopping when the number is 30
+    if numbers[i] == 30:
+        break
+
+    print(numbers[i])
+
+    # Increasing the index
+    i += 1
+
+## output:
+
+10
+20
+
+"""Explanation:
+- The loop starts at index 0 and prints 10.
+- Next, it prints 20.
+- When the current item becomes 30, the condition becomes True.
+- The break statement terminates the loop immediately.
+- Therefore, 30, 40, and 50 are not printed."""
+
