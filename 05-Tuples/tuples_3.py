@@ -32,3 +32,34 @@ print(fruits)
 - However, tuples do not support item assignment.
 - Python raises a TypeError because tuple items cannot be changed.
 The print() statement does not execute because the error stops the program."""
+
+"""12.1 Tuples Cannot Be Changed Using Indexing:
+
+Let's compare a list and a tuple."""
+
+## Example:
+
+# Creating a list
+my_list = ["apple", "banana", "cherry"]
+
+# Changing a list item
+my_list[1] = "orange"
+
+print(my_list)
+
+# Creating a tuple
+my_tuple = ("apple", "banana", "cherry")
+
+# Trying to change a tuple item
+my_tuple[1] = "orange"
+
+print(my_tuple)
+
+## output:
+
+# ['apple', 'orange', 'cherry']
+# TypeError: 'tuple' object does not support item assignment
+
+"""Explanation:
+- Lists are mutable, so my_list[1] = "orange" works.
+- Tuples are immutable, so my_tuple[1] = "orange" raises an error."""
