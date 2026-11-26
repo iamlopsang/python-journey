@@ -201,3 +201,17 @@ print(fruits)
 - fruits[2:] retrieves the items from index 2 to the end: ("cherry",).
 - The + operator joins these tuples together.
 - The new tuple is assigned to fruits."""
+
+"""14. Adding Items to a Tuple:
+
+    ## Can We Add Items to a Tuple?
+
+    Tuples are immutable, which means we cannot directly add new items to an existing tuple.
+    Unlike lists, tuples do not have an append() or extend() method.
+
+    However, we can add items by creating a new tuple using tuple concatenation (+) or by converting the tuple into a list.
+
+    2. Adding an Item Using Tuple Concatenation (+)
+
+    The + operator is used to join two or more tuples together.
+    To add a single item, we first need to create a tuple containing that item."""
