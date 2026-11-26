@@ -147,3 +147,31 @@ print(my_tuple)
     We can convert a tuple into a list using the list() function, modify the list, and then convert 
     it back into a tuple using the tuple() function.
 """
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Converting the tuple into a list
+my_list = list(fruits)
+
+# Changing an item in the list
+my_list[1] = "orange"
+
+# Converting the list back into a tuple
+fruits = tuple(my_list)
+
+# Displaying the modified tuple
+print(fruits)
+
+## output:
+
+('apple', 'orange', 'cherry')
+
+"""Explanation:
+1. fruits stores the original tuple.
+2. list(fruits) converts the tuple into a list.
+3. my_list[1] = "orange" changes the second item.
+4. tuple(my_list) converts the modified list back into a tuple.
+5. The new tuple is assigned to the variable fruits."""
