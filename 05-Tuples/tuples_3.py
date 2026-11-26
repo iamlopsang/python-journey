@@ -175,3 +175,29 @@ print(fruits)
 3. my_list[1] = "orange" changes the second item.
 4. tuple(my_list) converts the modified list back into a tuple.
 5. The new tuple is assigned to the variable fruits."""
+
+"""13.1 Changing Tuple Values by Creating a New Tuple:
+
+You can also create a new tuple using the existing tuple's items and the values you want to change."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Creating a new tuple with a changed value
+fruits = fruits[0:1] + ("orange",) + fruits[2:]
+
+# Displaying the new tuple
+print(fruits)
+
+## output:
+
+('apple', 'orange', 'cherry')
+
+"""Explanation:
+- fruits[0:1] retrieves the first item: ("apple",).
+- ("orange",) creates a tuple containing one item.
+- fruits[2:] retrieves the items from index 2 to the end: ("cherry",).
+- The + operator joins these tuples together.
+- The new tuple is assigned to fruits."""
