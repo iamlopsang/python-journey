@@ -240,3 +240,31 @@ print(fruits)
 - The result is a new tuple containing all four items.
 - We assign the new tuple back to the variable fruits.
 Remember: The comma in ("orange",) is necessary to create a single-item tuple."""
+
+"""13.2 Adding Multiple Items to a Tuple:
+
+You can add multiple items by joining the original tuple with another tuple containing the new items.
+"""
+
+## Example:
+
+# Creating a tuple
+numbers = (10, 20, 30)
+
+# Creating a tuple with multiple new items
+new_numbers = (40, 50, 60)
+
+# Adding multiple items
+numbers = numbers + new_numbers
+
+# Displaying the updated tuple
+print(numbers)
+
+## output:
+
+(10, 20, 30, 40, 50, 60)
+
+"""Explanation:
+- new_numbers contains three new items.
+- The + operator joins numbers and new_numbers.
+- Python creates a new tuple containing all six items."""
