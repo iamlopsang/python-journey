@@ -299,3 +299,41 @@ print(fruits)
 2. my_list.append("orange") adds a new item to the list.
 3. tuple(my_list) converts the list back into a tuple.
 4. The new tuple is assigned to fruits."""
+
+"""15. Removing Items from a Tuple:
+
+    ## Can We Remove Items from a Tuple?
+
+    Tuples are immutable, which means we cannot directly remove items from an existing tuple.
+    Unlike lists, tuples do not have methods such as remove(), pop(), or clear().
+    However, we can remove items by creating a new tuple without the items we want to remove.
+
+    There are two common ways:
+    1. Using tuple slicing.
+    2. Converting the tuple into a list, removing items, and converting it back into a tuple.
+    
+    15.1 Removing an Item Using Tuple Slicing:
+
+Tuple slicing allows us to select the items we want to keep and join them together."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Removing the second item
+fruits = fruits[:1] + fruits[2:]
+
+# Displaying the updated tuple
+print(fruits)
+
+## output:
+
+('apple', 'cherry', 'orange')
+
+"""Explanation:
+- fruits[:1] selects the items before index 1, which is ("apple",).
+- fruits[2:] selects the items from index 2 to the end, which is ("cherry", "orange").
+- The + operator joins both tuples.
+- The new tuple does not contain "banana".
+The original tuple was not directly modified. Instead, a new tuple was created and assigned to fruits."""
