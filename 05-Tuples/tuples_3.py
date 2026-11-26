@@ -129,3 +129,21 @@ print(my_tuple)
 - my_tuple[1][0] accesses the first item inside that list.
 - We change the list's first item from 10 to 100.
 - The list is mutable, so this change is allowed."""
+
+"""13. Changing Tuple Values (Workaround):
+
+    ## Can We Change Tuple Values?
+
+    Tuples are immutable, which means we cannot directly change, add, or remove their items.
+    However, Python allows us to create a new tuple with modified values using a workaround.
+
+    There are two common ways to do this:
+    1. Convert the tuple into a list, modify it, and convert it back into a tuple.
+    2. Create a new tuple by joining the required values.
+
+    ## 13.1 Changing Tuple Values by Converting to a List:
+
+    A list is mutable, so we can change its items after creating it.
+    We can convert a tuple into a list using the list() function, modify the list, and then convert 
+    it back into a tuple using the tuple() function.
+"""
