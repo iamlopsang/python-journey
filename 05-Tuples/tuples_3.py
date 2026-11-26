@@ -215,3 +215,28 @@ print(fruits)
 
     The + operator is used to join two or more tuples together.
     To add a single item, we first need to create a tuple containing that item."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Creating a tuple with a new item
+new_fruit = ("orange",)
+
+# Adding the new item
+fruits = fruits + new_fruit
+
+# Displaying the updated tuple
+print(fruits)
+
+## output:
+
+('apple', 'banana', 'cherry', 'orange')
+
+"""Explanation:
+- new_fruit = ("orange",) creates a tuple with one item.
+- fruits + new_fruit joins both tuples together.
+- The result is a new tuple containing all four items.
+- We assign the new tuple back to the variable fruits.
+Remember: The comma in ("orange",) is necessary to create a single-item tuple."""
