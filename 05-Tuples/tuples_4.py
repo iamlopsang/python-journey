@@ -38,3 +38,25 @@ Tuple item	Variable
 3.27	    ->    gpa
 
 Python assigns each item to the variable in the same position."""
+
+##  Example 2: Unpacking a Tuple of Numbers
+
+# Creating a tuple
+numbers = (10, 20, 30)
+
+# Unpacking
+a, b, c = numbers
+
+print(a)
+print(b)
+print(c)
+
+## output:
+
+10
+20
+30
+
+"""Important: The number of variables must match
+Normally, the number of variables must be equal to the number of tuple items."""
+
