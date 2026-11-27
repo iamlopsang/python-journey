@@ -103,3 +103,28 @@ print(rest)
 - first receives the first item, 10.
 - *rest collects all remaining items into a list.
 Notice that rest is a list, not a tuple."""
+
+## Example 2:Collecting Items in the Middle
+
+# Creating a tuple
+numbers = (10, 20, 30, 40, 50)
+
+# Unpacking
+first, *middle, last = numbers
+
+print(first)
+print(middle)
+print(last)
+
+## output:
+
+10
+[20, 30, 40]
+50
+
+"""Explanation:
+
+- first receives the first item.
+- *middle collects all items between the first and last.
+- last receives the last item.
+"""
