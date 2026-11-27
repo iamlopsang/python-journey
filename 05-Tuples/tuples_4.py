@@ -128,3 +128,25 @@ print(last)
 - *middle collects all items between the first and last.
 - last receives the last item.
 """
+
+##  Example 3: Collecting Items at the Beginning
+
+numbers = (10, 20, 30, 40, 50)
+
+*beginning, last = numbers
+
+print(beginning)
+print(last)
+
+## output:
+
+[10, 20, 30, 40]
+50
+
+"""Note:
+
+Important points
+- Only one starred variable is allowed in a single unpacking assignment.
+- The starred variable always collects the remaining items into a list.
+- It can be placed at the beginning, middle, or end.
+"""
