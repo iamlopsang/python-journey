@@ -60,3 +60,18 @@ print(c)
 """Important: The number of variables must match
 Normally, the number of variables must be equal to the number of tuple items."""
 
+## Example:
+
+numbers = (10, 20, 30)
+
+a, b = numbers
+
+## output:
+
+# ValueError: too many values to unpack
+
+"""There are three items but only two variables.
+
+Similarly, if there are more variables than items, Python raises:"""
+
+## ValueError: not enough values to unpack
