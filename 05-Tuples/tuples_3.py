@@ -332,15 +332,15 @@ print(fruits)
 ('apple', 'cherry', 'orange')
 
 """Explanation:
-- fruits[:1] selects the items before index 1, which is ("apple",).
-- fruits[2:] selects the items from index 2 to the end, which is ("cherry", "orange").
-- The + operator joins both tuples.
-- The new tuple does not contain "banana".
-The original tuple was not directly modified. Instead, a new tuple was created and assigned to fruits."""
+    - fruits[:1] selects the items before index 1, which is ("apple",).
+    - fruits[2:] selects the items from index 2 to the end, which is ("cherry", "orange").
+    - The + operator joins both tuples.
+    - The new tuple does not contain "banana".
+    The original tuple was not directly modified. Instead, a new tuple was created and assigned to fruits."""
 
 """15.1 Removing an Item Using List Conversion:
 
-You can convert a tuple into a list, remove an item using the remove() method, and convert it back into a tuple."""
+    You can convert a tuple into a list, remove an item using the remove() method, and convert it back into a tuple."""
 
 ## Example:
 
@@ -364,14 +364,14 @@ print(fruits)
 ('apple', 'cherry', 'orange')
 
 """Explanation:
-1. list(fruits) converts the tuple into a list.
-2. my_list.remove("banana") removes the specified item from the list.
-3. tuple(my_list) converts the modified list back into a tuple.
-4. The new tuple is assigned to fruits."""
+    1. list(fruits) converts the tuple into a list.
+    2. my_list.remove("banana") removes the specified item from the list.
+    3. tuple(my_list) converts the modified list back into a tuple.
+    4. The new tuple is assigned to fruits."""
 
 """15.2 Removing an Item Using del with List Conversion:
 
-You can also use the del statement to remove an item by its index after converting the tuple into a list."""
+    You can also use the del statement to remove an item by its index after converting the tuple into a list."""
 
 ## Example:
 
@@ -395,6 +395,32 @@ print(numbers)
 (10, 20, 40, 50)
 
 """Explanation:
-- del my_list[2] removes the item at index 2.
-- The item at index 2 is 30.
-- The remaining items are converted back into a tuple."""
+    - del my_list[2] removes the item at index 2.
+    - The item at index 2 is 30.
+    - The remaining items are converted back into a tuple."""
+
+"""15.3 Deleting an Entire Tuple Using del:
+
+    Although you cannot remove individual items directly from a tuple, 
+    you can delete the entire tuple variable using the del statement."""
+
+##  Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Deleting the tuple variable
+del fruits
+
+# Trying to display the tuple
+print(fruits)
+
+## output:
+
+# NameError: name 'fruits' is not defined
+
+"""Explanation:
+    - del fruits deletes the variable fruits.
+    - When Python tries to print fruits, the variable no longer exists.
+    - Therefore, Python raises a NameError.
+    This does not remove items from the tuple. It deletes the variable that refers to the tuple."""
