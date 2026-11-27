@@ -337,3 +337,34 @@ print(fruits)
 - The + operator joins both tuples.
 - The new tuple does not contain "banana".
 The original tuple was not directly modified. Instead, a new tuple was created and assigned to fruits."""
+
+"""15.1 Removing an Item Using List Conversion:
+
+You can convert a tuple into a list, remove an item using the remove() method, and convert it back into a tuple."""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "cherry", "orange")
+
+# Converting the tuple into a list
+my_list = list(fruits)
+
+# Removing an item from the list
+my_list.remove("banana")
+
+# Converting the list back into a tuple
+fruits = tuple(my_list)
+
+# Displaying the updated tuple
+print(fruits)
+
+## output:
+
+('apple', 'cherry', 'orange')
+
+"""Explanation:
+1. list(fruits) converts the tuple into a list.
+2. my_list.remove("banana") removes the specified item from the list.
+3. tuple(my_list) converts the modified list back into a tuple.
+4. The new tuple is assigned to fruits."""
