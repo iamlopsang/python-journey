@@ -368,3 +368,33 @@ print(fruits)
 2. my_list.remove("banana") removes the specified item from the list.
 3. tuple(my_list) converts the modified list back into a tuple.
 4. The new tuple is assigned to fruits."""
+
+"""15.2 Removing an Item Using del with List Conversion:
+
+You can also use the del statement to remove an item by its index after converting the tuple into a list."""
+
+## Example:
+
+# Creating a tuple
+numbers = (10, 20, 30, 40, 50)
+
+# Converting the tuple into a list
+my_list = list(numbers)
+
+# Removing the item at index 2
+del my_list[2]
+
+# Converting the list back into a tuple
+numbers = tuple(my_list)
+
+# Displaying the updated tuple
+print(numbers)
+
+## output:
+
+(10, 20, 40, 50)
+
+"""Explanation:
+- del my_list[2] removes the item at index 2.
+- The item at index 2 is 30.
+- The remaining items are converted back into a tuple."""
