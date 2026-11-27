@@ -75,3 +75,31 @@ a, b = numbers
 Similarly, if there are more variables than items, Python raises:"""
 
 ## ValueError: not enough values to unpack
+
+"""17 : Asterisk * in Tuple Unpacking:
+
+The asterisk * in tuple unpacking collects multiple remaining items into a list.
+It is useful when you don't know how many items a tuple contains, or when you want to assign some items to separate variables and collect the rest together.
+"""
+
+##  Example 1: Collecting Remaining Items
+
+# Creating a tuple
+numbers = (10, 20, 30, 40, 50)
+
+# Unpacking with asterisk
+first, *rest = numbers
+
+print(first)
+print(rest)
+
+## output:
+
+10
+[20, 30, 40, 50]
+
+"""Explanation:
+
+- first receives the first item, 10.
+- *rest collects all remaining items into a list.
+Notice that rest is a list, not a tuple."""
