@@ -194,3 +194,19 @@ print(fruits)
 ## output:
 
 ('apple', 'banana', 'orange', 'grape', 'mango', 'kiwi')
+
+"""Note: You can only use + to join compatible sequence types, such as tuple with tuple."""
+# Example of it:
+
+numbers = (10, 20, 30)
+
+result = numbers + (40,)
+
+print(result)
+
+## output:
+
+(10, 20, 30, 40)
+
+# Remember: (40,) is a single-item tuple. (40) is just an integer inside parentheses.
+
