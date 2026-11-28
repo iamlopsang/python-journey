@@ -150,3 +150,31 @@ Important points
 - The starred variable always collects the remaining items into a list.
 - It can be placed at the beginning, middle, or end.
 """
+
+"""18. Joining Tuples (+):
+
+Joining tuples means combining two or more tuples into a new tuple using the + operator.
+The original tuples remain unchanged because tuples are immutable.
+
+     Syntax:
+          new_tuple = tuple1 + tuple2
+          """
+
+## Example 1 :Joining Two Tuples:
+
+# Creating two tuples
+tuple1 = (10, 20, 30)
+tuple2 = (40, 50, 60)
+
+# Joining tuples
+result = tuple1 + tuple2
+
+print(result)
+
+## output:
+
+(10, 20, 30, 40, 50, 60)
+
+"""Explanation:
+
+The + operator places the items of tuple2 after the items of tuple1, creating a new tuple."""
