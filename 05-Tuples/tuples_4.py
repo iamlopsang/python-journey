@@ -210,3 +210,31 @@ print(result)
 
 # Remember: (40,) is a single-item tuple. (40) is just an integer inside parentheses.
 
+"""19. Multiplying Tuples (*):
+
+Multiplying a tuple means repeating the items of a tuple a specified number of times using the * operator.
+It creates a new tuple without changing the original tuple.
+
+     Syntax:
+     new_tuple = tuple_name * number
+"""
+
+## Example 1: Repeating a Tuple
+
+# Creating a tuple
+numbers = (10, 20, 30)
+
+# Repeating the tuple 3 times
+result = numbers * 3
+
+print(result)
+
+## output
+
+(10, 20, 30, 10, 20, 30, 10, 20, 30)
+
+"""Explanation:
+
+Python repeats the entire tuple three times in the same order.
+"""
+
