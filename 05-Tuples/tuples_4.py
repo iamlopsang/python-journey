@@ -268,3 +268,37 @@ print(result)
 
 Multiplying a tuple by 0 creates an empty tuple.
 """
+
+"""20. Tuple Methods (count() and index()):
+
+Python tuples have two built-in methods:
+- count() — counts how many times an item appears.
+- index() — returns the index of the first occurrence of an item.
+
+1. count() Method:
+
+The count() method returns the number of times a specified item appears in a tuple.
+     
+     Syntax:
+          tuple_name.count(item)
+          """
+
+##   Example:
+
+# Creating a tuple
+numbers = (10, 20, 10, 30, 10, 40)
+
+# Counting how many times 10 appears
+result = numbers.count(10)
+
+print(result)
+
+## output:
+
+3
+
+"""Explanation:
+
+The number 10 appears three times in the tuple, so count(10) returns 3.
+If the item does not exist, it returns 0.
+"""
