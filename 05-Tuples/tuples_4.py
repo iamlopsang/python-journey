@@ -252,4 +252,19 @@ print(result)
 
 ('apple', 'banana', 'apple', 'banana')
 
+## Example 3: Multiplying by 0
 
+numbers = (10, 20, 30)
+
+result = numbers * 0
+
+print(result)
+
+## output:
+
+()
+
+"""Explanation:
+
+Multiplying a tuple by 0 creates an empty tuple.
+"""
