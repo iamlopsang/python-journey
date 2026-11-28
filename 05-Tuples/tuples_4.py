@@ -302,3 +302,29 @@ print(result)
 The number 10 appears three times in the tuple, so count(10) returns 3.
 If the item does not exist, it returns 0.
 """
+
+"""2. index() Method:
+
+The index() method returns the index position of the first occurrence of a specified item in a tuple.
+     
+     Syntax:
+          tuple_name.index(item)"""
+
+## Example:
+
+# Creating a tuple
+fruits = ("apple", "banana", "mango", "banana")
+
+# Finding the index of banana
+result = fruits.index("banana")
+
+print(result)
+
+## output:
+
+1
+
+"""Explanation:
+
+The item "banana" appears at index 1 and index 3.
+The index() method returns only the first matching index, which is 1."""
