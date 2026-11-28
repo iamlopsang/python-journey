@@ -328,3 +328,19 @@ print(result)
 
 The item "banana" appears at index 1 and index 3.
 The index() method returns only the first matching index, which is 1."""
+
+##   Example: Finding an Item from a Specific Position
+
+numbers = (10, 20, 30, 20, 40)
+
+result = numbers.index(20, 2)
+
+print(result)
+
+##   output:
+
+3
+
+"""Explanation:
+
+Here, index(20, 2) starts searching from index 2. It finds 20 at index 3."""
