@@ -178,3 +178,19 @@ print(result)
 """Explanation:
 
 The + operator places the items of tuple2 after the items of tuple1, creating a new tuple."""
+
+## Example 2: Joining three tuples
+
+# Creating three tuples
+a = ("apple", "banana")
+b = ("orange", "grape")
+c = ("mango", "kiwi")
+
+# Joining tuples
+fruits = a + b + c
+
+print(fruits)
+
+## output:
+
+('apple', 'banana', 'orange', 'grape', 'mango', 'kiwi')
