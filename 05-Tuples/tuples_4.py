@@ -238,3 +238,18 @@ print(result)
 Python repeats the entire tuple three times in the same order.
 """
 
+## Example 2: Multiplying a Tuple by 2
+
+# Creating a tuple
+fruits = ("apple", "banana")
+
+# Repeating the tuple
+result = fruits * 2
+
+print(result)
+
+## output:
+
+('apple', 'banana', 'apple', 'banana')
+
+
